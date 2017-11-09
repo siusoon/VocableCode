@@ -4,6 +4,8 @@ Year of production: 2017-
 
 Medium: Customized software, web browser
 
+[RunMe](https://cdn.rawgit.com/siusoon/VocableCode/9f23c99f/vocablecode_program/index.html)
+
 # Description
 
 Vocable Code is manifested as a feminist coding workshop primarily for women, queers, LGBT and non-binaries who are interested in programming but no prior knowledge is needed. The workshop addresses computer code as language that is design for both human and machine reading. While participants will base on the artwork 'Vocable Code' to learn basic coding concepts, they will also explore code as expressive and aesthetic materials, such as computer code as poetic text that is performative and executable. Through thinking and discussing about code and (non)binary logics, participants will incoporate textual materials, visual effects and audio elements/recording voices to produce their own algorithmic vocable code (in the form of both software and webpages) that addresses the border theme of feminism.
