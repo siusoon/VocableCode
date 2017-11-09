@@ -34,3 +34,4 @@ First workshop: 25 Nov 2017 at Aarhus at [!=null](http://notnull.andersvisti.dk/
 ##### 20 mins BREAK
 - Discussion
 - Exercise C: Create your own vocable code
+- Code performance
