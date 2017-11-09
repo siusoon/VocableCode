@@ -7,6 +7,12 @@ First workshop: 25 Nov 2017 at Aarhus at [!=null](http://notnull.andersvisti.dk/
 # 5 hrs run down:
 - Introduction
 - Technical setup
+  
+  - Code editor
+  - Firefox Browser
+  - Speaker
+  - Source code download
+  
 ##### 20 mins BREAK
 - Exercise A: Reading and Decoding code 
 ##### 20 mins BREAK
