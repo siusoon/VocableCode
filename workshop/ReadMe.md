@@ -18,17 +18,17 @@ First workshop: 25 Nov 2017 at Aarhus at [!=null](http://notnull.andersvisti.dk/
 ##### 20 mins BREAK
 - The basics of coding
 
-⋅⋅* HTML/JS/Data structure
+  - HTML/JS/Data structure
 
-⋅⋅* Structure with setup and draw
+  - Structure with setup and draw
 
-⋅⋅* Coordinate system
+  - Coordinate system
 
-⋅⋅* basic syntax (check p5js)
+  - basic syntax (check p5js)
 
-⋅⋅* Conditions and functions
+  - Conditions and functions
 
-⋅⋅* Error log
+  - Error log
 
 - Exercise B: Tinkering code 
 ##### 20 mins BREAK
