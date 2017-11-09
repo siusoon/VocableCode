@@ -17,7 +17,7 @@ Material requires:
 - Audacity for audio editing 
 - Code editor
 - p5js libaries
-- If run on a local browser, it is required a [local server](https://github.com/processing/p5.js/wiki/Local-server). Or you may need a firefox browser to get things up and running. 
+- If run on a local browser, it requires a [local server](https://github.com/processing/p5.js/wiki/Local-server). Or you may need a firefox browser to get things up and running. 
 
 # Background
 
