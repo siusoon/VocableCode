@@ -8,6 +8,8 @@ Medium: Customized software, web browser
 
 Vocable Code is manifested as a feminist coding workshop primarily for women, queers, LGBT and non-binaries who are interested in programming but no prior knowledge is needed. The workshop addresses computer code as language that is design for both human and machine reading. While participants will base on the artwork 'Vocable Code' to learn basic coding concepts, they will also explore code as expressive and aesthetic materials, such as computer code as poetic text that is performative and executable. Through thinking and discussing about code and (non)binary logics, participants will incoporate textual materials, visual effects and audio elements/recording voices to produce their own algorithmic vocable code (in the form of both software and webpages) that addresses the border theme of feminism.
 
+See [here](http://notnull.andersvisti.dk/winnie.php)
+
 # Technical
 
 [p5js](https://p5js.org/) is an open source Javascript library developed by the Processing Foundation and is founded by [Lauran McCarthy](http://lauren-mccarthy.com/) to make coding more accessible to artists, designers, educators and beginners. I share the vision and goal of p5.js, which is to put community outreach and diversity as priority. 
