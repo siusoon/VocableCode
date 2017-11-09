@@ -1,5 +1,6 @@
 # Feminist Coding in p5.js | Can Software be Feminist?
 
+First workshop: 15 Nov 2017 at Aarhus at [!=null](http://notnull.andersvisti.dk/winnie.php)
 [RunMe](https://cdn.rawgit.com/siusoon/VocableCode/9f23c99f/vocablecode_program/index.html)
 
 # 5 hrs run down:
