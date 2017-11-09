@@ -86,4 +86,4 @@ The work collects statements and voices from participants with certain given con
 7. Run on a browser and test it
 8. Upload your code to a public domain and allow people to share your code
 
-* Ping me for your vocable code :) 
+* Ping me about your vocable code :) 
