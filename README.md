@@ -12,6 +12,32 @@ Vocable Code is manifested as a feminist coding workshop primarily for women, qu
 
 See [here](http://notnull.andersvisti.dk/winnie.php)
 
+# Codework
+```javascript
+function makeVisible() {   
+	queers = whatisQueer.queers;
+	var addQueers = int(random(3,6));  
+	var makingStatements;
+	for (var yy = 2; yy <= addQueers-2; yy++) {	
+		var WhoIsQueer = int(random(queers.length));		
+		if (queers[WhoIsQueer].statement3 == "null") { 
+			queerRights.push(new Identity(queers[WhoIsQueer].statement2));	
+			makingStatements = 2;
+		}else{
+			makingStatements = int(random(2,4));
+			if (makingStatements == 2) {
+				queerRights.push(new Identity(queers[WhoIsQueer].statement2));		
+			}else{
+				queerRights.push(new Identity(queers[WhoIsQueer].statement3));
+			}
+		}
+		if (yy == 2) {
+			SpeakingCode(queers[WhoIsQueer].iam, makingStatements);	 
+		}
+	}
+}
+```
+
 # Technical
 
 [p5js](https://p5js.org/) is an open source Javascript library developed by the Processing Foundation and is founded by [Lauran McCarthy](http://lauren-mccarthy.com/) to make coding more accessible to artists, designers, educators and beginners. I share the vision and goal of p5.js, which is to put community outreach and diversity as priority. 
