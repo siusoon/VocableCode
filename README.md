@@ -68,7 +68,7 @@ The work collects statements and voices from participants with certain given con
 1. It is up to the participant to decide the temporality and rhythm of speaking the text
 2. It is up to the participant to either speak the full word, full sentence with different pitch/tempo/rhythm. They can also speak a certain part (phonetics) of the word/sentence. In other words, the word or sentence doesn't need to be completed.
 
-- Coding
+- Coding (for coder)
 1. Not to use binary 0 or 1
 2. Not to use either a single x or y
 3. Not to use > or <, but with >= or <=
