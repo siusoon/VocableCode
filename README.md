@@ -30,7 +30,7 @@ Informed by constrained writing, experimental writing of codeworks (Raley, 2002)
 The work collects statements and voices from participants with certain given constraints:
 
 - Writing
-1. Continue the sent4nece with the starting words "Queer is..."
+1. Continue the sentence with the starting words "Queer is..."
 2. Each sentence contains no more than 5 words (the starting word, queer, is not included).
 3. More than 1 sentence is allowed but not more than 3.
 4. English word/sentence is required.
