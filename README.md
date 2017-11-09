@@ -74,7 +74,7 @@ The work collects statements and voices from participants with certain given con
 3. Not to use > or <, but with >= or <=
 4. Mindful of the variable, array and function names
 
-* See details from [The Feminist Software Foundations](https://github.com/TheFeministSoftwareFoundation/C-plus-Equality) 
+* items 1-3 are inspired by [The Feminist Software Foundations](https://github.com/TheFeministSoftwareFoundation/C-plus-Equality) 
 
 # Reference
 
