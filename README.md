@@ -41,9 +41,9 @@ The work collects statements and voices from participants with certain given con
 
 # Reference
 
-http://anomalouspress.org/11/1.angles.lovers.php
-https://mitpress.mit.edu/books/speaking-code
-http://www.electronicbookreview.com/thread/electropoetics/net.writing
+* http://anomalouspress.org/11/1.angles.lovers.php
+* https://mitpress.mit.edu/books/speaking-code
+* http://www.electronicbookreview.com/thread/electropoetics/net.writing
 
 # Create your own vocable code
 
