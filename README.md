@@ -8,9 +8,13 @@ Medium: Customized software, web browser
 
 # Description
 
-Vocable Code is manifested as a feminist coding workshop primarily for women, queers, LGBT and non-binaries who are interested in programming but no prior knowledge is needed. The workshop addresses computer code as language that is design for both human and machine reading. While participants will base on the artwork 'Vocable Code' to learn basic coding concepts, they will also explore code as expressive and aesthetic materials, such as computer code as poetic text that is performative and executable. Through thinking and discussing about code and (non)binary logics, participants will incoporate textual materials, visual effects and audio elements/recording voices to produce their own algorithmic vocable code (in the form of both software and webpages) that addresses the border theme of feminism.
+Vocable code is both an art, design and activist project. As an art project, it is a piece of software art, codework, digital poetry and web art that examines the notion of queerness in computer coding. Through collecting voices and statements from others in filling the sentence that starts with "Queer is...", the work is computationally and poetically composed in which the texts and voices are disrupted by the mathematical chaos, exploring the performativity of code, subjectivity and language. Behind the executed web interface, the code itself is deliberately written as a codework, a mix of a computer programming language and human language, exploring the material and linguistic tensions of writing and reading within the context of poetry and computer code.
 
-See [here](http://notnull.andersvisti.dk/winnie.php)
+Additionally, with the aim of having 'Vocable code' in the context of a feminist coding workshop, it is designed to be simple enough for code reading that incorporates basic coding concepts, such as functions, conditions, textual effects, data import, etc to facilitate code learning and discussion. As such, 'Vocable Code' is also considered as an essential component of a feminist coding workshop that is primarily for women, queers, LGBT and non-binaries who are interested in learning programming. 
+
+The workshop is called "Feminist Coding in p5.js | Can Software be Feminist?", addressing computer code as a language that is designed for both human and machine reading. While participants will base on the artwork 'Vocable Code' to learn basic coding concepts, they will also explore code as expressive and aesthetic materials, such as computer code as poetic text that is performative and executable. Through thinking and discussing about code and (non)binary logics, participants will incoporate textual materials, visual effects and audio elements/recording voices to produce their own algorithmic vocable code (in the form of both software and webpages) that addresses the border theme of feminism.
+
+See the workshop details [here](http://notnull.andersvisti.dk/winnie.php)
 
 # Credits
 
