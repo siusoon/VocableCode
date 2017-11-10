@@ -13,7 +13,7 @@ First workshop: 25 Nov 2017 at Aarhus at [!=null](http://notnull.andersvisti.dk/
   - Firefox Browser
   - Speaker
   - Source code download
-  - Optional: The concept of git in command line and github
+  - Optional: [The concept of git in command line and github](http://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)
     * [Install git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
     * Setup git 1: prepare a working directory, then type 
     ```
