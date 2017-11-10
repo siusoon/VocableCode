@@ -1,5 +1,7 @@
 # Vocable Code
 
+![Image of Vocable Code](http://siusoon.net/wp-content/uploads/2017/10/vocablecode.png)
+
 Year of production: 2017-
 
 Medium: Customized software, web browser
