@@ -93,7 +93,7 @@ First workshop: 25 Nov 2017 at Aarhus at [!=null](http://notnull.andersvisti.dk/
 
 ## The basic of coding <a name="basics"></a>
 
-  - HTML/JS/Data structure, [p5.sound library](https://p5js.org/reference/#/libraries/p5.sound)
+  - HTML/JS/Data structure + [p5.sound library](https://p5js.org/reference/#/libraries/p5.sound) + [JSON](https://www.copterlabs.com/json-what-it-is-how-it-works-how-to-use-it/)
 
   - Structure with setup and draw, and other sequences
 
@@ -108,6 +108,14 @@ First workshop: 25 Nov 2017 at Aarhus at [!=null](http://notnull.andersvisti.dk/
   - Error log
 
 ## Exercise B: Tinkering code  <a name="exerciseB"></a>
+- Changing parameters esp numbers (random no, color no)
+- Changing the names to create your own poem (both in js and json)
+
 ## Discussion  <a name="discussion"></a>
+
 ## Exercise C: Create your own vocable code <a name="exerciseC"></a>
+- Additional voices and statements
+- Change the theme
+- Add/change functions, effects and behaviors
+
 ## Code Performance <a name="codeperformance"></a>
