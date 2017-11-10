@@ -93,17 +93,17 @@ First workshop: 25 Nov 2017 at Aarhus at [!=null](http://notnull.andersvisti.dk/
 
 ## The basic of coding <a name="basics"></a>
 
-  - HTML/JS/Data structure
+  - HTML/JS/Data structure, [p5.sound library](https://p5js.org/reference/#/libraries/p5.sound)
 
-  - Structure with setup and draw
+  - Structure with setup and draw, and other sequences
 
-  - Coordinate system
+  - [Coordinate system](https://p5js.org/examples/structure-coordinates.html)
 
   - basic syntax (check p5js)
   
-  - Variables and Arrays
+  - Naming: [Variables](https://p5js.org/examples/data-variables.html), [Arrays](https://p5js.org/examples/arrays-array.html) and [functions](https://p5js.org/examples/structure-functions.html)
 
-  - Conditions and functions
+  - [Conditions](https://p5js.org/examples/control-conditionals-1.html)
 
   - Error log
 
