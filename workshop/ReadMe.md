@@ -34,9 +34,12 @@ First workshop: 25 Nov 2017 at Aarhus at [!=null](http://notnull.andersvisti.dk/
     * Sign up: [github account](https://github.com/) and create your own repository "Respositories" > click the "New" button
     * Modify your file, add your code files etc
     * See cheatsheet [here](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
-    * Example: If you want to remove a file, type:
+    * Example: If you want to remove a file > type rm, and if you want to add file or modify the file > type add
     ```
     git rm filename.extension
+    ```
+     ```
+    git add filename.extension
     ```
     * Example continue: 
     ```
@@ -45,6 +48,11 @@ First workshop: 25 Nov 2017 at Aarhus at [!=null](http://notnull.andersvisti.dk/
     * Upload the files to github:
     ```
     git push --set-upstream [github with your respository url] master
+    ```
+    * other useful commands:
+    ```
+    git status
+    git diff
     ```
 
 ##### 20 mins BREAK
