@@ -108,7 +108,7 @@ First workshop: 25 Nov 2017 at Aarhus at [!=null](http://notnull.andersvisti.dk/
   - Error log
 
 ## Exercise B: Tinkering code  <a name="exerciseB"></a>
-- Changing parameters esp numbers (random no, color no)
+- Changing parameters esp numbers (e.g random no, color no)
 - Changing the names to create your own poem (both in js and json)
 
 ## Discussion  <a name="discussion"></a>
