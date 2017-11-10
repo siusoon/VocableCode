@@ -89,6 +89,7 @@ First workshop: 25 Nov 2017 at Aarhus at [!=null](http://notnull.andersvisti.dk/
   - Visual
   - Sound
   - Process/Sequence
+  - Changes over time
 - Reading code and Wild Guess: Mapping the identifiable items 
 
 ## The basic of coding <a name="basics"></a>
