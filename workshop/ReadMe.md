@@ -31,10 +31,11 @@ First workshop: 25 Nov 2017 at Aarhus at [!=null](http://notnull.andersvisti.dk/
     
   
 ## Technical Setup <a name="technical"></a>
-  - Code editor
-  - Firefox Browser
+  - [Firefox Browser](https://www.mozilla.org/en-US/firefox/new/) => for by passing the [cross origin requests](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) 
   - Speaker
-  - Source code download
+  - [Source code](https://github.com/siusoon/VocableCode) -> click the green download button -> unzip the file -> drag the index.html file onto the browser. 
+  - Code editor (try [atom](https://atom.io/))
+  ![Editor](https://github.com/siusoon/VocableCode/blob/master/atom_screen.png)
   - Optional: [The concept of git in command line and github](http://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)
     * [Install git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
     * Setup git 1: prepare a working directory, then type 
@@ -74,7 +75,8 @@ First workshop: 25 Nov 2017 at Aarhus at [!=null](http://notnull.andersvisti.dk/
     * other useful commands:
     ```
     git status
-    git diff
+    git diff    //see the difference
+    git add *   //staging everything -> then commit -> then push
     ```
 ## Exercise A - Reading and Decoding Code <a name="exerciseA"></a>
 
