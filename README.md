@@ -62,7 +62,7 @@ Material requires:
 
 # Background
 
-Informed by constrained writing, experimental writing of codeworks (Raley, 2002) as well as the publication of Anomalous Press issue 11 on ‘Queerness’ (2014) and Geoff Cox’s writing on 'Speaking Code' (2013), the artwork ‘Vocable code’ explores the notion of queerness through computational thinking, the reading, writing, speaking and thinking with code and language. It is a piece of visual-audio software or electronic literature or web art or a digital poetry that contains different voices and visual interpretation of queerness.
+Informed by constrained writing and experimental writing of codeworks (Raley, 2002) as well as the publication of Anomalous Press issue 11 on ‘Queerness’ (2014) and Geoff Cox’s writing on 'Speaking Code' (2013), the artwork ‘Vocable code’ explores the notion of queerness through computational thinking, the reading, writing, speaking and thinking with code and language. It is a piece of visual-audio software or electronic literature or web art or a digital poetry that contains different voices and visual interpretation of queerness.
 
 References:
 
