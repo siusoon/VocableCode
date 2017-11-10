@@ -21,7 +21,7 @@ First workshop: 25 Nov 2017 at Aarhus at [!=null](http://notnull.andersvisti.dk/
 -- BREAK
 
 7. [Activity C - Create your own vocable code](#owncode)
-8. [Code Performance](#codeperformance)
+8. [Performing Code](#codeperformance)
 
 ## Introduction <a name="introduction"></a>
   - [My Info](http://www.siusoon.net)
