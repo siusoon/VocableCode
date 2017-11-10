@@ -74,7 +74,8 @@ First workshop: 25 Nov 2017 at Aarhus at [!=null](http://notnull.andersvisti.dk/
     * other useful commands:
     ```
     git status
-    git diff
+    git diff    //see the difference
+    git add *   //staging everything -> then commit -> then push
     ```
 ## Exercise A - Reading and Decoding Code <a name="exerciseA"></a>
 
