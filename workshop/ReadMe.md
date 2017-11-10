@@ -31,9 +31,9 @@ First workshop: 25 Nov 2017 at Aarhus at [!=null](http://notnull.andersvisti.dk/
     ```
     git pull https://github.com/siusoon/VocableCode.git
     ```
-    * Sign up:[github account](https://github.com/) and create your own repository "Respositories" > click the "New" button
+    * Sign up: [github account](https://github.com/) and create your own repository "Respositories" > click the "New" button
     * Modify your file, add your code files etc
-    * See cheetsheet [here](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
+    * See cheatsheet [here](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
     * Example: If you want to remove a file, type:
     ```
     git rm filename.extension
@@ -47,7 +47,6 @@ First workshop: 25 Nov 2017 at Aarhus at [!=null](http://notnull.andersvisti.dk/
     git push --set-upstream [github with your respository url] master
     ```
 
-  
 ##### 20 mins BREAK
 - Exercise A: Reading and Decoding code 
 ##### 20 mins BREAK
