@@ -103,7 +103,7 @@ First workshop: 25 Nov 2017 at Aarhus at [!=null](http://notnull.andersvisti.dk/
   
   - Naming: [Variables](https://p5js.org/examples/data-variables.html), [Arrays](https://p5js.org/examples/arrays-array.html) and [functions](https://p5js.org/examples/structure-functions.html)
 
-  - [Conditions](https://p5js.org/examples/control-conditionals-1.html)
+  - [Conditions](https://p5js.org/examples/control-conditionals-1.html), repetitions and differences
 
   - Error log
 
