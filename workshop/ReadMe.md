@@ -8,17 +8,21 @@ First workshop: 25 Nov 2017 at Aarhus at [!=null](http://notnull.andersvisti.dk/
 1. [Introduction](#introduction)
 
 -- BREAK
+
 2. [Technical Setup](#technical)
 3. [Exercise A - Reading and Decoding Code](#exerciseA)
 
 -- BREAK
+
 4. [The basic of coding](#basics)
 
 -- BREAK
+
 5. [Exercise B - Tinkering Code](#exerciseB)
 6. [Discussion](#discussion)
 
 -- BREAK
+
 7. [Exercise C - Create hour own vocable code](#owncode)
 8. [Code Performance](#codeperformance)
 
