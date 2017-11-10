@@ -1,4 +1,4 @@
-# VocableCode
+# Vocable Code
 
 Year of production: 2017-
 
