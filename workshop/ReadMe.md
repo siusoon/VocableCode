@@ -110,6 +110,7 @@ First workshop: 25 Nov 2017 at Aarhus at [!=null](http://notnull.andersvisti.dk/
 ## Exercise B: Tinkering code  <a name="exerciseB"></a>
 - Changing parameters esp numbers (e.g random no, color no)
 - Changing the names to create your own poem (both in js and json)
+
 !NB: Rememeber what you have done (which line of code you have changed) and test it on browser for any tiny changes made. (good for error checking)
 
 ## Discussion  <a name="discussion"></a>
