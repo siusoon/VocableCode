@@ -4,7 +4,7 @@ First workshop: 25 Nov 2017 at Aarhus at [!=null](http://notnull.andersvisti.dk/
 
 [RunMe](https://cdn.rawgit.com/siusoon/VocableCode/9f23c99f/vocablecode_program/index.html)
 
-# 5 hrs run down:
+# 5 hrs run-down:
 - Introduction
   - [My Info](http://www.siusoon.net)
 - Technical setup
