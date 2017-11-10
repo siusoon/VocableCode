@@ -7,16 +7,16 @@ First workshop: 25 Nov 2017 at Aarhus at [!=null](http://notnull.andersvisti.dk/
 # 5 hrs run-down:
 1. [Introduction](#introduction)
 2. [Technical Setup](#technical)
-3. BREAK
-4. [Exercise A - Reading and Decoding Code](#exerciseA)
-5. BREAK
-6. [The basic of coding](#basics)
-7. BREAK
-8. [Exercise B - Tinkering Code](#exerciseB)
-9. [Discussion](#discussion)
-10. BREAK
-11. [Exercise C - Create hour own vocable code](#owncode)
-12. [Code Performance](#codeperformance)
+-- BREAK
+3. [Exercise A - Reading and Decoding Code](#exerciseA)
+-- BREAK
+4. [The basic of coding](#basics)
+-- BREAK
+5. [Exercise B - Tinkering Code](#exerciseB)
+6. [Discussion](#discussion)
+-- BREAK
+7. [Exercise C - Create hour own vocable code](#owncode)
+8. [Code Performance](#codeperformance)
 
 ## Introduction <a name="introduction"></a>
   - [My Info](http://www.siusoon.net)
