@@ -6,14 +6,18 @@ First workshop: 25 Nov 2017 at Aarhus at [!=null](http://notnull.andersvisti.dk/
 
 # 5 hrs run-down:
 1. [Introduction](#introduction)
-2. [Technical Setup](#technical)
+
 -- BREAK
+2. [Technical Setup](#technical)
 3. [Exercise A - Reading and Decoding Code](#exerciseA)
+
 -- BREAK
 4. [The basic of coding](#basics)
+
 -- BREAK
 5. [Exercise B - Tinkering Code](#exerciseB)
 6. [Discussion](#discussion)
+
 -- BREAK
 7. [Exercise C - Create hour own vocable code](#owncode)
 8. [Code Performance](#codeperformance)
@@ -28,14 +32,14 @@ First workshop: 25 Nov 2017 at Aarhus at [!=null](http://notnull.andersvisti.dk/
     Reference image: [Creating Web Widget with HTML, CSS, and JavaScript by Raj Lal](https://www.codeproject.com/Articles/81355/Chapter-Creating-Web-Widget-with-HTML-CSS-and-Ja)
     - [Diversity with art + code](http://diversity.p5js.org/about.html) and [interviews](https://www.youtube.com/channel/UCwtoGoM92Bais5heYYxmB5w)
     - [p5js editor](http://alpha.editor.p5js.org/) + simple tinkering
-    
   
 ## Technical Setup <a name="technical"></a>
   - [Firefox Browser](https://www.mozilla.org/en-US/firefox/new/) => for by passing the [cross origin requests](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) 
   - Speaker
-  - [Source code](https://github.com/siusoon/VocableCode) -> click the green download button -> unzip the file -> drag the index.html file onto the browser. 
-  - Code editor (try [atom](https://atom.io/))
+  - Code editor (try downloading [atom](https://atom.io/))
   ![Editor](https://github.com/siusoon/VocableCode/blob/master/atom_screen.png)
+  - [Source code](https://github.com/siusoon/VocableCode) -> click the green download button -> unzip the file -> drag the index.html file onto the browser. 
+  - Get the console panel open: Browser > Web developer > Web console
   - Optional: [The concept of git in command line and github](http://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)
     * [Install git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
     * Setup git 1: prepare a working directory, then type 
@@ -79,6 +83,12 @@ First workshop: 25 Nov 2017 at Aarhus at [!=null](http://notnull.andersvisti.dk/
     git add *   //staging everything -> then commit -> then push
     ```
 ## Exercise A - Reading and Decoding Code <a name="exerciseA"></a>
+- [Vocable Code](https://github.com/siusoon/VocableCode)
+- Identify the possible logics and effects based on what you see and what you hear
+  - Visual
+  - Sound
+  - Process/Sequence
+- Reading code: Mapping the identifiable items 
 
 ## The basic of coding <a name="basics"></a>
 
