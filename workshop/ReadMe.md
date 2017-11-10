@@ -6,12 +6,15 @@ First workshop: 25 Nov 2017 at Aarhus at [!=null](http://notnull.andersvisti.dk/
 
 # 5 hrs run down:
 - Introduction
+  - [My Info](http://www.siusoon.net)
 - Technical setup
   
   - Code editor
   - Firefox Browser
   - Speaker
   - Source code download
+  - Optional: The concept of git in command line and github
+    * [Install git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
   
 ##### 20 mins BREAK
 - Exercise A: Reading and Decoding code 
