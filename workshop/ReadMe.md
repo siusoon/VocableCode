@@ -15,9 +15,6 @@ First workshop: 25 Nov 2017 at Aarhus at [!=null](http://notnull.andersvisti.dk/
 -- BREAK
 
 4. [The basic of coding](#basics)
-
--- BREAK
-
 5. [Exercise B - Tinkering Code](#exerciseB)
 6. [Discussion](#discussion)
 
@@ -103,6 +100,8 @@ First workshop: 25 Nov 2017 at Aarhus at [!=null](http://notnull.andersvisti.dk/
   - Coordinate system
 
   - basic syntax (check p5js)
+  
+  - Variables and Arrays
 
   - Conditions and functions
 
