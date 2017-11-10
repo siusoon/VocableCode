@@ -10,17 +10,17 @@ First workshop: 25 Nov 2017 at Aarhus at [!=null](http://notnull.andersvisti.dk/
 -- BREAK
 
 2. [Technical Setup](#technical)
-3. [Exercise A - Reading and Decoding Code](#exerciseA)
+3. [Activity A - Reading and Decoding Code](#exerciseA)
 
 -- BREAK
 
 4. [The basic of coding](#basics)
-5. [Exercise B - Tinkering Code](#exerciseB)
+5. [Activity B - Tinkering Code](#exerciseB)
 6. [Discussion](#discussion)
 
 -- BREAK
 
-7. [Exercise C - Create your own vocable code](#owncode)
+7. [Activity C - Create your own vocable code](#owncode)
 8. [Code Performance](#codeperformance)
 
 ## Introduction <a name="introduction"></a>
@@ -83,7 +83,7 @@ First workshop: 25 Nov 2017 at Aarhus at [!=null](http://notnull.andersvisti.dk/
     git diff    //see the difference
     git add *   //staging everything -> then commit -> then push
     ```
-## Exercise A - Reading and Decoding Code <a name="exerciseA"></a>
+## Activity A - Reading and Decoding Code and Logics <a name="exerciseA"></a>
 - [Vocable Code](https://github.com/siusoon/VocableCode)
 - Identify the possible logics and effects based on what you see and what you hear
   - Visual
@@ -107,7 +107,7 @@ First workshop: 25 Nov 2017 at Aarhus at [!=null](http://notnull.andersvisti.dk/
 
   - Error log
 
-## Exercise B: Tinkering code  <a name="exerciseB"></a>
+## Activity B: Tinkering code  <a name="exerciseB"></a>
 - Changing parameters esp numbers (e.g random no, color no)
 - Changing the names to create your own poetic codework (both in js and json)
 
@@ -115,9 +115,9 @@ First workshop: 25 Nov 2017 at Aarhus at [!=null](http://notnull.andersvisti.dk/
 
 ## Discussion  <a name="discussion"></a>
 
-## Exercise C: Create your own vocable code <a name="exerciseC"></a>
+## Activity C: Create your own vocable code <a name="exerciseC"></a>
 - Additional/Modify existing voices and statements
 - Change the theme
 - Add/change functions, effects and behaviors
 
-## Code Performance <a name="codeperformance"></a>
+## Performing Code <a name="codeperformance"></a>
