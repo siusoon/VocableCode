@@ -5,10 +5,19 @@ First workshop: 25 Nov 2017 at Aarhus at [!=null](http://notnull.andersvisti.dk/
 [RunMe](https://cdn.rawgit.com/siusoon/VocableCode/9f23c99f/vocablecode_program/index.html)
 
 # 5 hrs run-down:
-- Introduction
+1. [Introduction](#introduction)
+2. [Technical Setup](#technical)
+3. [Exercise A - Reading and Decoding Code](#exerciseA)
+4. [The basic of coding](#basics)
+5. [Exercise B - Tinkering Code](#exerciseB)
+6. [Discussion](#discussion)
+7. [Exercise C - Create hour own vocable code](#owncode)
+8. [Code Performance](#codeperformance)
+
+## Introduction <a name="introduction"></a>
   - [My Info](http://www.siusoon.net)
-- Technical setup
   
+## Technical Setup <a name="technical"></a>
   - Code editor
   - Firefox Browser
   - Speaker
@@ -54,11 +63,9 @@ First workshop: 25 Nov 2017 at Aarhus at [!=null](http://notnull.andersvisti.dk/
     git status
     git diff
     ```
+## Exercise A - Reading and Decoding Code <a name="exerciseA"></a>
 
-##### 20 mins BREAK
-- Exercise A: Reading and Decoding code 
-##### 20 mins BREAK
-- The basics of coding
+## The basic of coding <a name="basics"></a>
 
   - HTML/JS/Data structure
 
@@ -72,8 +79,7 @@ First workshop: 25 Nov 2017 at Aarhus at [!=null](http://notnull.andersvisti.dk/
 
   - Error log
 
-- Exercise B: Tinkering code 
-##### 20 mins BREAK
-- Discussion
-- Exercise C: Create your own vocable code
-- Code performance
+## Exercise B: Tinkering code  <a name="exerciseB"></a>
+## Discussion  <a name="discussion"></a>
+## Exercise C: Create your own vocable code <a name="exerciseC"></a>
+## Code Performance <a name="codeperformance"></a>
