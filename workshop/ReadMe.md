@@ -7,15 +7,23 @@ First workshop: 25 Nov 2017 at Aarhus at [!=null](http://notnull.andersvisti.dk/
 # 5 hrs run-down:
 1. [Introduction](#introduction)
 2. [Technical Setup](#technical)
+BREAK
 3. [Exercise A - Reading and Decoding Code](#exerciseA)
+BREAK
 4. [The basic of coding](#basics)
+BREAK
 5. [Exercise B - Tinkering Code](#exerciseB)
 6. [Discussion](#discussion)
+BREAK
 7. [Exercise C - Create hour own vocable code](#owncode)
 8. [Code Performance](#codeperformance)
 
 ## Introduction <a name="introduction"></a>
   - [My Info](http://www.siusoon.net)
+  - Why are you interested in this workshop?
+  - The background of this workshop
+  - What is Web, Javascript and P5js and why?
+    - ![Web](https://www.codeproject.com/KB/books/DevelopWebWidgetHtmlCssJs/bigpicture_small.png "web")
   
 ## Technical Setup <a name="technical"></a>
   - Code editor
