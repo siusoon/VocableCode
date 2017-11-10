@@ -69,16 +69,16 @@ References:
 
 # Process
 
-The work collects statements and voices from participants with certain given constraints:
+The work collects statements and voices from participants with certain given constraints, as well as writing code with constraints too:
 
-- Writing
+- Writing (for participants)
 1. Continue the sentence with the starting words "Queer is..."
 2. Each sentence contains no more than 5 words (the starting word, queer, is not included).
 3. More than 1 sentence is allowed but not more than 3.
 4. English word/sentence is required.
 5. It is ok to have just one word.
 
-- Speaking
+- Speaking (for participants)
 1. It is up to the participant to decide the temporality and rhythm of speaking the text
 2. It is up to the participant to either speak the full word, full sentence with different pitch/tempo/rhythm. They can also speak a certain part (phonetics) of the word/sentence. In other words, the word or sentence doesn't need to be completed.
 
