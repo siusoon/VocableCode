@@ -45,17 +45,16 @@ function makeVisible() {
 	}
 }
 ```
-Listen to [it](https://soundcloud.com/siusoon/vocable-code)
 
 # Technical
 
 [p5js](https://p5js.org/) is an open source Javascript library developed by the Processing Foundation and is founded by [Lauran McCarthy](http://lauren-mccarthy.com/) to make coding more accessible to artists, designers, educators and beginners. I share the vision and goal of p5.js, which is to put community outreach and diversity as priority. 
 
 Material requires: 
-- a recorder
-- Audacity for audio editing 
+- A Recorder (I use the app called 'Voice Recorder' in an Android device)
+- Audio editing (I use [Audicity](http://www.audacityteam.org/)) 
 - Code editor
-- p5js libaries
+- [p5js](https://p5js.org/) and its related libaries
 - If run on a local browser, it requires a [local server](https://github.com/processing/p5.js/wiki/Local-server). Or you may need a firefox browser to get things up and running. 
 
 # Background
