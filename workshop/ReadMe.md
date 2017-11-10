@@ -20,7 +20,7 @@ First workshop: 25 Nov 2017 at Aarhus at [!=null](http://notnull.andersvisti.dk/
 
 -- BREAK
 
-7. [Exercise C - Create hour own vocable code](#owncode)
+7. [Exercise C - Create your own vocable code](#owncode)
 8. [Code Performance](#codeperformance)
 
 ## Introduction <a name="introduction"></a>
