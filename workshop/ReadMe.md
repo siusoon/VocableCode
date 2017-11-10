@@ -26,7 +26,7 @@ First workshop: 25 Nov 2017 at Aarhus at [!=null](http://notnull.andersvisti.dk/
 ## Introduction <a name="introduction"></a>
   - [My Info](http://www.siusoon.net)
   - Why are you interested in this workshop?
-  - The background of this workshop
+  - The background of this workshop + what we can do in 5 hrs
   - What is Web, [Javascript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript) and [P5js](https://p5js.org/) and why?
     ![Web](https://www.codeproject.com/KB/books/DevelopWebWidgetHtmlCssJs/bigpicture_small.png "web")
     
