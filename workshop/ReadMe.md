@@ -116,7 +116,7 @@ First workshop: 25 Nov 2017 at Aarhus at [!=null](http://notnull.andersvisti.dk/
 ## Discussion  <a name="discussion"></a>
 
 ## Exercise C: Create your own vocable code <a name="exerciseC"></a>
-- Additional voices and statements
+- Additional/Modify existing voices and statements
 - Change the theme
 - Add/change functions, effects and behaviors
 
