@@ -16,22 +16,36 @@ First workshop: 25 Nov 2017 at Aarhus at [!=null](http://notnull.andersvisti.dk/
   - Optional: The concept of git in command line and github
     * [Install git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
     * Setup git 1: prepare a working directory, then type 
-    '''git init'''
+    '''
+    git init
+    '''
     * Setup git 2: 
-    '''git config --global user.name [Username] '''
+    '''
+    git config --global user.name [Username] 
+    '''
     * Setup git 3: 
-    '''git config --global user.email [email address] '''
+    '''
+    git config --global user.email [email address] 
+    '''
     * Download the github files to local: 
-    '''git pull https://github.com/siusoon/VocableCode.git'''
+    '''
+    git pull https://github.com/siusoon/VocableCode.git
+    '''
     * Sign up:[github account](https://github.com/) and create your own repository "Respositories" > click the "New" button
     * Modify your file, add your code files etc
     * See cheetsheet [here](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
     * Example: If you want to remove a file, type:
-    '''git rm abc.wav"
+    '''
+    git rm filename.extension
+    '''
     * Example continue: 
-    '''git commit -m [description e.g delete what]
+    '''
+    git commit -m [description e.g delete what]
+    '''
     * Upload the files to github:
-    '''git push --set-upstream [github with your respository url] master'''
+    '''
+    git push --set-upstream [github with your respository url] master
+    '''
 
   
 ##### 20 mins BREAK
