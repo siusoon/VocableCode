@@ -45,6 +45,10 @@ function makeVisible() {
 	}
 }
 ```
+ <audio controls>
+  <source src="https://github.com/siusoon/VocableCode/blob/master/performativecodework.wav" type="audio/wav">
+  Your browser does not support the audio element.
+  </audio> 
 
 # Technical
 
