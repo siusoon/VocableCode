@@ -96,7 +96,7 @@ The work collects statements and voices from participants with certain given con
 
 # Create your own vocable code
 
-1. Declare your work with the open sourcelicience (state explict in your source code) that allows sharing and modifying the code
+1. Declare your work with the open source licience (state explict in your source code) that allows sharing and modifying the code
 2. Think of a theme that you want to explore e.g "Queer is", "non-binary is"
 3. Set up your own constraints, both in terms of writing and speaking.
 4. Ask your friends to take part and allow you to record their voice (I use Android device with the voice recording apps called 'voice recorder') 
