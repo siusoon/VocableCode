@@ -119,7 +119,7 @@ First workshop: 25 Nov 2017 at Aarhus at [!=null](http://notnull.andersvisti.dk/
 - Where do you normally read/see a poem? 
 - What consitite poetry? 
 - How does it different from what/where you normally see a poem? 
-- What does it mean by feminist coding and feminist software?
+- What does it mean by feminist coding and feminist software? How can we explore that?
 
 ## Activity C: Create your own vocable code <a name="exerciseC"></a>
 - Mini exC1: Where is your own voice? 
