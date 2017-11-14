@@ -20,7 +20,7 @@ First workshop: 25 Nov 2017 at Aarhus at [!=null](http://notnull.andersvisti.dk/
 
 -- BREAK
 
-7. [Activity C - Create your own vocable code](#owncode)
+7. [Activity C - Writing, Thinking and Creating your own vocable code](#owncode)
 8. [Performing Code](#codeperformance)
 
 ## Introduction <a name="introduction"></a>
@@ -121,7 +121,7 @@ First workshop: 25 Nov 2017 at Aarhus at [!=null](http://notnull.andersvisti.dk/
 - How does it different from what/where you normally see a poem? 
 - What does it mean by feminist coding and feminist software? How can we explore that?
 
-## Activity C: Create your own vocable code <a name="exerciseC"></a>
+## Activity C: Writing, Thinking and Creating your own vocable code <a name="exerciseC"></a>
 - Mini exC1: Where is your own voice? 
   - Try to create two voices and two statments of your own, and see if you can incorporate that into Vocable Code (see json files and becareful of the file naming)
   - You may also try to modify/delete/add existing voices and statements
