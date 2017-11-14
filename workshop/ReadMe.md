@@ -122,3 +122,9 @@ First workshop: 25 Nov 2017 at Aarhus at [!=null](http://notnull.andersvisti.dk/
 - Add/change functions, effects and behaviors
 
 ## Performing Code <a name="codeperformance"></a>
+
+# Further learning and reading
+- [Coding Train](http://thecodingtrain.com/) by Daniel Shiffman [Video tutorials]
+- [Introduction to p5.js](https://p5js.org/learn/) by p5.js
+- [Examples of p5.js](https://p5js.org/examples/)
+- [Programming Design Systems](https://programmingdesignsystems.com/) by Rune Madsen
