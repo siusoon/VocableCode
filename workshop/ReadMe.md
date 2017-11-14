@@ -10,7 +10,7 @@ First workshop: 25 Nov 2017 at Aarhus at [!=null](http://notnull.andersvisti.dk/
 -- BREAK
 
 2. [Technical Setup](#technical)
-3. [Activity A - Reading and Decoding Code](#exerciseA)
+3. [Activity A - Decoding, Reading and Interpreting Code and Logics](#exerciseA)
 
 -- BREAK
 
@@ -83,14 +83,14 @@ First workshop: 25 Nov 2017 at Aarhus at [!=null](http://notnull.andersvisti.dk/
     git diff    //see the difference
     git add *   //staging everything -> then commit -> then push
     ```
-## Activity A - Reading and Decoding Code and Logics <a name="exerciseA"></a>
+## Activity A - Decoding, Reading and Interpreting Code and Logics <a name="exerciseA"></a>
 - [Vocable Code](https://github.com/siusoon/VocableCode)
-- Identify the possible logics and effects based on what you see and what you hear
+- Mini exA1: Identify the possible logics and effects based on what you see and what you hear
   - Visual
   - Sound
   - Process/Sequence
   - Changes over time
-- Reading code and Wild Guess: Mapping the identifiable items 
+- Mini ExA2: Reading code and Wild Guess: Mapping the identifiable items 
 
 ## The basic of coding <a name="basics"></a>
 
@@ -109,17 +109,24 @@ First workshop: 25 Nov 2017 at Aarhus at [!=null](http://notnull.andersvisti.dk/
   - Error log
 
 ## Activity B: Tinkering code  <a name="exerciseB"></a>
-- Changing parameters esp numbers (e.g random no, color no)
-- Changing the names to create your own poetic codework (both in js and json)
+- The concept of [Tinkering](https://tinkering.exploratorium.edu/art-tinkering)
+- Mini exB1: Exploring numbers and their effects and how things work - Changing parameters esp numbers (e.g random no, color no, size of text, speed etc)
+- Mini exB2: Exploring the semantic aspect of code by changing the names to create your own codework (both in js and json), realizing how names and logics are conflated both technically and poetically.
 
 !NB: Rememeber what you have done (which line of code you have changed) and test it on browser for any tiny changes made. (good for error checking)
 
 ## Discussion  <a name="discussion"></a>
+- Where do you normally read/see a poem? 
+- What consitite poetry? 
+- How does it different from what/where you normally see a poem? 
 
 ## Activity C: Create your own vocable code <a name="exerciseC"></a>
-- Additional/Modify existing voices and statements
-- Change the theme
-- Add/change functions, effects and behaviors
+- Mini exC1: Where is your own voice? 
+  - Try to create two voices and two statments of your own, and see if you can incorporate that into Vocable Code (see json files and becareful of the file naming)
+  - You may also try to modify/delete/add existing voices and statements
+  - See the constrains [here](https://github.com/siusoon/VocableCode) > Go to Process
+- Mkni exC2: Add/change functions, effects and behaviors
+- Mini exC3: If you have given a chance to change entirely about Vocable Code, what will you change and how will you change it? What might be the potential logic/algorithm that you want to add in order to make a poetic poetry? Make a sketch! 
 
 ## Performing Code <a name="codeperformance"></a>
 
