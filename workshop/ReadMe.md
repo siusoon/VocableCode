@@ -125,7 +125,7 @@ First workshop: 25 Nov 2017 at Aarhus at [!=null](http://notnull.andersvisti.dk/
   - Try to create two voices and two statments of your own, and see if you can incorporate that into Vocable Code (see json files and becareful of the file naming)
   - You may also try to modify/delete/add existing voices and statements
   - See the constrains [here](https://github.com/siusoon/VocableCode) > Go to Process
-- Mkni exC2: Add/change functions, effects and behaviors
+- Mini exC2: Add/change functions, effects and behaviors
 - Mini exC3: If you have given a chance to change entirely about Vocable Code, what will you change and how will you change it? What might be the potential logic/algorithm that you want to add in order to make a poetic poetry? Make a sketch! 
 
 ## Performing Code <a name="codeperformance"></a>
