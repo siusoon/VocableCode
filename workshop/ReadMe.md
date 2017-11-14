@@ -137,3 +137,4 @@ First workshop: 25 Nov 2017 at Aarhus at [!=null](http://notnull.andersvisti.dk/
 - [Examples of p5.js](https://p5js.org/examples/)
 - [Programming Design Systems](https://programmingdesignsystems.com/) by Rune Madsen
 - [Code Poetry](http://code-poetry.com/) by Daniel Holden and Chris Kerr.
+- [CCSWG14 - Feminist Programming Language](http://haccslab.com/?p=85) by Viola Lasmana
