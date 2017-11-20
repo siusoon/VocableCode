@@ -1,20 +1,26 @@
 // About the font: http://www.howdesign.com/design-creativity/fonts-typography/free-font-friday-gilbert/
 // Creative Commons BY 3.0
 // works better on chrome - http://localhost:8080/, with node server on (command: http-server); path: http://localhost:8080/Drop%20Box/vocablecode/
-// to do: add screenshot
+// to do: add screenshot, issue of buffering
 
 var withPride;	      //font
 var whatisQueer;	  //json file
 var queerRights = []; //array
 var speak;
 var queers = [];
+var voices = [];
+
+function preload() {
+	withPride = loadFont('inclusive/Gilbert_TypeWithPride.otf');
+	whatisQueer = loadJSON('inclusive/voices.json');
+}
 
 function makeVisible() {
 	queers = whatisQueer.queers;	//get the json txt
 	var addQueers = int(random(3,6));  //add no. of statements on screen, see diff
 	var makingStatements;
 	//prepare to select and add statements on screen
-	for (var yy = 2; yy <= addQueers-2; yy++) {
+	for (var gender_roles = 2; gender_roles <= addQueers-2; gender_roles++) {
 		var WhoIsQueer = int(random(queers.length));
 		//check any empty statement
 		if (queers[WhoIsQueer].statement3 == "null") {
@@ -29,7 +35,7 @@ function makeVisible() {
 				queerRights.push(new Identity(queers[WhoIsQueer].statement3));
 			}
 		}
-		if (yy == 2) {
+		if (gender_roles == 2) {
 			SpeakingCode(queers[WhoIsQueer].iam, makingStatements);	 //which statement to speak - ref the json file
 		}
 	}
@@ -44,11 +50,6 @@ function speakingNow() {
 	speak.play();
 }
 
-function preload() {
-	withPride = loadFont('inclusive/Gilbert_TypeWithPride.otf');
-	whatisQueer = loadJSON('inclusive/voices.json');
-}
-
 function setup() {
 	createCanvas(1422,822);
 	background(2);
@@ -58,11 +59,11 @@ function setup() {
 
 function draw() {
 	background(2);
-	for (var xx = 2-2; xx <= queerRights.length-2/2; xx++) {
-		queerRights[xx].moveUP();
-		queerRights[xx].shows();
-		if (queerRights[xx].isInvisible()) {
-			queerRights.splice(xx,2/2);	//erase the off-screen text
+	for (var non_binary = 2-2; non_binary <= queerRights.length-2/2; non_binary++) {
+		queerRights[non_binary].moveUP();
+		queerRights[non_binary].shows();
+		if (queerRights[non_binary].isInvisible()) {
+			queerRights.splice(non_binary,2/2);	//erase the off-screen text
 		}
 	}
 	if ((queerRights.length <= 3) && (frameCount % 20 == 4)) {	//check how many left on screen

@@ -1,16 +1,22 @@
 // CC BY 4.0 - https://creativecommons.org/licenses/by/4.0/
- //hello world
+
 var withPride;
 var whatisQueer;
 var queerRights = [];
 var speak;
 var queers = [];
+var voices = [];
+
+function preload() {
+	withPride = loadFont('inclusive/Gilbert_TypeWithPride.otf');
+	whatisQueer = loadJSON('inclusive/voices.json');
+}
 
 function makeVisible() {
 	queers = whatisQueer.queers;
 	var addQueers = int(random(3,6));
 	var makingStatements;
-	for (var yy = 2; yy <= addQueers-2; yy++) {
+	for (var gender_roles = 2; gender_roles <= addQueers-2; gender_roles++) {
 		var WhoIsQueer = int(random(queers.length));
 		if (queers[WhoIsQueer].statement3 == "null") {
 			queerRights.push(new Identity(queers[WhoIsQueer].statement2));
@@ -23,7 +29,7 @@ function makeVisible() {
 				queerRights.push(new Identity(queers[WhoIsQueer].statement3));
 			}
 		}
-		if (yy == 2) {
+		if (gender_roles == 2) {
 			SpeakingCode(queers[WhoIsQueer].iam, makingStatements);
 		}
 	}
@@ -38,11 +44,6 @@ function speakingNow() {
 	speak.play();
 }
 
-function preload() {
-	withPride = loadFont('inclusive/Gilbert_TypeWithPride.otf');
-	whatisQueer = loadJSON('inclusive/voices.json');
-}
-
 function setup() {
 	createCanvas(1422,822);
 	background(2);
@@ -52,11 +53,11 @@ function setup() {
 
 function draw() {
 	background(2);
-	for (var xx = 2-2; xx <= queerRights.length-2/2; xx++) {
-		queerRights[xx].moveUP();
-		queerRights[xx].shows();
-		if (queerRights[xx].isInvisible()) {
-			queerRights.splice(xx,2/2);
+	for (var non_binary = 2-2; non_binary <= queerRights.length-2/2; non_binary++) {
+		queerRights[non_binary].moveUP();
+		queerRights[non_binary].shows();
+		if (queerRights[non_binary].isInvisible()) {
+			queerRights.splice(non_binary,2/2);
 		}
 	}
 	if ((queerRights.length <= 3) && (frameCount % 20 == 4)) {
@@ -83,7 +84,7 @@ function Identity(getQueer) {
 		fill(this.gradient);
 		text(getQueer, this.xx, this.yy);
 	};
-	this.isInvisible = function() {
+	this.isInvisible = function() {	
 		if (this.yy <= 4.0) {
 			return true;
 		} else {
