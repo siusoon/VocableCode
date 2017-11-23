@@ -37,7 +37,6 @@ First workshop: 25 Nov 2017 at Aarhus (as part of [!=null](http://notnull.anders
   - The Firefox browser: Open the console panel (Browser > Tools > Web developer > Web console)
   - Speaker is on and workable
   - Code editor (try downloading [atom](https://atom.io/))
-  ![Editor](https://github.com/siusoon/VocableCode/blob/master/atom_screen.png)
   - Download p5.js [here](https://p5js.org/download/) > Unzip > drag the html file (under the folder called empty-example) to the browser > anything happens?
   - Then drag sketch.js to atom > go to p5js [get started](https://p5js.org/get-started/) > copy the code to atom > refresh your browser 
 
