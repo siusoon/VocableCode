@@ -1,20 +1,18 @@
 # Feminist Coding in p5.js | Can Software be Feminist?
 
-First workshop: 25 Nov 2017 at Aarhus at [!=null](http://notnull.andersvisti.dk/winnie.php)
-
-[RunMe](https://cdn.rawgit.com/siusoon/VocableCode/9f23c99f/vocablecode_program/index.html)
+First workshop: 25 Nov 2017 at Aarhus (as part of [!=null](http://notnull.andersvisti.dk/winnie.php) platform)
 
 # 5 hrs run-down:
 1. [Introduction](#introduction)
-
--- BREAK
-
 2. [Technical Setup](#technical)
-3. [Activity A - Decoding, Reading and Interpreting Code and Logics](#exerciseA)
 
 -- BREAK
 
+3. [Activity A - Decoding, Reading and Interpreting Code and Logics](#exerciseA)
 4. [The basic of coding](#basics)
+
+-- BREAK
+
 5. [Activity B - Tinkering Code](#exerciseB)
 6. [Discussion](#discussion)
 
@@ -31,20 +29,24 @@ First workshop: 25 Nov 2017 at Aarhus at [!=null](http://notnull.andersvisti.dk/
     ![Web](https://www.codeproject.com/KB/books/DevelopWebWidgetHtmlCssJs/bigpicture_small.png "web")
     
     Reference image: [Creating Web Widget with HTML, CSS, and JavaScript by Raj Lal](https://www.codeproject.com/Articles/81355/Chapter-Creating-Web-Widget-with-HTML-CSS-and-Ja)
+    - [p5js Contributor’s Conference Interviews :: Lauren McCarthy](https://vimeo.com/129605734)
     - [Diversity with art + code](http://diversity.p5js.org/about.html) and [interviews](https://www.youtube.com/channel/UCwtoGoM92Bais5heYYxmB5w)
-    - [p5js editor](http://alpha.editor.p5js.org/) + simple tinkering
   
 ## Technical Setup <a name="technical"></a>
   - [Firefox Browser](https://www.mozilla.org/en-US/firefox/new/) => for by passing the [cross origin requests](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) 
-  - Speaker
+  - The Firefox browser: Open the console panel (Browser > Tools > Web developer > Web console)
+  - Speaker is on and workable
   - Code editor (try downloading [atom](https://atom.io/))
-  ![Editor](https://github.com/siusoon/VocableCode/blob/master/atom_screen.png)
-  - [Source code](https://github.com/siusoon/VocableCode) -> click the green download button -> unzip the file -> drag the index.html file onto the browser. 
-  - Get the console panel open: Browser > Web developer > Web console
- 
+  - Download p5.js [here](https://p5js.org/download/) > Unzip > drag the html file (under the folder called empty-example) to the browser > anything happens?
+  - Then drag sketch.js to atom > go to p5js [get started](https://p5js.org/get-started/) > copy the code to atom > refresh your browser 
+ ![screenshot2](https://github.com/siusoon/VocableCode/blob/master/screenshot2.png)
+ ![screenshot3](https://github.com/siusoon/VocableCode/blob/master/screenshot3.png)
+
+!NB: unzip (either double click or on linux> terminal "unzip file.zip -d destination_folder", see more [here](https://askubuntu.com/questions/86849/how-to-unzip-a-zip-file-from-the-terminal))
+
 ## Activity A - Decoding, Reading and Interpreting Code and Logics <a name="exerciseA"></a>
-- [Vocable Code](https://github.com/siusoon/VocableCode)
-- Mini exA1: Identify the possible logics and effects based on what you see and what you hear
+- Download the [Source code](https://github.com/siusoon/VocableCode) -> click the green download button -> unzip the file -> drag the index.html file onto the browser. 
+- Mini exA1: Identify the possible logics and effects based on what you see and what you hear [here](https://github.com/siusoon/VocableCode). Directions: 
   - Visual
   - Sound
   - Process/Sequence
@@ -59,7 +61,7 @@ First workshop: 25 Nov 2017 at Aarhus at [!=null](http://notnull.andersvisti.dk/
 
   - [Coordinate system](https://p5js.org/examples/structure-coordinates.html)
 
-  - basic syntax (check p5js)
+  - [basic syntax](https://p5js.org/reference/)
   
   - Naming: [Variables](https://p5js.org/examples/data-variables.html), [Arrays](https://p5js.org/examples/arrays-array.html) and [functions](https://p5js.org/examples/structure-functions.html)
 
@@ -98,3 +100,5 @@ First workshop: 25 Nov 2017 at Aarhus at [!=null](http://notnull.andersvisti.dk/
 - [Code Poetry](http://code-poetry.com/) by Daniel Holden and Chris Kerr.
 - [CCSWG14 - Feminist Programming Language](http://haccslab.com/?p=85) by Viola Lasmana
 - [Feminist Software Foundation](https://github.com/ErisBlastar/cplusequality)
+- [Zeroes and Ones: Digital Women and the New Technoculture](https://monoskop.org/File:Plant_Sadie_Zeros_and_Ones_Digital_Women_and_the_New_Technoculture_1998.pdf)(1997) by Sadie Plant
+- [Designing for Difference](http://townsendgroups.berkeley.edu/sites/default/files/differences_mcpherson.pdf)(2014) by Tara McPherson
