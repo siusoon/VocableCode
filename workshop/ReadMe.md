@@ -98,5 +98,5 @@ First workshop: 25 Nov 2017 at Aarhus at [!=null](http://notnull.andersvisti.dk/
 - [Code Poetry](http://code-poetry.com/) by Daniel Holden and Chris Kerr.
 - [CCSWG14 - Feminist Programming Language](http://haccslab.com/?p=85) by Viola Lasmana
 - [Feminist Software Foundation](https://github.com/ErisBlastar/cplusequality)
-- [Zeroes and Ones: Digital Women and the New Technoculture](https://monoskop.org/File:Plant_Sadie_Zeros_and_Ones_Digital_Women_and_the_New_Technoculture_1998.pdf) by Sadie Plant
-- Tara McPherson, “[Designing for Difference](http://townsendgroups.berkeley.edu/sites/default/files/differences_mcpherson.pdf),” A Journal of Feminist Cultural Studies, 25(1), 2014.
+- [Zeroes and Ones: Digital Women and the New Technoculture](https://monoskop.org/File:Plant_Sadie_Zeros_and_Ones_Digital_Women_and_the_New_Technoculture_1998.pdf)(1997) by Sadie Plant
+- [Designing for Difference](http://townsendgroups.berkeley.edu/sites/default/files/differences_mcpherson.pdf)(2014) by Tara McPherson
