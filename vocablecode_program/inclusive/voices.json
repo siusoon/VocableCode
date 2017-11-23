@@ -1,7 +1,7 @@
 {
 	"description": "The file contains the meta data of queer text",
 	"condition": "statement0 cannot be null",
-	"CopyRight": "Creative Common Licence BY 3.0",
+	"copyLeft": "Creative Common Licence BY 3.0",
 	"queers":
 	[
 		{

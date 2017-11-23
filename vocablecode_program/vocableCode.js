@@ -19,14 +19,14 @@ function makeVisible() {
 	for (var gender_roles = 2; gender_roles <= addQueers-2; gender_roles++) {
 		var WhoIsQueer = int(random(queers.length));
 		if (queers[WhoIsQueer].statement3 == "null") {
-			queerRights.push(new Identity(queers[WhoIsQueer].statement2));
+			queerRights.push(new notNew(queers[WhoIsQueer].statement2));
 			makingStatements = 2;
 		}else{
 			makingStatements = int(random(2,4));
 			if (makingStatements == 2) {
-				queerRights.push(new Identity(queers[WhoIsQueer].statement2));
+				queerRights.push(new notNew(queers[WhoIsQueer].statement2));
 			}else{
-				queerRights.push(new Identity(queers[WhoIsQueer].statement3));
+				queerRights.push(new notNew(queers[WhoIsQueer].statement3));
 			}
 		}
 		if (gender_roles == 2) {
@@ -65,7 +65,7 @@ function draw() {
 	}
 }
 
-function Identity(getQueer) {
+function notNew(getQueer) {
 	this.size = int(random(15,30));
 	this.xx = width/2;
 	this.yy = random(height/3,height+80);
@@ -84,7 +84,7 @@ function Identity(getQueer) {
 		fill(this.gradient);
 		text(getQueer, this.xx, this.yy);
 	};
-	this.isInvisible = function() {	
+	this.isInvisible = function() {
 		if (this.yy <= 4.0) {
 			return true;
 		} else {

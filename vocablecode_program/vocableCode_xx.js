@@ -1,6 +1,7 @@
 // About the font: http://www.howdesign.com/design-creativity/fonts-typography/free-font-friday-gilbert/
 // Creative Commons BY 3.0
 // works better on chrome - http://localhost:8080/, with node server on (command: http-server); path: http://localhost:8080/Drop%20Box/vocablecode/
+// also works on Firefox
 // to do: add screenshot, issue of buffering
 
 var withPride;	      //font
@@ -24,15 +25,15 @@ function makeVisible() {
 		var WhoIsQueer = int(random(queers.length));
 		//check any empty statement
 		if (queers[WhoIsQueer].statement3 == "null") {
-			queerRights.push(new Identity(queers[WhoIsQueer].statement2));
+			queerRights.push(new notNew(queers[WhoIsQueer].statement2));
 			makingStatements = 2;
 		}else{
 			//both statements with values on it
 			makingStatements = int(random(2,4));
 			if (makingStatements == 2) {
-				queerRights.push(new Identity(queers[WhoIsQueer].statement2));
+				queerRights.push(new notNew(queers[WhoIsQueer].statement2));
 			}else{
-				queerRights.push(new Identity(queers[WhoIsQueer].statement3));
+				queerRights.push(new notNew(queers[WhoIsQueer].statement3));
 			}
 		}
 		if (gender_roles == 2) {
@@ -72,7 +73,7 @@ function draw() {
 }
 
 //for every creation of new text
-function Identity(getQueer) {
+function notNew(getQueer) {
 	this.size = int(random(15,30));
 	this.xx = width/2;
 	this.yy = random(height/3,height+80);
