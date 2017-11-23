@@ -61,7 +61,7 @@ First workshop: 25 Nov 2017 at Aarhus (as part of [!=null](http://notnull.anders
 
   - [Coordinate system](https://p5js.org/examples/structure-coordinates.html)
 
-  - basic syntax (check p5js)
+  - [basic syntax](https://p5js.org/reference/)
   
   - Naming: [Variables](https://p5js.org/examples/data-variables.html), [Arrays](https://p5js.org/examples/arrays-array.html) and [functions](https://p5js.org/examples/structure-functions.html)
 
