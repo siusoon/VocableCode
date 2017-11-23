@@ -41,6 +41,8 @@ First workshop: 25 Nov 2017 at Aarhus (as part of [!=null](http://notnull.anders
   - Download p5.js [here](https://p5js.org/download/) > Unzip > drag the html file (under the folder called empty-example) to the browser > anything happens?
   - Then drag sketch.js to atom > go to p5js [get started](https://p5js.org/get-started/) > copy the code to atom > refresh your browser 
 
+* unzip (either double click or on linux> terminal "unzip file.zip -d destination_folder", see more [here](https://askubuntu.com/questions/86849/how-to-unzip-a-zip-file-from-the-terminal))
+
 ## Activity A - Decoding, Reading and Interpreting Code and Logics <a name="exerciseA"></a>
 - Download the [Source code](https://github.com/siusoon/VocableCode) -> click the green download button -> unzip the file -> drag the index.html file onto the browser. 
 - Mini exA1: Identify the possible logics and effects based on what you see and what you hear
