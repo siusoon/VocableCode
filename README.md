@@ -32,14 +32,14 @@ function makeVisible() {
 	for (var gender_roles = 2; gender_roles <= addQueers-2; gender_roles++) {
 		var WhoIsQueer = int(random(queers.length));
 		if (queers[WhoIsQueer].statement3 == "null") {
-			queerRights.push(new Identity(queers[WhoIsQueer].statement2));
+			queerRights.push(new notNew(queers[WhoIsQueer].statement2));
 			makingStatements = 2;
 		}else{
 			makingStatements = int(random(2,4));
 			if (makingStatements == 2) {
-				queerRights.push(new Identity(queers[WhoIsQueer].statement2));
+				queerRights.push(new notNew(queers[WhoIsQueer].statement2));
 			}else{
-				queerRights.push(new Identity(queers[WhoIsQueer].statement3));
+				queerRights.push(new notNew(queers[WhoIsQueer].statement3));
 			}
 		}
 		if (gender_roles == 2) {
