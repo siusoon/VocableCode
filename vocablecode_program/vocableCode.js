@@ -16,7 +16,7 @@ function makeVisible() {
 	queers = whatisQueer.queers;
 	var addQueers = int(random(3,6));
 	var makingStatements;
-	for (var gender_roles = 2; gender_roles <= addQueers-2; gender_roles++) {
+	for (var genderRoles = 2; genderRoles <= addQueers-2; genderRoles++) {
 		var WhoIsQueer = int(random(queers.length));
 		if (queers[WhoIsQueer].statement3 == "null") {
 			queerRights.push(new notNew(queers[WhoIsQueer].statement2));
@@ -29,7 +29,7 @@ function makeVisible() {
 				queerRights.push(new notNew(queers[WhoIsQueer].statement3));
 			}
 		}
-		if (gender_roles == 2) {
+		if (genderRoles == 2) {
 			SpeakingCode(queers[WhoIsQueer].iam, makingStatements);
 		}
 	}
@@ -47,7 +47,6 @@ function speakingNow() {
 function setup() {
 	createCanvas(1422,822);
 	background(2);
-	frameRate(888);
 	makeVisible();
 }
 

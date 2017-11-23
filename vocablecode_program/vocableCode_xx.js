@@ -1,8 +1,10 @@
-// About the font: http://www.howdesign.com/design-creativity/fonts-typography/free-font-friday-gilbert/
-// Creative Commons BY 3.0
-// works better on chrome - http://localhost:8080/, with node server on (command: http-server); path: http://localhost:8080/Drop%20Box/vocablecode/
-// also works on Firefox
-// to do: add screenshot, issue of buffering
+/*
+ About the font: http://www.howdesign.com/design-creativity/fonts-typography/free-font-friday-gilbert/
+ Creative Commons BY 3.0
+ works better on chrome - http://localhost:8080/, with node server on (command: http-server); path: http://localhost:8080/Drop%20Box/vocablecode/
+ also works on Firefox
+ to do: add screenshot, issue of buffering
+*/
 
 var withPride;	      //font
 var whatisQueer;	  //json file
@@ -11,17 +13,42 @@ var speak;
 var queers = [];
 var voices = [];
 
+//Preload: used to handle asynchronous loading of external files. See: https://p5js.org/reference/#/p5/preload
 function preload() {
 	withPride = loadFont('inclusive/Gilbert_TypeWithPride.otf');
 	whatisQueer = loadJSON('inclusive/voices.json');
 }
 
+function setup() {
+	createCanvas(1422,822);
+	background(2);
+	makeVisible();
+}
+
+function draw() {
+	background(2);
+	//movement and display of text
+	for (var non_binary = 2-2; non_binary <= queerRights.length-2/2; non_binary++) {
+		queerRights[non_binary].moveUP();
+		queerRights[non_binary].shows();
+		//erase the off-screen text objects
+		if (queerRights[non_binary].isInvisible()) {
+			queerRights.splice(non_binary,2/2);
+		}
+	}
+	//when to generate new text -> check how many left on screen + meet the frameCount requirement
+
+	if ((queerRights.length <= 3) && (frameCount % 20 == 4)) {	// the number of frames that have been displayed since the program started.:  https://p5js.org/reference/#/p5/frameCount
+		makeVisible();
+	}
+}
+//creation of text, which text and which voice to speak
 function makeVisible() {
 	queers = whatisQueer.queers;	//get the json txt
 	var addQueers = int(random(3,6));  //add no. of statements on screen, see diff
 	var makingStatements;
 	//prepare to select and add statements on screen
-	for (var gender_roles = 2; gender_roles <= addQueers-2; gender_roles++) {
+	for (var genderRoles = 2; genderRoles <= addQueers-2; genderRoles++) {
 		var WhoIsQueer = int(random(queers.length));
 		//check any empty statement
 		if (queers[WhoIsQueer].statement3 == "null") {
@@ -36,7 +63,7 @@ function makeVisible() {
 				queerRights.push(new notNew(queers[WhoIsQueer].statement3));
 			}
 		}
-		if (gender_roles == 2) {
+		if (genderRoles == 2) {
 			SpeakingCode(queers[WhoIsQueer].iam, makingStatements);	 //which statement to speak - ref the json file
 		}
 	}
@@ -51,29 +78,10 @@ function speakingNow() {
 	speak.play();
 }
 
-function setup() {
-	createCanvas(1422,822);
-	background(2);
-	frameRate(888);
-	makeVisible();
-}
-
-function draw() {
-	background(2);
-	for (var non_binary = 2-2; non_binary <= queerRights.length-2/2; non_binary++) {
-		queerRights[non_binary].moveUP();
-		queerRights[non_binary].shows();
-		if (queerRights[non_binary].isInvisible()) {
-			queerRights.splice(non_binary,2/2);	//erase the off-screen text
-		}
-	}
-	if ((queerRights.length <= 3) && (frameCount % 20 == 4)) {	//check how many left on screen
-		makeVisible();
-	}
-}
-
 //for every creation of new text
 function notNew(getQueer) {
+
+	//attributes of text
 	this.size = int(random(15,30));
 	this.xx = width/2;
 	this.yy = random(height/3,height+80);
@@ -93,7 +101,8 @@ function notNew(getQueer) {
 		fill(this.gradient);
 		text(getQueer, this.xx, this.yy);
 	};
-	this.isInvisible = function() {	//check disappeared objects
+	//check disappeared objects
+	this.isInvisible = function() {
 		if (this.yy <= 4.0) {
 			return true;
 		} else {
