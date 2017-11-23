@@ -1,21 +1,21 @@
-{ 
+{
 	"description": "The file contains the meta data of queer text",
 	"condition": "statement0 cannot be null",
 	"CopyRight": "Creative Common Licence BY 3.0",
-	"queers": 
+	"queers":
 	[
 		{
 		"iam": "Winnie",
     	"lastname": "Soon",
     	"statement2": "not fixed not null",
     	"statement3": "not null not closed"
-    	}, 
+    	},
 		{
   		"iam": "Polly",
     	"lastname": "Poon",
     	"statement2": "possibility with no boundary",
     	"statement3": "null"
- 		}, 
+ 		},
     	{
   		"iam": "Soren",
     	"lastname": "Pold",
@@ -30,7 +30,7 @@
  		},
  		{
   		"iam": "Sarah",
-    	"lastname": "Schoor",
+    	"lastname": "Schorr",
     	"statement2": "intricacies of gray",
     	"statement3": "changing and individual"
  		},
