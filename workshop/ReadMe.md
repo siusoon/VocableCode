@@ -46,7 +46,7 @@ First workshop: 25 Nov 2017 at Aarhus (as part of [!=null](http://notnull.anders
 
 ## Activity A - Decoding, Reading and Interpreting Code and Logics <a name="exerciseA"></a>
 - Download the [Source code](https://github.com/siusoon/VocableCode) -> click the green download button -> unzip the file -> drag the index.html file onto the browser. 
-- Mini exA1: Identify the possible logics and effects based on what you see and what you hear
+- Mini exA1: Identify the possible logics and effects based on what you see and what you hear [here](https://github.com/siusoon/VocableCode). Directions: 
   - Visual
   - Sound
   - Process/Sequence
