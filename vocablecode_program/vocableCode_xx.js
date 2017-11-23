@@ -47,9 +47,9 @@ function makeVisible() {
 	queers = whatisQueer.queers;	//get the json txt
 	var addQueers = int(random(3,6));  //add no. of statements on screen, see diff
 	var makingStatements;
-	//prepare to select and add statements on screen
+	//prepare to select and add statements on screen one by one according to 'addQueers'
 	for (var genderRoles = 2; genderRoles <= addQueers-2; genderRoles++) {
-		var WhoIsQueer = int(random(queers.length));
+		var WhoIsQueer = int(random(queers.length)); //select 1 from the json list
 		//check any empty statement
 		if (queers[WhoIsQueer].statement3 == "null") {
 			queerRights.push(new notNew(queers[WhoIsQueer].statement2));
@@ -63,7 +63,7 @@ function makeVisible() {
 				queerRights.push(new notNew(queers[WhoIsQueer].statement3));
 			}
 		}
-		if (genderRoles == 2) {
+		if (genderRoles == 2) {  //each batch of adding new text will only select the first voice to speak
 			SpeakingCode(queers[WhoIsQueer].iam, makingStatements);	 //which statement to speak - ref the json file
 		}
 	}
