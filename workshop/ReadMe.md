@@ -76,6 +76,8 @@ First workshop: 25 Nov 2017 at Aarhus (as part of [!=null](http://notnull.anders
 
   - [Conditions](https://p5js.org/examples/control-conditionals-1.html), repetitions and differences
   - Error log
+  
+  <img src="https://github.com/siusoon/VocableCode/blob/master/error.png" width="500">
 
 ## Activity B: Tinkering code  <a name="exerciseB"></a>
 - The concept of [Tinkering](https://tinkering.exploratorium.edu/art-tinkering)
