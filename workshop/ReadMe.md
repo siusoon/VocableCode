@@ -71,6 +71,7 @@ First workshop: 25 Nov 2017 at Aarhus (as part of [!=null](http://notnull.anders
   
      <img src="https://processing.org/tutorials/drawing/imgs/drawing-03.svg" width="550">
      
+     Reference image: [Processing](https://processing.org)  
   - [Basic syntax](https://p5js.org/reference/) e.g color, background, createCanvas, functions, for-loop, if-else statments, var
   - Naming: [Variables](https://p5js.org/examples/data-variables.html), [Arrays](https://p5js.org/examples/arrays-array.html) and [functions](https://p5js.org/examples/structure-functions.html)
   
