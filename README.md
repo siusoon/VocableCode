@@ -77,18 +77,18 @@ References:
 
 The work collects statements and voices from participants with certain given constraints, as well as writing code with constraints too:
 
-- Writing (for participants)
+- **Writing (for participants)**
 1. Continue the sentence with the starting words "Queer is..."
 2. Each sentence contains no more than 5 words (the starting word, queer, is not included).
 3. More than 1 sentence is allowed but not more than 3.
 4. English word/sentence is required.
 5. It is ok to have just one word.
 
-- Speaking (for participants)
+- **Speaking (for participants)**
 1. It is up to the participant to decide the temporality and rhythm of speaking the text
 2. It is up to the participant to either speak the full word, full sentence with different pitch/tempo/rhythm. They can also speak a certain part (phonetics) of the word/sentence. In other words, the word or sentence doesn't need to be completed.
 
-- Coding (for coder)
+- **Coding (for coder)**
 1. Not to use binary 0 or 1
 2. Not to use either a single x or y
 3. Not to use > or <, but with >= or <=
@@ -108,4 +108,4 @@ The work collects statements and voices from participants with certain given con
 7. Run on a browser and test it
 8. Upload your code to a public domain and allow people to share your code
 
-* Ping me about your vocable code :) 
+!NB: Ping me about your vocable code :) 
