@@ -66,8 +66,10 @@ First workshop: 25 Nov 2017 at Aarhus (as part of [!=null](http://notnull.anders
     
   - Structure with setup and draw, and other sequences/functions e.g preload()
   - [Coordinate system](https://p5js.org/examples/structure-coordinates.html)
+  
      <img src="https://processing.org/tutorials/drawing/imgs/drawing-03.svg" width="550">
-  - [basic syntax](https://p5js.org/reference/) e.g color, background, createCanvas, for-loop, if-else statments, var
+     
+  - [Basic syntax](https://p5js.org/reference/) e.g color, background, createCanvas, functions, for-loop, if-else statments, var
   - Naming: [Variables](https://p5js.org/examples/data-variables.html), [Arrays](https://p5js.org/examples/arrays-array.html) and [functions](https://p5js.org/examples/structure-functions.html)
   - [Conditions](https://p5js.org/examples/control-conditionals-1.html), repetitions and differences
   - Error log
