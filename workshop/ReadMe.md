@@ -46,27 +46,26 @@ First workshop: 25 Nov 2017 at Aarhus (as part of [!=null](http://notnull.anders
 
 ## Activity A - Decoding, Reading and Interpreting Code and Logics <a name="exerciseA"></a>
 - Download the [Source code](https://github.com/siusoon/VocableCode) -> click the green download button -> unzip the file -> drag the index.html file onto the browser. 
-- Mini exA1: Identify the possible logics and effects based on what you see and what you hear [here](https://github.com/siusoon/VocableCode). Directions: 
-  - Visual
-  - Sound
-  - Process/Sequence
-  - Changes over time
-- Mini ExA2: Reading code and Wild Guess: Mapping the identifiable items 
+- Mini exA1: Identify the possible logics and effects based on what you see and what you hear. (Run Vocable Code by dragging the index.html file-under the folder called "vocablecode_program"-onto your browser) Directions: 
+  - Visual (what you see?)
+  - Sound (what you hear?)
+  - Process (what are the sequences?)
+  - Time (what have been changed over time?)
+  - Data (What kind of data are involved?)
+- The concept of pseudocode (see more [here](http://www.engr.sjsu.edu/bjfurman/courses/ME30/ME30pdf/Notes_on_Algorithms.pdf))
+  - Can be used as an informal tool for planning/outlining your programs and algorithms
+  - Human readable: it consists of short phrases that are used to explain specific tasks in high level
+  - Focuses on logics but not syntaxes
+  - Independent of any programming language 
+- Mini ExA2: Reading code and Wild Guess: Mapping the source code with the identifiable items from exA1 
 
 ## The basic of coding <a name="basics"></a>
-
   - HTML/JS/Data structure + [p5.sound library](https://p5js.org/reference/#/libraries/p5.sound) + [JSON](https://www.copterlabs.com/json-what-it-is-how-it-works-how-to-use-it/)
-
   - Structure with setup and draw, and other sequences
-
   - [Coordinate system](https://p5js.org/examples/structure-coordinates.html)
-
   - [basic syntax](https://p5js.org/reference/)
-  
   - Naming: [Variables](https://p5js.org/examples/data-variables.html), [Arrays](https://p5js.org/examples/arrays-array.html) and [functions](https://p5js.org/examples/structure-functions.html)
-
   - [Conditions](https://p5js.org/examples/control-conditionals-1.html), repetitions and differences
-
   - Error log
 
 ## Activity B: Tinkering code  <a name="exerciseB"></a>
