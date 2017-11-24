@@ -21,7 +21,7 @@ See the workshop details [here](http://notnull.andersvisti.dk/winnie.php)
 
 # Credits
 
-Polly Poon, [Søren Pold](http://pure.au.dk/portal/en/persons/id(4db7e12a-61c5-4e14-9259-5a071cb224eb).html), [Magda Tyzlik+carver](http://thecommonpractice.org/), [Sarah Schoor](http://pure.au.dk/portal/en/persons/id(eee59ed0-acdd-45a2-8661-79fab555a694).html), [Elyzabeth Holford](http://ohiofusion.com/10-questions-with-elyzabeth-holford/), [Gabriel Pereira](http://gabrielpereira.net/), [Annette Markham](https://annettemarkham.com/)
+Polly Poon, [Søren Pold](http://pure.au.dk/portal/en/persons/id(4db7e12a-61c5-4e14-9259-5a071cb224eb).html), [Magda Tyzlik Carver](http://thecommonpractice.org/), [Sarah Schoor](http://pure.au.dk/portal/en/persons/id(eee59ed0-acdd-45a2-8661-79fab555a694).html), [Elyzabeth Holford](http://ohiofusion.com/10-questions-with-elyzabeth-holford/), [Gabriel Pereira](http://gabrielpereira.net/), [Annette Markham](https://annettemarkham.com/)
 
 # Codework
 ```javascript
@@ -53,12 +53,12 @@ function makeVisible() {
 
 [p5js](https://p5js.org/) is an open source Javascript library developed by the Processing Foundation and is founded by [Lauran McCarthy](http://lauren-mccarthy.com/) to make coding more accessible to artists, designers, educators and beginners. I share the vision and goal of p5.js, which is to put community outreach and diversity as priority. 
 
-Material requires: 
-- A Recorder (I use the app called 'Voice Recorder' in an Android device)
-- Audio editing (I use [Audicity](http://www.audacityteam.org/)) 
-- Code editor
+Required materials and working environments: 
+- A voice recorder 
+- An audio editing software (I use [Audicity](http://www.audacityteam.org/)) 
+- A code editor (I use atom)
 - [p5js](https://p5js.org/) and its related libaries
-- If run on a local browser, it requires a [local server](https://github.com/processing/p5.js/wiki/Local-server). Or you may need a firefox browser to get things up and running. 
+- If the program runs on a local browser, it requires a [local server](https://github.com/processing/p5.js/wiki/Local-server). Or you may need a firefox browser to get things up and running. 
 
 # Background
 
