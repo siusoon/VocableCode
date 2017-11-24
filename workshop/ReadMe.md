@@ -61,9 +61,11 @@ First workshop: 25 Nov 2017 at Aarhus (as part of [!=null](http://notnull.anders
 
 ## The basic of coding <a name="basics"></a>
   - HTML/JS/Data structure + [p5.sound library](https://p5js.org/reference/#/libraries/p5.sound) + [JSON](https://www.copterlabs.com/json-what-it-is-how-it-works-how-to-use-it/)
-  - Structure with setup and draw, and other sequences
+    ![basicStructure](https://github.com/siusoon/VocableCode/blob/master/basicStructure.png)
+  - Structure with setup and draw, and other sequences/functions e.g preload()
   - [Coordinate system](https://p5js.org/examples/structure-coordinates.html)
-  - [basic syntax](https://p5js.org/reference/)
+    ![coordinateSystem](https://processing.org/tutorials/drawing/imgs/drawing-03.svg)
+  - [basic syntax](https://p5js.org/reference/) e.g color, background, createCanvas, for-loop, if-else statments, var
   - Naming: [Variables](https://p5js.org/examples/data-variables.html), [Arrays](https://p5js.org/examples/arrays-array.html) and [functions](https://p5js.org/examples/structure-functions.html)
   - [Conditions](https://p5js.org/examples/control-conditionals-1.html), repetitions and differences
   - Error log
