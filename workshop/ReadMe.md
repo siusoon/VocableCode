@@ -46,7 +46,7 @@ First workshop: 25 Nov 2017 at Aarhus (as part of [!=null](http://notnull.anders
 
 ## Activity A - Decoding, Reading and Interpreting Code and Logics <a name="exerciseA"></a>
 - Download the [Source code](https://github.com/siusoon/VocableCode) -> click the green download button -> unzip the file -> drag the index.html file onto the browser. 
-- Mini exA1: Identify the possible logics and effects based on what you see and what you hear. (Run Vocable Code by dragging the index.html file-under the folder called "vocablecode_program"-onto your browser) Directions: 
+- *Mini exA1: Identify the possible logics and effects based on what you see and what you hear.* (Run Vocable Code by dragging the index.html file-under the folder called "vocablecode_program"-onto your browser) Directions: 
   - Visual (what you see?)
   - Sound (what you hear?)
   - Process (what are the sequences?)
@@ -59,7 +59,7 @@ First workshop: 25 Nov 2017 at Aarhus (as part of [!=null](http://notnull.anders
   - Focuses on logics but not syntaxes
   - Independent of any programming language 
   
-- Mini ExA2: Reading code and Wild Guess: Mapping the source code with the identifiable items from exA1 
+- *Mini ExA2: Reading code and Wild Guess: Mapping the source code with the identifiable items from exA1* 
 
 ## The basic of coding <a name="basics"></a>
   - HTML/JS/Data structure + [p5.sound library](https://p5js.org/reference/#/libraries/p5.sound) + [JSON](https://www.copterlabs.com/json-what-it-is-how-it-works-how-to-use-it/)
@@ -84,9 +84,9 @@ First workshop: 25 Nov 2017 at Aarhus (as part of [!=null](http://notnull.anders
 ## Activity B: Tinkering code  <a name="exerciseB"></a>
 - The concept of [Tinkering](https://tinkering.exploratorium.edu/art-tinkering)
 
-- Mini exB1: Exploring numbers and their effects and how things work - Changing parameters esp numbers (e.g color no in 'Background()' and 'this.gradient()', size of text in 'this.text', speed in 'this.speed = random()', random no range in 'random()', etc.)
+- *Mini exB1: Exploring numbers and their effects and how things work - Changing parameters esp numbers* (e.g color no in 'Background()' and 'this.gradient()', size of text in 'this.text', speed in 'this.speed = random()', random no range in 'random()', etc.)
 
-- Mini exB2: Exploring the semantic aspect of code by changing the names to create your own codework (both in js and json), realizing how names and logics are conflated both technically and poetically. (When you change the name, make sure you have searched for other parts of the program that have used the same name. e.g variable 'non_binary' or 'withPride' is used more than one time in the program.)
+- *Mini exB2: Exploring the semantic aspect of code by changing the names to create your own codework (both in js and json), realizing how names and logics are conflated both technically and poetically.* (When you change the name, make sure you have searched for other parts of the program that have used the same name. e.g variable 'non_binary' or 'withPride' is used more than one time in the program.)
 
 !NB1: For every change of the number/name, save the file and then refresh the browser (with your web console opens to check for any errors may occur.)
 
@@ -102,7 +102,7 @@ First workshop: 25 Nov 2017 at Aarhus (as part of [!=null](http://notnull.anders
 
 ## Activity C: Writing, Thinking and Creating your own vocable code <a name="exerciseC"></a>
 Work in pairs:
-- Mini exC1: Where is your own voice? 
+- *Mini exC1: Where is your own voice?*
   - Try to create two voices and two statments of your own, and see if you can incorporate that into Vocable Code (1. Record two of your voices in wav file format 2. see voices.json file and add your name and statements)
     - Record your/other voices through your smartphone (download a free app e.g VoiceRecorder, or you can try with my voice recorder)
     - The wav files are named in this convention: firstname2.wav and firstname3.wav -> all are put under the folder called "inclusive\voices\"
@@ -114,10 +114,10 @@ Work in pairs:
   - You may also try to modify/delete/add existing voices and statements
   - See the constrains [here](https://github.com/siusoon/VocableCode) > Go to Process
   
-- Mini exC2 (optional): Add/change functions, effects and behaviors in the js file
+- *Mini exC2 (optional): Add/change functions, effects and behaviors in the js file*
   - e.g changing background and font color, text size, movement from vertical to horizontal and add shapes in the background, and many others...
   
-- Mini exC3 (optional): If you have given a chance to change entirely about Vocable Code, what will you change and how will you change it? What might be the potential logic/algorithm that you want to add in order to make a poetic poetry? Make a sketch or pseudocode! 
+- *Mini exC3 (optional): If you have given a chance to change entirely about Vocable Code, what will you change and how will you change it? What might be the potential logic/algorithm that you want to add in order to make a poetic poetry? Make a sketch or pseudocode!* 
 
 ## Performing Code <a name="codeperformance"></a>
 
