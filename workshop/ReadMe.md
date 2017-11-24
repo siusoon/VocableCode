@@ -103,6 +103,12 @@ First workshop: 25 Nov 2017 at Aarhus (as part of [!=null](http://notnull.anders
 ## Activity C: Writing, Thinking and Creating your own vocable code <a name="exerciseC"></a>
 - Mini exC1: Where is your own voice? 
   - Try to create two voices and two statments of your own, and see if you can incorporate that into Vocable Code (1. Record two of your voices in wav file format 2. see voices.json file and add your name and statements)
+    - The wav files are named in this convention: firstname2.wav and firstname3.wav -> all are put under the folder called "inclusive\voices\"
+    - The voices.json file is structured in this convention: 
+      - iam: "yourfirstname",
+      - lastname: "yourlastname",
+      - statement2: "your first statement",
+      - statement3: "your second statement"
   - You may also try to modify/delete/add existing voices and statements
   - See the constrains [here](https://github.com/siusoon/VocableCode) > Go to Process
   
