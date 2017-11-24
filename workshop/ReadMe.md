@@ -90,7 +90,7 @@ First workshop: 25 Nov 2017 at Aarhus (as part of [!=null](http://notnull.anders
 
 !NB2: Rememeber what you have done (which line of code you have changed) and test it on your browser for any tiny changes made. (good for error checking)
 
-!NB3: Don't panic if nothing show up on the webpage or with error msg on the web console. It is ok to encounter error as it helps us to understand how things work/not work, as well as the underlying logics. You can always undo and try again.
+!NB3: Don't panic if nothing show up on the webpage or with error msg on the web console. It is ok to encounter errors as they help us to understand how things work/not work, as well as the underlying logics. You can always undo and try again.
 
 ## Discussion  <a name="discussion"></a>
 - Where do you normally read/see a poem? 
