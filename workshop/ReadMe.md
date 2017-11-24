@@ -101,8 +101,10 @@ First workshop: 25 Nov 2017 at Aarhus (as part of [!=null](http://notnull.anders
 - What does it mean by feminist coding and feminist software? How can we explore that?
 
 ## Activity C: Writing, Thinking and Creating your own vocable code <a name="exerciseC"></a>
+Work in pairs:
 - Mini exC1: Where is your own voice? 
   - Try to create two voices and two statments of your own, and see if you can incorporate that into Vocable Code (1. Record two of your voices in wav file format 2. see voices.json file and add your name and statements)
+    - Record your/other voices through your smartphone (download a free app e.g VoiceRecorder, or you can try with my voice recorder)
     - The wav files are named in this convention: firstname2.wav and firstname3.wav -> all are put under the folder called "inclusive\voices\"
     - The voices.json file is structured in this convention: 
       - iam: "yourfirstname",
@@ -112,10 +114,10 @@ First workshop: 25 Nov 2017 at Aarhus (as part of [!=null](http://notnull.anders
   - You may also try to modify/delete/add existing voices and statements
   - See the constrains [here](https://github.com/siusoon/VocableCode) > Go to Process
   
-- Mini exC2: Add/change functions, effects and behaviors in the js file
+- Mini exC2 (optional): Add/change functions, effects and behaviors in the js file
   - e.g changing background and font color, text size, movement from vertical to horizontal and add shapes in the background, and many others...
   
-- Mini exC3: If you have given a chance to change entirely about Vocable Code, what will you change and how will you change it? What might be the potential logic/algorithm that you want to add in order to make a poetic poetry? Make a sketch or pseudocode! 
+- Mini exC3 (optional): If you have given a chance to change entirely about Vocable Code, what will you change and how will you change it? What might be the potential logic/algorithm that you want to add in order to make a poetic poetry? Make a sketch or pseudocode! 
 
 ## Performing Code <a name="codeperformance"></a>
 
