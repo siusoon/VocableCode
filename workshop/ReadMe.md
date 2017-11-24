@@ -39,8 +39,8 @@ First workshop: 25 Nov 2017 at Aarhus (as part of [!=null](http://notnull.anders
   - Code editor (try downloading [atom](https://atom.io/))
   - Download p5.js [here](https://p5js.org/download/) > Unzip > drag the html file (under the folder called empty-example) to the browser > anything happens?
   - Then drag sketch.js to atom > go to p5js [get started](https://p5js.org/get-started/) > copy the code to atom > refresh your browser 
-  <img src="https://github.com/siusoon/VocableCode/blob/master/screenshot2.png" width="500">
-  <img src="https://github.com/siusoon/VocableCode/blob/master/screenshot3.png" width="500">
+  <img src="https://github.com/siusoon/VocableCode/blob/master/screenshot2.png" width="550">
+  <img src="https://github.com/siusoon/VocableCode/blob/master/screenshot3.png" width="550">
 
 !NB: unzip (either double click or on linux> terminal "unzip file.zip -d destination_folder", see more [here](https://askubuntu.com/questions/86849/how-to-unzip-a-zip-file-from-the-terminal))
 
@@ -61,10 +61,12 @@ First workshop: 25 Nov 2017 at Aarhus (as part of [!=null](http://notnull.anders
 
 ## The basic of coding <a name="basics"></a>
   - HTML/JS/Data structure + [p5.sound library](https://p5js.org/reference/#/libraries/p5.sound) + [JSON](https://www.copterlabs.com/json-what-it-is-how-it-works-how-to-use-it/)
-    <img src="https://github.com/siusoon/VocableCode/blob/master/basicStructure.png" width="150">
+  
+    <img src="https://github.com/siusoon/VocableCode/blob/master/basicStructure.png" width="200">
+    
   - Structure with setup and draw, and other sequences/functions e.g preload()
   - [Coordinate system](https://p5js.org/examples/structure-coordinates.html)
-     <img src="https://processing.org/tutorials/drawing/imgs/drawing-03.svg " width="300">
+     <img src="https://processing.org/tutorials/drawing/imgs/drawing-03.svg" width="550">
   - [basic syntax](https://p5js.org/reference/) e.g color, background, createCanvas, for-loop, if-else statments, var
   - Naming: [Variables](https://p5js.org/examples/data-variables.html), [Arrays](https://p5js.org/examples/arrays-array.html) and [functions](https://p5js.org/examples/structure-functions.html)
   - [Conditions](https://p5js.org/examples/control-conditionals-1.html), repetitions and differences
