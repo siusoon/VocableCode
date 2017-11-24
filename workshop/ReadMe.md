@@ -15,9 +15,6 @@ First workshop: 25 Nov 2017 at Aarhus (as part of [!=null](http://notnull.anders
 
 5. [Activity B - Tinkering Code](#exerciseB)
 6. [Discussion](#discussion)
-
--- BREAK
-
 7. [Activity C - Writing, Thinking and Creating your own vocable code](#owncode)
 8. [Performing Code](#codeperformance)
 
@@ -45,7 +42,7 @@ First workshop: 25 Nov 2017 at Aarhus (as part of [!=null](http://notnull.anders
 !NB: unzip (either double click or on linux> terminal "unzip file.zip -d destination_folder", see more [here](https://askubuntu.com/questions/86849/how-to-unzip-a-zip-file-from-the-terminal))
 
 ## Activity A - Decoding, Reading and Interpreting Code and Logics <a name="exerciseA"></a>
-- Download the [Source code](https://github.com/siusoon/VocableCode) -> click the green download button -> unzip the file -> drag the index.html file onto the browser. 
+- Download the [Source code](https://github.com/siusoon/VocableCode) -> click the green download button -> unzip the file -> drag the index.html file (under the folder "vocablecode_program") onto the browser. 
 - **Mini exA1: Identify the possible logics and effects based on what you see and what you hear.** (Run Vocable Code by dragging the index.html file-under the folder called "vocablecode_program"-onto your browser) Directions: 
   - Visual (what you see?)
   - Sound (what you hear?)
@@ -85,9 +82,9 @@ First workshop: 25 Nov 2017 at Aarhus (as part of [!=null](http://notnull.anders
 ## Activity B: Tinkering code  <a name="exerciseB"></a>
 - The concept of [Tinkering](https://tinkering.exploratorium.edu/art-tinkering)
 
-- **Mini exB1: Exploring numbers and their effects and how things work - Changing parameters esp numbers** (e.g color no in 'Background()' and 'this.gradient()', size of text in 'this.text', speed in 'this.speed = random()', random no range in 'random()', etc.)
+- **Mini exB1: Exploring numbers and their effects and how things work - Changing parameters esp numbers** (e.g color no in 'Background()' and 'this.gradient()', size of text in 'this.text', speed in 'this.speed = random()', random no range in 'random()', etc. in vocableCode_xx.js)
 
-- **Mini exB2: Exploring the semantic aspect of code by changing the names to create your own codework (both in js and json), realizing how names and logics are conflated both technically and poetically.** (When you change the name, make sure you have searched for other parts of the program that have used the same name. e.g variable 'non_binary' or 'withPride' is used more than one time in the program.)
+- **Mini exB2: Exploring the semantic and poetic aspect of code by changing the names to create your own codework (both in js and json).** How names and logics are conflated both technically and poetically? (When you change the name, make sure you have searched for other parts of the program that have used the same name. e.g variable 'non_binary' or 'withPride' is used more than one time in the program.)
 
 !NB1: For every change of the number/name, save the file and then refresh the browser (with your web console opens to check for any errors may occur.)
 
@@ -104,6 +101,7 @@ First workshop: 25 Nov 2017 at Aarhus (as part of [!=null](http://notnull.anders
 ## Activity C: Writing, Thinking and Creating your own vocable code <a name="exerciseC"></a>
 Work in pairs:
 - **Mini exC1: Where is your own voice?**
+  - What is queer? (see [feministing](http://feministing.com/2010/06/16/whats-the-difference-between-lesbian-and-queer/) and the comments of the article)
   - Try to create two voices and two statments of your own, and see if you can incorporate that into Vocable Code (1. Record two of your voices in wav file format 2. see voices.json file and add your name and statements)
     - Record your/other voices through your smartphone (download a free app e.g VoiceRecorder, or you can try with my voice recorder)
     - The wav files are named in this convention: firstname2.wav and firstname3.wav -> all are put under the folder called "inclusive\voices\"
