@@ -77,14 +77,16 @@ First workshop: 25 Nov 2017 at Aarhus (as part of [!=null](http://notnull.anders
   - [Conditions](https://p5js.org/examples/control-conditionals-1.html), repetitions and differences
   - Error log
   
-  <img src="https://github.com/siusoon/VocableCode/blob/master/error.png" width="500">
+    <img src="https://github.com/siusoon/VocableCode/blob/master/error.png" width="550">
 
 ## Activity B: Tinkering code  <a name="exerciseB"></a>
 - The concept of [Tinkering](https://tinkering.exploratorium.edu/art-tinkering)
-- Mini exB1: Exploring numbers and their effects and how things work - Changing parameters esp numbers (e.g random no, color no, size of text, speed etc)
-- Mini exB2: Exploring the semantic aspect of code by changing the names to create your own codework (both in js and json), realizing how names and logics are conflated both technically and poetically.
+- Mini exB1: Exploring numbers and their effects and how things work - Changing parameters esp numbers (e.g color no in 'Background()' and 'this.gradient()', size of text in 'this.text', speed in 'this.speed = random()', random no range in 'random()', etc.)
+- Mini exB2: Exploring the semantic aspect of code by changing the names to create your own codework (both in js and json), realizing how names and logics are conflated both technically and poetically. (When you change the name, make sure you have searched for other parts of the program that have used the same name. e.g variable 'non_binary' or 'withPride' is used more than one time in the program.)
 
-!NB: Rememeber what you have done (which line of code you have changed) and test it on browser for any tiny changes made. (good for error checking)
+!NB1: For every change of the number/name, save the file and then refresh the browser (with your web console opens to check for any errors may occur.)
+!NB2: Rememeber what you have done (which line of code you have changed) and test it on your browser for any tiny changes made. (good for error checking)
+!NB3: Don't panic if nothing show up on the webpage or with error msg on the web console. It is ok to encounter error as it helps us to understand how things work/not work, as well as the underlying logics. You can always undo and try again.
 
 ## Discussion  <a name="discussion"></a>
 - Where do you normally read/see a poem? 
@@ -94,11 +96,12 @@ First workshop: 25 Nov 2017 at Aarhus (as part of [!=null](http://notnull.anders
 
 ## Activity C: Writing, Thinking and Creating your own vocable code <a name="exerciseC"></a>
 - Mini exC1: Where is your own voice? 
-  - Try to create two voices and two statments of your own, and see if you can incorporate that into Vocable Code (see json files and becareful of the file naming)
+  - Try to create two voices and two statments of your own, and see if you can incorporate that into Vocable Code (1. Record two of your voices in wav file format 2. see voices.json file and add your name and statements)
   - You may also try to modify/delete/add existing voices and statements
   - See the constrains [here](https://github.com/siusoon/VocableCode) > Go to Process
-- Mini exC2: Add/change functions, effects and behaviors
-- Mini exC3: If you have given a chance to change entirely about Vocable Code, what will you change and how will you change it? What might be the potential logic/algorithm that you want to add in order to make a poetic poetry? Make a sketch! 
+- Mini exC2: Add/change functions, effects and behaviors in the js file
+  - e.g changing background and font color, text size, movement from vertical to horizontal and add shapes in the background, and many others...
+- Mini exC3: If you have given a chance to change entirely about Vocable Code, what will you change and how will you change it? What might be the potential logic/algorithm that you want to add in order to make a poetic poetry? Make a sketch or pseudocode! 
 
 ## Performing Code <a name="codeperformance"></a>
 
