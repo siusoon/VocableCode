@@ -116,7 +116,7 @@ Work in pairs:
 - **Mini exC2 (optional): Add/change functions, effects and behaviors in the js file**
   - e.g changing background and font color, text size, movement from vertical to horizontal and add shapes in the background, and many others...
   
-- **Mini exC3 (optional): If you have given a chance to change entirely about Vocable Code, what will you change and how will you change it? What might be the potential logic/algorithm that you want to add in order to make a poetic poetry? Make a sketch or pseudocode!**
+- **Mini exC3 (optional): If you have given a chance to change entirely about Vocable Code, what will you change and how will you change it? What might be the potential logic/algorithm that you want to add in order to write a codework (code poetry)? Make a sketch or pseudocode!**
 
 ## Performing Code <a name="codeperformance"></a>
 
@@ -128,5 +128,5 @@ Work in pairs:
 - [Code Poetry](http://code-poetry.com/) by Daniel Holden and Chris Kerr.
 - [CCSWG14 - Feminist Programming Language](http://haccslab.com/?p=85) by Viola Lasmana
 - [Feminist Software Foundation](https://github.com/ErisBlastar/cplusequality)
-- [Zeroes and Ones: Digital Women and the New Technoculture](https://monoskop.org/File:Plant_Sadie_Zeros_and_Ones_Digital_Women_and_the_New_Technoculture_1998.pdf)(1997) by Sadie Plant
-- [Designing for Difference](http://townsendgroups.berkeley.edu/sites/default/files/differences_mcpherson.pdf)(2014) by Tara McPherson
+- [Zeroes and Ones: Digital Women and the New Technoculture](https://monoskop.org/File:Plant_Sadie_Zeros_and_Ones_Digital_Women_and_the_New_Technoculture_1998.pdf) (1997) by Sadie Plant
+- [Designing for Difference](http://townsendgroups.berkeley.edu/sites/default/files/differences_mcpherson.pdf) (2014) by Tara McPherson
