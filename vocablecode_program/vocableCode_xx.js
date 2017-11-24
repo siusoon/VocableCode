@@ -86,7 +86,7 @@ function notNew(getQueer) {
 	this.xx = width/2;
 	this.yy = random(height/3,height+80);
 	this.speed = random(2,5);
-	this.gradient = 240;
+	this.gradient = 240;  //starting color
 
 	this.moveUP = function() {
 		this.yy += int(random(-this.speed));  //the movement
