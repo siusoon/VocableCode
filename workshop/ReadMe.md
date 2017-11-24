@@ -71,6 +71,9 @@ First workshop: 25 Nov 2017 at Aarhus (as part of [!=null](http://notnull.anders
      
   - [Basic syntax](https://p5js.org/reference/) e.g color, background, createCanvas, functions, for-loop, if-else statments, var
   - Naming: [Variables](https://p5js.org/examples/data-variables.html), [Arrays](https://p5js.org/examples/arrays-array.html) and [functions](https://p5js.org/examples/structure-functions.html)
+  
+    <img src="https://github.com/siusoon/VocableCode/blob/master/naming.png" width="550">
+
   - [Conditions](https://p5js.org/examples/control-conditionals-1.html), repetitions and differences
   - Error log
 
