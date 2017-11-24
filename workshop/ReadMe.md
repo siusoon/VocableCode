@@ -1,4 +1,4 @@
-# Feminist Coding in p5.js | Can Software be Feminist?
+# Winnie Soon: Feminist Coding in p5.js | Can Software be Feminist?
 
 First workshop: 25 Nov 2017 in Aarhus (as part of [!=null](http://notnull.andersvisti.dk/winnie.php) platform, organized by Anders Visti)
 
