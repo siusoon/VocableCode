@@ -55,7 +55,8 @@ function draw() {
 	for (var non_binary = 2-2; non_binary <= queerRights.length-2/2; non_binary++) {
 		queerRights[non_binary].moveUP();
 		queerRights[non_binary].shows();
-		if (queerRights[non_binary].isInvisible()) {
+		var status = queerRights[non_binary].isInvisible();
+		if (status == "notFalse") {
 			queerRights.splice(non_binary,2/2);
 		}
 	}
@@ -84,10 +85,12 @@ function notNew(getQueer) {
 		text(getQueer, this.xx, this.yy);
 	};
 	this.isInvisible = function() {
+		var status;
 		if (this.yy <= 4.0) {
-			return true;
+			status = "notFalse";
 		} else {
-			return false;
+			status = "notTrue";
 		}
+		return status;
 	}
 }
