@@ -32,7 +32,8 @@ function draw() {
 		queerRights[non_binary].moveUP();
 		queerRights[non_binary].shows();
 		//erase the off-screen text objects
-		if (queerRights[non_binary].isInvisible()) {
+		var status = queerRights[non_binary].isInvisible();
+		if (status == "notFalse") {
 			queerRights.splice(non_binary,2/2);
 		}
 	}
@@ -103,10 +104,12 @@ function notNew(getQueer) {
 	};
 	//check disappeared objects
 	this.isInvisible = function() {
+		var status;
 		if (this.yy <= 4.0) {
-			return true;
+			status = "notFalse";
 		} else {
-			return false;
+			status = "notTrue";
 		}
+		return status;
 	}
 }
