@@ -14,15 +14,15 @@ function preload() {
 
 function makeVisible() {
 	queers = whatisQueer.queers;
-	var addQueers = int(random(3,6));
+	var addQueers = floor(random(3,6));
 	var makingStatements;
 	for (var genderRoles = 2; genderRoles <= addQueers-2; genderRoles++) {
-		var WhoIsQueer = int(random(queers.length));
+		var WhoIsQueer = floor(random(queers.length));
 		if (queers[WhoIsQueer].statement3 == "null") {
 			queerRights.push(new notNew(queers[WhoIsQueer].statement2));
 			makingStatements = 2;
 		}else{
-			makingStatements = int(random(2,4));
+			makingStatements = floor(random(2,4));
 			if (makingStatements == 2) {
 				queerRights.push(new notNew(queers[WhoIsQueer].statement2));
 			}else{
@@ -73,7 +73,7 @@ function notNew(getQueer) {
 	this.gradient = 240;
 
 	this.moveUP = function() {
-		this.yy += int(random(-this.speed));
+		this.yy += floor(random(-this.speed));
 	};
 	this.shows = function() {
 		textFont(withPride);
