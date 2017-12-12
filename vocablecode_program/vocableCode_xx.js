@@ -46,18 +46,18 @@ function draw() {
 //creation of text, which text and which voice to speak
 function makeVisible() {
 	queers = whatisQueer.queers;	//get the json txt
-	var addQueers = int(random(3,6));  //add no. of statements on screen, see diff
+	var addQueers = floor(random(3,6));  //add no. of statements on screen, see diff
 	var makingStatements;
 	//prepare to select and add statements on screen one by one according to 'addQueers'
 	for (var genderRoles = 2; genderRoles <= addQueers-2; genderRoles++) {
-		var WhoIsQueer = int(random(queers.length)); //select 1 from the json list
+		var WhoIsQueer = floor(random(queers.length)); //select 1 from the json list
 		//check any empty statement
 		if (queers[WhoIsQueer].statement3 == "null") {
 			queerRights.push(new notNew(queers[WhoIsQueer].statement2));
 			makingStatements = 2;
 		}else{
 			//both statements with values on it
-			makingStatements = int(random(2,4));
+			makingStatements = floor(random(2,4));
 			if (makingStatements == 2) {
 				queerRights.push(new notNew(queers[WhoIsQueer].statement2));
 			}else{
@@ -83,14 +83,14 @@ function speakingNow() {
 function notNew(getQueer) {
 
 	//attributes of text
-	this.size = int(random(15,30));
+	this.size = floor(random(15,30));
 	this.xx = width/2;
 	this.yy = random(height/3,height+80);
 	this.speed = random(2,5);
 	this.gradient = 240;  //starting color
 
 	this.moveUP = function() {
-		this.yy += int(random(-this.speed));  //the movement
+		this.yy += floor(random(-this.speed));  //the movement
 	};
 	this.shows = function() {
 		textFont(withPride);
