@@ -85,18 +85,20 @@ function notNew(getQueer) {
 	//attributes of text
 	this.size = floor(random(15,30));
 	this.xx = width/2;
-	this.yy = random(height/3,height+80);
-	this.speed = random(2,5);
-	this.gradient = 240;  //starting color
+	this.yy = random(height/3,height+20);
+	this.speed = random(2,3);
+	this.gradient = 240;
 
-	this.moveUP = function() {
-		this.yy += floor(random(-this.speed));  //the movement
+	this.moveUP = function() {	//the movement
+		//this.yy += floor(random(-this.speed));
+		this.yy += 0-this.speed;
+		this.speed += sin(radians(frameCount%350*this.speed)) ;
 	};
 	this.shows = function() {
 		textFont(withPride);
 		textSize(this.size);
 		textAlign(CENTER);
-		this.gradient-=0.3;;
+		this.gradient-=0.5;  //0.3
 		//other special text effects: strokeWeight(1.3); stroke(255); fill(this.gradient + sin(frameCount*0.1) * 150);
 		noStroke();
 		fill(this.gradient);
@@ -104,12 +106,13 @@ function notNew(getQueer) {
 	};
 	//check disappeared objects
 	this.isInvisible = function() {
-		var status;
+		if (this.yy <= 4.0 || this.yy >= height+10) {
 		if (this.yy <= 4.0) {
 			status = "notFalse";
 		} else {
 			status = "notTrue";
 		}
 		return status;
+	}
 	}
 }
