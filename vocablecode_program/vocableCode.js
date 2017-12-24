@@ -74,7 +74,7 @@ function notNew(getQueer) {
 
 	this.moveUP = function() {
 		this.yy += 0-this.speed;
-	  this.speed += sin(radians(frameCount%350*this.speed)) ;
+	  	this.speed += sin(radians(frameCount%350*this.speed)) ;
 	};
 
 	this.shows = function() {
