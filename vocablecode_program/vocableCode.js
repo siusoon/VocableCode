@@ -66,27 +66,29 @@ function draw() {
 }
 
 function notNew(getQueer) {
-	this.size = int(random(15,30));
+	this.size = floor(random(15,30));
 	this.xx = width/2;
-	this.yy = random(height/3,height+80);
-	this.speed = random(2,5);
+	this.yy = random(height/3,height+20);
+	this.speed = random(2,3);
 	this.gradient = 240;
 
 	this.moveUP = function() {
-		this.yy += floor(random(-this.speed));
+		this.yy += 0-this.speed;
+	  this.speed += sin(radians(frameCount%350*this.speed)) ;
 	};
+
 	this.shows = function() {
 		textFont(withPride);
 		textSize(this.size);
 		textAlign(CENTER);
-		this.gradient-=0.3;;
+		this.gradient-=0.5;  
 		noStroke();
 		fill(this.gradient);
 		text(getQueer, this.xx, this.yy);
 	};
 	this.isInvisible = function() {
 		var status;
-		if (this.yy <= 4.0) {
+		if (this.yy <= 4.0 || this.yy >= height+10) {
 			status = "notFalse";
 		} else {
 			status = "notTrue";
