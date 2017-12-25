@@ -15,7 +15,7 @@ var voices = [];
 
 //Preload: used to handle asynchronous loading of external files. See: https://p5js.org/reference/#/p5/preload
 function preload() {
-	withPride = loadFont('inclusive/Gilbert_TypeWithPride.otf');
+	withPride = loadFont('inclusive/Gilbert_TypeWithPride.otf');  //this font only works on this p5.lib
 	whatisQueer = loadJSON('inclusive/voices.json');
 }
 
@@ -93,7 +93,8 @@ function notNew(getQueer) {
 		//this.yy += floor(random(-this.speed));   //just goes up
 		this.yy += 0-this.speed;
 		this.speed += sin(radians(frameCount%360*this.speed)) - 0.009 ;
-
+		//this.speed += sin(radians(frameCount*this.speed)*2); //frequency of the sin curve
+		//this.speed += sin(radians(map(abs(frameCount%360*this.speed),0,360*this.speed,-PI,2*PI))) ;
 	};
 	this.shows = function() {
 		textFont(withPride);
@@ -114,5 +115,4 @@ function notNew(getQueer) {
 		}
 		return status;
 	}
-	
 }
