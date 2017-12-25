@@ -114,5 +114,5 @@ function notNew(getQueer) {
 		}
 		return status;
 	}
-	}
+	
 }
