@@ -90,9 +90,10 @@ function notNew(getQueer) {
 	this.gradient = 240;
 
 	this.moveUP = function() {	//the movement
-		//this.yy += floor(random(-this.speed));
+		//this.yy += floor(random(-this.speed));   //just goes up
 		this.yy += 0-this.speed;
-		this.speed += sin(radians(frameCount%350*this.speed)) ;
+		this.speed += sin(radians(frameCount%360*this.speed)) - 0.009 ;
+
 	};
 	this.shows = function() {
 		textFont(withPride);
