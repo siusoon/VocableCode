@@ -108,7 +108,6 @@ function notNew(getQueer) {
 	//check disappeared objects
 	this.isInvisible = function() {
 		if (this.yy <= 4.0 || this.yy >= height+10) {
-		if (this.yy <= 4.0) {
 			status = "notFalse";
 		} else {
 			status = "notTrue";
