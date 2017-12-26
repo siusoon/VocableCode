@@ -31,15 +31,15 @@ Polly Poon, [Søren Pold](http://pure.au.dk/portal/en/persons/id(4db7e12a-61c5-4
 ```javascript
 function makeVisible() {
 	queers = whatisQueer.queers;
-	var addQueers = int(random(3,6));
+	var addQueers = floor(random(3,6));
 	var makingStatements;
 	for (var genderRoles = 2; genderRoles <= addQueers-2; genderRoles++) {
-		var WhoIsQueer = int(random(queers.length));
+		var WhoIsQueer = floor(random(queers.length));
 		if (queers[WhoIsQueer].statement3 == "null") {
 			queerRights.push(new notNew(queers[WhoIsQueer].statement2));
 			makingStatements = 2;
 		}else{
-			makingStatements = int(random(2,4));
+			makingStatements = floor(random(2,4));
 			if (makingStatements == 2) {
 				queerRights.push(new notNew(queers[WhoIsQueer].statement2));
 			}else{
