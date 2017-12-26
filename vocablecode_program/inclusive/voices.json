@@ -9,14 +9,14 @@
     		"lastname": "Soon",
     		"statement2": "not fixed not null",
     		"statement3": "not null not closed"
-    	},
+    		},
 		{
   		"iam": "Polly",
     		"lastname": "Poon",
     		"statement2": "possibility with no boundary",
     		"statement3": "null"
  		},
-    	{
+    		{
   		"iam": "Soren",
     		"lastname": "Pold",
     		"statement2": "fixing the binary",
@@ -45,7 +45,7 @@
     		"lastname": "Pereira",
     		"statement2": "going south",
     		"statement3": "deconstruction performance reflexiveness"
-    	},
+    		},
  		{
   		"iam": "Annette",
     		"lastname": "Markham",
