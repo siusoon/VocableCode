@@ -25,7 +25,7 @@ See the workshop's report [here](http://computationalthinking.siusoon.net/articl
 
 # Credits
 
-Polly Poon, [Søren Pold](http://pure.au.dk/portal/en/persons/id(4db7e12a-61c5-4e14-9259-5a071cb224eb).html), [Magda Tyzlik Carver](http://thecommonpractice.org/), [Sarah Schoor](http://pure.au.dk/portal/en/persons/id(eee59ed0-acdd-45a2-8661-79fab555a694).html), [Elyzabeth Holford](http://ohiofusion.com/10-questions-with-elyzabeth-holford/), [Gabriel Pereira](http://gabrielpereira.net/), [Annette Markham](https://annettemarkham.com/)
+Polly Poon, [Søren Pold](http://pure.au.dk/portal/en/persons/id(4db7e12a-61c5-4e14-9259-5a071cb224eb).html), [Magda Tyzlik Carver](http://thecommonpractice.org/), [Sarah Schoor](http://pure.au.dk/portal/en/persons/id(eee59ed0-acdd-45a2-8661-79fab555a694).html), [Elyzabeth Holford](http://ohiofusion.com/10-questions-with-elyzabeth-holford/), [Gabriel Pereira](http://gabrielpereira.net/), [Annette Markham](https://annettemarkham.com/), Anna Brynskov
 
 # Codework
 ```javascript
