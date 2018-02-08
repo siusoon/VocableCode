@@ -17,7 +17,7 @@ Additionally, with the aim of having 'Vocable code' in the context of a feminist
 
 The workshop is called "Feminist Coding in p5.js | Can Software be Feminist?", addressing computer code as a language that is designed for both human and machine reading. While participants will base on the artwork 'Vocable Code' to learn basic coding concepts, they will also explore code as expressive and aesthetic materials, such as computer code as poetic text that is performative and executable. Through thinking and discussing code and (non)binary logics, participants will incorporate textual materials, visual effects and audio elements/recording voices to produce their own algorithmic vocable code (in the form of both software and webpages) that addresses the border theme of feminism.
 
-See the workshop call [here](http://notnull.andersvisti.dk/winnie.php)
+See the workshop call [here](https://notnull.andersvisti.dk/workshop/feminist-coding-p5js-can-software-be-feminist)
 
 See the workshop's outline [here](https://github.com/siusoon/VocableCode/tree/master/workshop)
 
