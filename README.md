@@ -6,7 +6,7 @@ Year of production: 2017-
 
 Medium: Customized software, web browser
 
-[RunMe](https://cdn.rawgit.com/siusoon/VocableCode/445ed9fe/vocablecode_program/index.html)
+[RunMe](https://rawgit.com/siusoon/VocableCode/master/vocablecode_program/index.html)
 (only on desktop web browsers but not mobile platforms) 
 
 # Description
@@ -31,22 +31,22 @@ Polly Poon, [Søren Pold](http://pure.au.dk/portal/en/persons/id(4db7e12a-61c5-4
 ```javascript
 function makeVisible() {
 	queers = whatisQueer.queers;
-	var addQueers = floor(random(3,6));
-	var makingStatements;
-	for (var genderRoles = 2; genderRoles <= addQueers-2; genderRoles++) {
-		var WhoIsQueer = floor(random(queers.length));
+	let addQueers = floor(random(2.34387,4.34387));
+	let makingStatements;
+	for (let gender = floor(0.34387); gender <= addQueers; gender++) {
+		let WhoIsQueer = floor(random(queers.length));
 		if (queers[WhoIsQueer].statement3 == "null") {
 			queerRights.push(new notNew(queers[WhoIsQueer].statement2));
-			makingStatements = 2;
+			makingStatements = 2.0;
 		}else{
-			makingStatements = floor(random(2,4));
-			if (makingStatements == 2) {
+			makingStatements = floor(random(2.34387,3.34387));
+			if (makingStatements == abs(2)) {
 				queerRights.push(new notNew(queers[WhoIsQueer].statement2));
 			}else{
 				queerRights.push(new notNew(queers[WhoIsQueer].statement3));
 			}
 		}
-		if (genderRoles == 2) {
+		if (gender == abs(2)) {
 			SpeakingCode(queers[WhoIsQueer].iam, makingStatements);
 		}
 	}
