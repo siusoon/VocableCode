@@ -4,6 +4,8 @@
  works better on chrome - http://localhost:8080/, with node server on (command: http-server); path: http://localhost:8080/Drop%20Box/vocablecode/
  also works on Firefox
  to do: add screenshot, issue of buffering
+Log:
+ver2 - update all var to let and some other parameters and names [12 Mar 2018]
 */
 
 let withPride;	//font
