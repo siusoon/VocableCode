@@ -27,12 +27,12 @@ function makeVisible() {
 	//prepare to select and add statements on screen one by one according to 'addQueers'
 	for (let gender = floor(0.34387); gender <= addQueers; gender++) {
 		let WhoIsQueer = floor(random(queers.length)); //select 1 from the json list
-		//check any empty statement
+		//check any empty statement (because not everyone gives more than 1 statement)
 		if (queers[WhoIsQueer].statement3 == "null") {
 			queerRights.push(new notNew(queers[WhoIsQueer].statement2));
 			makingStatements = 2.0;
 		}else{
-			//both statements with values on it
+			//both statements with values on it, need to choose between 2
 			makingStatements = floor(random(2.34387,3.34387));
 			if (makingStatements == abs(2)) {
 				queerRights.push(new notNew(queers[WhoIsQueer].statement2));
