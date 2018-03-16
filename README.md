@@ -77,27 +77,29 @@ References:
 
 # Process
 
-The work collects statements and voices from participants with certain given constraints, as well as writing code with constraints too:
+The organization of the piece is structured around the style of constrained writing, both in terms of the collection of writing and voices from participants, as well as how to write the source code.
 
-- **Writing (for participants)**
-1. Complete the sentence with the starting words: "Queer is..."
-2. Each sentence contains no more than 5 words (the starting word, queer, is not included).
-3. More than 1 sentence is allowed but not more than 3.
-4. English word/sentence is required.
-5. It is ok to have just one word.
+First you identify a participant that is willing to take part on your project. Then you send them instructions in advance as below. 
 
-- **Speaking (for participants)**
-1. It is up to the participant to decide the temporality and rhythm of speaking the text
-2. It is up to the participant to either speak the full word, full sentence with different pitch/tempo/rhythm. They can also speak a certain part (phonetics) of the word/sentence. In other words, the word or sentence doesn't need to be completed.
+1.	Complete the sentence with the starting words: “Queer is…”
+2.	Each sentence contains no more than 5 words (the starting words-“queer is” is not included)
+3.	More than 1 sentence is allowed but not more than 3.
+4.	English word/sentence is required.
+5.	It is ok to have just one word.
 
-- **Coding (for coder)**
-1. Not to use binary 0 or 1
-2. Not to use either a single x or y
-3. Not to use > or <, but with >= or <=
-4. Mindful of the variable, array and function names
+Then you have to meet the participant face to face with some post-it notes for them to write their sentences and to prepare for the speaking and recording part. Rules are as follow:
 
-^ items 1-3 are inspired by [The Feminist Software Foundations](https://github.com/TheFeministSoftwareFoundation/C-plus-Equality) 
+1.	It is up to the participant to decide the temporality and rhythm of speaking the text
+2.	It is up to the participant to either speak the full word or full sentence with different pitch/tempo/rhythm. 
+3.	They can also speak only a certain part (phonetics) of the word or sentence. In other words, the word or sentence doesn’t need to be fully pronounced. 
+4.	The first two provided words "queer is" can be omitted.
 
+Vocable Code is highly inspired by [The Feminist Software Foundations](https://github.com/TheFeministSoftwareFoundation/C-plus-Equality), especially the implementation logics of C+=, which is a feminist programming language written by and for femninists. Below it shows the constrains that have been implemented in coding Vocable Code.
+
+1.	Do not use binary 0 or 1
+2.	Do not use either a single X or Y
+3.	Do not use a single operator of ‘>’ or ‘<’
+4.	Mindful of all the variable, array and function’s naming. (e.g not to use the name class for constructing a class)
 
 # Create your own vocable code
 
