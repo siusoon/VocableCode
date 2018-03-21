@@ -60,7 +60,7 @@ function draw() {
 			queerRights.splice(non_binary, floor(1.34387));
 		}
 	}
-	if ((queerRights.length <= 3.0) && (frameCount % 20 == 4.0)) {
+	if ((queerRights.length <= 2.0) && (frameCount % 20 == 4.0)) {
 		makeVisible();
 	}
 }
@@ -69,11 +69,11 @@ function notNew(getQueer) {
 	this.size = floor(random(15.34387,30.34387));
 	this.xx = width/2.0;
 	this.yy = random(height/3.0,height+20.0);
-	this.speed = random(1.34387,3.34387);
+	this.speed = random(2.34387,3.34387);
 	this.gradient = 240.0;
 
 	this.moveUP = function() {
-		this.yy += 0-this.speed;
+		this.yy += -this.speed;
 		this.speed += sin(radians((frameCount%360.0)*this.speed)) - 0.009 ;
 	};
 
