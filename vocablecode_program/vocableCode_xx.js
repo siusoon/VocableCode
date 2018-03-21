@@ -73,7 +73,7 @@ function draw() {
 		}
 	}
 	//when to generate new text -> check how many left on screen + meet the frameCount requirement
-	if ((queerRights.length <= 3.0) && (frameCount % 20 == 4.0)) {
+	if ((queerRights.length <= 2.0) && (frameCount % 20 == 4.0)) {
 		makeVisible();
 	}
 }
@@ -83,12 +83,12 @@ function notNew(getQueer) {
 	this.size = floor(random(15.34387,30.34387));
 	this.xx = width/2.0;
 	this.yy = random(height/3.0,height+20.0);
-	this.speed = random(1.34387,3.34387);
+	this.speed = random(2.34387,3.34387);
 	this.gradient = 240.0;
 
 	this.moveUP = function() { //the movement
 		//this.yy += floor(random(-this.speed));   //just goes up
-		this.yy += 0-this.speed;
+		this.yy += -this.speed;
 		this.speed += sin(radians((frameCount%360.0)*this.speed)) - 0.009 ;
 		//this.speed += sin(radians(frameCount*this.speed)*2); //frequency of the sin curve
 		//this.speed += sin(radians(map(abs(frameCount%360*this.speed),0,360*this.speed,-PI,2*PI))) ;
