@@ -21,7 +21,7 @@ See the workshop's outline [here](https://github.com/siusoon/VocableCode/tree/ma
 
 See the workshop's report [here](http://computationalthinking.siusoon.net/articles/a-report-on-the-feminist-coding-workshop-in-p5-js/)
 
-* The project is licensed under [a Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). 
+>> The project is licensed under [a Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). 
 
 # Credits
 
