@@ -24,60 +24,60 @@ First workshop: 25 Nov 2017 in Aarhus (as part of [!=null](http://notnull.anders
   - The background of this workshop + what we can do in 5 hrs
   - What is Web, [Javascript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript) and [P5js](https://p5js.org/) and why?
     ![Web](https://www.codeproject.com/KB/books/DevelopWebWidgetHtmlCssJs/bigpicture_small.png "web")
-    
+
     *Reference image: [Creating Web Widget with HTML, CSS, and JavaScript by Raj Lal](https://www.codeproject.com/Articles/81355/Chapter-Creating-Web-Widget-with-HTML-CSS-and-Ja)*
     - [p5js Contributor’s Conference Interviews :: Lauren McCarthy](https://vimeo.com/129605734)
     - [Diversity with art + code](http://diversity.p5js.org/about.html) and [interviews](https://www.youtube.com/channel/UCwtoGoM92Bais5heYYxmB5w)
-  
+
 ## Technical Setup <a name="technical"></a>
-  - [Firefox Browser](https://www.mozilla.org/en-US/firefox/new/) => for by passing the [cross origin requests](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) 
+  - [Firefox Browser](https://www.mozilla.org/en-US/firefox/new/) => for by passing the [cross origin requests](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
   - The Firefox browser: Open the console panel (Browser > Tools > Web developer > Web console)
   - Speaker is on and workable
   - Code editor (try downloading [atom](https://atom.io/))
   - Download p5.js [here](https://p5js.org/download/) > Unzip > drag the html file (under the folder called empty-example) to the browser > anything happens?
-  - Then drag sketch.js to atom > go to p5js [get started](https://p5js.org/get-started/) > copy the code to atom > refresh your browser 
-    <img src="https://github.com/siusoon/VocableCode/blob/master/screenshot2.png" width="550">
-    <img src="https://github.com/siusoon/VocableCode/blob/master/screenshot3.png" width="550">
+  - Then drag sketch.js to atom > go to p5js [get started](https://p5js.org/get-started/) > copy the code to atom > refresh your browser
+    <img src="https://github.com/siusoon/VocableCode/blob/master/screenshot/screenshot2.png" width="550">
+    <img src="https://github.com/siusoon/VocableCode/blob/master/screenshot/screenshot3.png" width="550">
 
 !NB: unzip (either double click or on linux> terminal "unzip file.zip -d destination_folder", see more [here](https://askubuntu.com/questions/86849/how-to-unzip-a-zip-file-from-the-terminal))
 
 ## Activity A - Decoding, Reading and Interpreting Code and Logics <a name="exerciseA"></a>
-- Download the [Source code](https://github.com/siusoon/VocableCode) -> click the green download button -> unzip the file -> drag the index.html file (under the folder "vocablecode_program") onto the browser. 
-- **Mini exA1: Identify the possible logics and effects based on what you see and what you hear.** (Run Vocable Code by dragging the index.html file-under the folder called "vocablecode_program"-onto your browser) Directions: 
+- Download the [Source code](https://github.com/siusoon/VocableCode) -> click the green download button -> unzip the file -> drag the index.html file (under the folder "vocablecode_program") onto the browser.
+- **Mini exA1: Identify the possible logics and effects based on what you see and what you hear.** (Run Vocable Code by dragging the index.html file-under the folder called "vocablecode_program"-onto your browser) Directions:
   - Visual (what you see?)
   - Sound (what you hear?)
   - Process (what are the sequences?)
   - Time (what have been changed over time?)
   - Data (What kind of data are involved?)
-  
+
 - The concept of pseudocode (see more [here](http://www.engr.sjsu.edu/bjfurman/courses/ME30/ME30pdf/Notes_on_Algorithms.pdf))
   - Can be used as an informal tool for planning/outlining your programs and algorithms
   - Human readable: it consists of short phrases that are used to explain specific tasks in high level
   - Focuses on logics but not syntaxes
-  - Independent of any programming language 
-  
-- *Mini ExA2: Reading code and Wild Guess: Mapping the source code with the identifiable items from exA1* 
+  - Independent of any programming language
+
+- *Mini ExA2: Reading code and Wild Guess: Mapping the source code with the identifiable items from exA1*
 
 ## The basic of coding <a name="basics"></a>
   - HTML/JS/Data structure + [p5.sound library](https://p5js.org/reference/#/libraries/p5.sound) + [JSON](https://www.copterlabs.com/json-what-it-is-how-it-works-how-to-use-it/)
-  
-    <img src="https://github.com/siusoon/VocableCode/blob/master/basicStructure.png" width="200">
-    
+
+    <img src="https://github.com/siusoon/VocableCode/blob/master/screenshot/basicStructure.png" width="200">
+
   - Structure with setup and draw, and other sequences/functions e.g preload()
   - [Coordinate system](https://p5js.org/examples/structure-coordinates.html)
-  
+
      <img src="https://processing.org/tutorials/drawing/imgs/drawing-03.svg" width="550">
-     
+
      *Reference image: [Processing](https://processing.org)*
   - [Basic syntax](https://p5js.org/reference/) e.g color, background, createCanvas, functions, for-loop, if-else statments, var
   - Naming: [Variables](https://p5js.org/examples/data-variables.html), [Arrays](https://p5js.org/examples/arrays-array.html) and [functions](https://p5js.org/examples/structure-functions.html)
-  
-    <img src="https://github.com/siusoon/VocableCode/blob/master/naming.png" width="600">
+
+    <img src="https://github.com/siusoon/VocableCode/blob/master/screenshot/naming.png" width="600">
 
   - [Conditions](https://p5js.org/examples/control-conditionals-1.html), repetitions and differences
   - Error log
-  
-    <img src="https://github.com/siusoon/VocableCode/blob/master/error.png" width="550">
+
+    <img src="https://github.com/siusoon/VocableCode/blob/master/screenshot/error.png" width="550">
 
 ## Activity B: Tinkering code  <a name="exerciseB"></a>
 - The concept of [Tinkering](https://tinkering.exploratorium.edu/art-tinkering)
@@ -93,9 +93,9 @@ First workshop: 25 Nov 2017 in Aarhus (as part of [!=null](http://notnull.anders
 !NB3: Don't panic if nothing show up on the webpage or with error msg on the web console. It is ok to encounter errors as they help us to understand how things work/not work, as well as the underlying logics. You can always undo and try again.
 
 ## Discussion  <a name="discussion"></a>
-- Where do you normally read/see a poem? 
-- What consitite poetry? 
-- How is Vocable Code (as a codework) different from what/where you normally read a poem? 
+- Where do you normally read/see a poem?
+- What consitite poetry?
+- How is Vocable Code (as a codework) different from what/where you normally read a poem?
 - What does it mean by feminist coding and feminist software? How may we explore that?
 
 ## Activity C: Writing, Thinking and Creating your own vocable code <a name="exerciseC"></a>
@@ -105,17 +105,17 @@ Work in pairs:
   - Try to create two voices and two statments of your own, and see if you can incorporate that into Vocable Code (1. Record two of your voices in wav file format 2. see voices.json file and add your name and statements)
     - Record your/other voices through your smartphone (download a free app e.g VoiceRecorder, or you can try with my voice recorder)
     - The wav files are named in this convention: firstname2.wav and firstname3.wav -> all are put under the folder called "inclusive\voices\"
-    - The voices.json file is structured in this convention: 
+    - The voices.json file is structured in this convention:
       - iam: "yourfirstname",
       - lastname: "yourlastname",
       - statement2: "your first statement",
       - statement3: "your second statement"
   - You may also try to modify/delete/add existing voices and statements
   - See the constrains [here](https://github.com/siusoon/VocableCode) > Go to Process
-  
+
 - **Mini exC2 (optional): Add/change functions, effects and behaviors in the js file**
   - e.g changing background and font color, text size, movement from vertical to horizontal and add shapes in the background, and many others...
-  
+
 - **Mini exC3 (optional): If you have given a chance to change entirely about Vocable Code, what will you change and how will you change it? What might be the potential logic/algorithm that you want to add in order to write a codework (code poetry)? Make a sketch or pseudocode!**
 
 ## Performing Code <a name="codeperformance"></a>
