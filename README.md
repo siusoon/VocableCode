@@ -7,7 +7,7 @@ Year of production: 2017-
 Medium: Customized software, web browser
 
 [RunMe](https://rawgit.com/siusoon/VocableCode/master/vocablecode_program/index.html)
-(only on desktop web browsers but not mobile platforms) 
+(**only support Desktop web browsers but not mobile platforms due to performance issues**) 
 
 # Description
 
@@ -24,6 +24,8 @@ See the workshop's report [here](http://computationalthinking.siusoon.net/articl
 # Credits
 
 For those who have contributed to Vocable Code via their voices: Polly Poon, [Søren Pold](http://pure.au.dk/portal/en/persons/id(4db7e12a-61c5-4e14-9259-5a071cb224eb).html), [Magda Tyzlik Carver](http://thecommonpractice.org/), [Sarah Schoor](http://pure.au.dk/portal/en/persons/id(eee59ed0-acdd-45a2-8661-79fab555a694).html), [Elyzabeth Holford](http://ohiofusion.com/10-questions-with-elyzabeth-holford/), [Gabriel Pereira](http://gabrielpereira.net/), [Annette Markham](https://annettemarkham.com/), Anna Brynskov, [Geoff Cox](http://www.anti-thesis.net/)
+
+I am continuously looking for contributors, please get in touch if you would like your voice to be part of this work.
 
 # Codework
 ```javascript
@@ -49,6 +51,16 @@ function makeVisible() {
 		}
 	}
 }
+
+function SpeakingCode(iam, makingStatements) {
+	let getVoice = "inclusive/voices/" + iam + makingStatements + ".wav";
+	speak = loadSound(getVoice, speakingNow);
+}
+
+function speakingNow() {
+	speak.play();
+}
+
 ```
 
 # Technical
@@ -60,11 +72,11 @@ Required materials and working environments:
 - An audio editing software (I use [Audicity](http://www.audacityteam.org/)) 
 - A code editor (I use atom)
 - [p5js](https://p5js.org/) and its related libaries
-- If the program runs on a local browser, it requires a [local server](https://github.com/processing/p5.js/wiki/Local-server). Or you may need a firefox browser to get things up and running. 
+- A browser (Firefox/Chrome) on desktop 
 
 # Background
 
-Informed by constrained writing and experimental writing of codeworks (Raley, 2002; Sondheim, 2001) as well as the publication of Anomalous Press issue 11 on ‘Queerness’ (2014) and Geoff Cox’s writing on 'Speaking Code' (2013), the artwork ‘Vocable code’ explores the notion of queerness through computational thinking, the reading, writing, speaking and thinking with code and language. It is a piece of visual-audio software or electronic literature or web art or a digital poetry that contains different voices and visual interpretation of queerness.
+Informed by constrained writing and experimental writing of codeworks (Raley, 2002; Sondheim, 2001) as well as the publication of Anomalous Press issue 11 on ‘Queerness’ (2014) and Geoff Cox’s writing on 'Speaking Code' (2013), the artwork ‘Vocable Code’ explores the notion of queerness through computational thinking, which is the reading, writing, speaking and thinking with code and language. It is a piece of visual-audio software or electronic literature or web art or a digital poetry that contains different voices and visual interpretation of queerness.
 
 References:
 
@@ -82,8 +94,7 @@ First you identify a participant that is willing to take part on your project. T
 1.	Complete the sentence with the starting words: “Queer is…”
 2.	Each sentence contains no more than 5 words (the starting words-“queer is” is not included)
 3.	More than 1 sentence is allowed but not more than 3.
-4.	English word/sentence is required.
-5.	It is ok to have just one word.
+4.	It is ok to have just one word.
 
 Then you have to meet the participant face to face with some post-it notes for them to write their sentences and to prepare for the speaking and recording part. Rules are as follow:
 
