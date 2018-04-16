@@ -1,9 +1,8 @@
 /*
- About the font: http://www.howdesign.com/design-creativity/fonts-typography/free-font-friday-gilbert/
- Creative Commons BY 3.0
- works better on chrome - http://localhost:8080/, with node server on (command: http-server); path: http://localhost:8080/Drop%20Box/vocablecode/
- also works on Firefox
- to do: add screenshot, issue of buffering
+This vocableCode_xx is a development version with source code explanation (in the form of code comments)
+About the font: http://www.howdesign.com/design-creativity/fonts-typography/free-font-friday-gilbert/
+The project is licensed under a Creative Commons Attribution 4.0 International License.
+Next to do: add screenshot, check out mobile issue, and the issue of buffering
 Log:
 ver2 - update all var to let and some other parameters and names [12 Mar 2018]
 */
