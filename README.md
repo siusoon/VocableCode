@@ -7,7 +7,7 @@ Year of production: 2017-
 Medium: Customized software, web browser
 
 [RunMe](https://rawgit.com/siusoon/VocableCode/master/vocablecode_program/index.html)
-(**only support Desktop web browsers but not mobile platforms due to performance issues**) 
+(**only support Desktop web browsers but not mobile platforms due to performance issues**)
 
 # Description
 
@@ -21,11 +21,11 @@ See the workshop's outline [here](https://github.com/siusoon/VocableCode/tree/ma
 
 See the workshop's report [here](http://computationalthinking.siusoon.net/articles/a-report-on-the-feminist-coding-workshop-in-p5-js/)
 
-** The project is licensed under [a Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). 
+** The project is licensed under [a Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
 # Credits
 
-For those who have contributed to Vocable Code via their voices: Polly Poon, [Søren Pold](http://pure.au.dk/portal/en/persons/id(4db7e12a-61c5-4e14-9259-5a071cb224eb).html), [Magda Tyzlik Carver](http://thecommonpractice.org/), [Sarah Schoor](http://pure.au.dk/portal/en/persons/id(eee59ed0-acdd-45a2-8661-79fab555a694).html), [Elyzabeth Holford](http://ohiofusion.com/10-questions-with-elyzabeth-holford/), [Gabriel Pereira](http://gabrielpereira.net/), [Annette Markham](https://annettemarkham.com/), Anna Brynskov, [Geoff Cox](http://www.anti-thesis.net/)
+For those who have contributed to Vocable Code via their voices: Polly Poon, [Søren Pold](http://pure.au.dk/portal/en/persons/id(4db7e12a-61c5-4e14-9259-5a071cb224eb).html), [Magda Tyzlik Carver](http://thecommonpractice.org/), [Sarah Schoor](http://pure.au.dk/portal/en/persons/id(eee59ed0-acdd-45a2-8661-79fab555a694).html), [Elyzabeth Holford](http://ohiofusion.com/10-questions-with-elyzabeth-holford/), [Gabriel Pereira](http://gabrielpereira.net/), [Annette Markham](https://annettemarkham.com/), Anna Brynskov, [Geoff Cox](http://www.anti-thesis.net/), [Lone Koefoed Hansen](http://pure.au.dk/portal/en/persons/lone-koefoed-hansen(ae5c1697-dc84-4a67-8ba9-b7cb62bbaea3)/projects.html).
 
 I am continuously looking for contributors, please get in touch if you would like your voice to be part of this work.
 
@@ -67,14 +67,14 @@ function speakingNow() {
 
 # Technical
 
-[p5js](https://p5js.org/) is an open source Javascript library developed by the Processing Foundation and is founded by [Lauran McCarthy](http://lauren-mccarthy.com/) to make coding more accessible to artists, designers, educators and beginners. I share the vision and goal of p5.js, which is to put community outreach and diversity as priority. 
+[p5js](https://p5js.org/) is an open source Javascript library developed by the Processing Foundation and is founded by [Lauran McCarthy](http://lauren-mccarthy.com/) to make coding more accessible to artists, designers, educators and beginners. I share the vision and goal of p5.js, which is to put community outreach and diversity as priority.
 
-Required materials and working environments: 
-- A voice recorder 
-- An audio editing software (I use [Audicity](http://www.audacityteam.org/)) 
+Required materials and working environments:
+- A voice recorder
+- An audio editing software (I use [Audicity](http://www.audacityteam.org/))
 - A code editor (I use atom)
 - [p5js](https://p5js.org/) and its related libaries
-- A browser (Firefox/Chrome) on desktop 
+- A browser (Firefox/Chrome) on desktop
 
 # Background
 
@@ -91,7 +91,7 @@ References:
 
 The organization of the piece is structured around the style of constrained writing, both in terms of the collection of writing and voices from participants, as well as how to write the source code.
 
-First you identify a participant that is willing to take part on your project. Then you send them instructions in advance as below. 
+First you identify a participant that is willing to take part on your project. Then you send them instructions in advance as below.
 
 1.	Complete the sentence with the starting words: “Queer is…”
 2.	Each sentence contains no more than 5 words (the starting words-“queer is” is not included)
@@ -101,8 +101,8 @@ First you identify a participant that is willing to take part on your project. T
 Then you have to meet the participant face to face with some post-it notes for them to write their sentences and to prepare for the speaking and recording part. Rules are as follow:
 
 1.	It is up to the participant to decide the temporality and rhythm of speaking the text
-2.	It is up to the participant to either speak the full word or full sentence with different pitch/tempo/rhythm. 
-3.	They can also speak only a certain part (phonetics) of the word or sentence. In other words, the word or sentence doesn’t need to be fully pronounced. 
+2.	It is up to the participant to either speak the full word or full sentence with different pitch/tempo/rhythm.
+3.	They can also speak only a certain part (phonetics) of the word or sentence. In other words, the word or sentence doesn’t need to be fully pronounced.
 4.	The first two provided words "queer is" can be omitted.
 
 Vocable Code is highly inspired by [The Feminist Software Foundations](https://github.com/TheFeministSoftwareFoundation/C-plus-Equality), especially the implementation logics of C+=, which is a feminist programming language written by and for femninists. Below it shows the constrains that have been implemented in coding Vocable Code.
@@ -117,10 +117,10 @@ Vocable Code is highly inspired by [The Feminist Software Foundations](https://g
 1. Declare your work with the open source licience (state explict in your source code) that allows sharing and modifying the code
 2. Think of a theme that you want to explore e.g "Queer is", "non-binary is"
 3. Set up your own constraints, both in terms of writing and speaking.
-4. Ask your friends to take part and allow you to record their voice (I use Android device with the voice recording apps called 'voice recorder') 
+4. Ask your friends to take part and allow you to record their voice (I use Android device with the voice recording apps called 'voice recorder')
 5. Download the source code from Github
 6. Modify the code, have your own voice files and the json file
 7. Run on a browser and test it
 8. Upload your code to a public domain and allow people to share your code
 
-!NB: Ping me about your vocable code :) 
+!NB: Ping me about your vocable code :)
