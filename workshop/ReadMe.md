@@ -1,6 +1,9 @@
 # Winnie Soon: Feminist Coding in p5.js | Can Software be Feminist?
 
-First workshop: 25 Nov 2017 in Aarhus (as part of [!=null](http://notnull.andersvisti.dk/winnie.php) platform, organized by Anders Visti)
+First workshop: 25 Nov 2017 in Aarhus (as part of [!=null](http://notnull.andersvisti.dk/workshop/feminist-coding-p5js-can-software-be-feministp) platform, organized by Anders Visti)
+
+/This is a one day feminist coding workshop primarily for women, queers, LGBT, non-binaries and minorities who are interested in programming, exploring the intersection of art, language, technology and feminism. The workshop addresses computer code as a language that is designed for both human and machine reading. Participants will base on the artwork/digital poetry/composition ‘Vocable Code’ to learn basic coding concepts, and they will also explore code as expressive and aesthetic materials, such as computer code as poetic text that is performative and executable.
+Through thinking and discussing code and (non)binary logics, participants will incorporate textual materials, visual effects and recorded voices to produce their own web-based algorithmic vocable code./
 
 # 5 hrs run-down:
 1. [Introduction](#introduction)

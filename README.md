@@ -6,7 +6,7 @@ Year of production: 2017-
 
 Medium: Customized software, web browser
 
-[RunMe](https://rawgit.com/siusoon/VocableCode/master/vocablecode_program/index.html)
+[RunMe](https://siusoon.github.io/VocableCode/vocablecode_program/)
 (**only support Desktop web browsers but not mobile platforms due to performance issues**)
 
 # Description
