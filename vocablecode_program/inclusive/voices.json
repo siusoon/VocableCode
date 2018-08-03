@@ -5,68 +5,58 @@
 	"queers":
 	[
 		{
-		  "iam": "Winnie",
-    		"lastname": "Soon",
+		  "iam": "WinnieSoon",
     		"statement2": "not fixed not null",
     		"statement3": "not null not closed"
     		},
 		{
-  		"iam": "Polly",
-    		"lastname": "Poon",
+  		"iam": "PollyPoon",
     		"statement2": "possibility with no boundary",
     		"statement3": "null"
  		},
     		{
-  		"iam": "Søren",
-    		"lastname": "Pold",
+  		"iam": "SørenPold",
     		"statement2": "fixing the binary",
     		"statement3": "null"
  		},
  		{
-  		"iam": "Magda",
-    		"lastname": "Tyzlik-carver",
+  		"iam": "MagdaTyzlik-carver",
     		"statement2": "interesting sometimes lonely",
     		"statement3": "what I want it to be"
  		},
  		{
-  		"iam": "Sarah",
-    		"lastname": "Schorr",
+  		"iam": "SarahSchorr",
     		"statement2": "intricacies of gray",
     		"statement3": "changing and individual"
  		},
  		{
-  		"iam": "Elyzabeth",
-    		"lastname": "Holford",
+  		"iam": "ElyzabethHolford",
     		"statement2": "whatever they need to be",
     		"statement3": "null"
  		},
  		{
-  		"iam": "Gabriel",
-    		"lastname": "Pereira",
+  		"iam": "GabrielPereira",
     		"statement2": "going south",
     		"statement3": "deconstruction performance reflexiveness"
     		},
  		{
-  		"iam": "Annette",
-    		"lastname": "Markham",
+  		"iam": "AnnetteMarkham",
     		"statement2": "a false dilemma, to me",
     		"statement3": "not very queer these days"
  		},
 		{
-		"iam": "Anna",
+		"iam": "AnnaBrynskov",
 		"lastname": "Brynskov",
 		"statement2": "i like chocolate",
 		"statement3": "not only gay"
 		},
 		{
-		"iam": "Geoff",
-		"lastname": "Cox",
+		"iam": "GeoffCox",
 		"statement2": "queer and that means queer",
 		"statement3": "null"
 		},
 		{
-		"iam": "Lone",
-		"lastname": "Hansen",
+		"iam": "LoneKoefoedHansen",
 		"statement2": "not being satisfied with categories",
 		"statement3": "often a brave move"
 		}
