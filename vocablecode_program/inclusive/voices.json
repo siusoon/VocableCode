@@ -1,48 +1,49 @@
 {
-	"description": "The file contains the meta data of queer text",
+	"description": "This file contains the meta data of queer text",
 	"condition": "statement2 cannot be null",
-	"copyLeft": "Creative Common Licence BY 3.0",
+	"copyLeft": "Creative Common Licence BY 4.0",
+	"lastUpdate": "Aug, 2018",
 	"queers":
 	[
 		{
-		  "iam": "WinnieSoon",
-    		"statement2": "not fixed not null",
-    		"statement3": "not null not closed"
-    		},
+		"iam": "WinnieSoon",
+    "statement2": "not fixed not null",
+    "statement3": "not null not closed"
+    },
 		{
-  		"iam": "PollyPoon",
-    		"statement2": "possibility with no boundary",
-    		"statement3": "null"
+  	"iam": "PollyPoon",
+    "statement2": "possibility with no boundary",
+    "statement3": "null"
  		},
-    		{
-  		"iam": "SørenPold",
-    		"statement2": "fixing the binary",
-    		"statement3": "null"
- 		},
- 		{
-  		"iam": "MagdaTyzlik-carver",
-    		"statement2": "interesting sometimes lonely",
-    		"statement3": "what I want it to be"
+    {
+  	"iam": "SørenPold",
+    "statement2": "fixing the binary",
+    "statement3": "null"
  		},
  		{
-  		"iam": "SarahSchorr",
-    		"statement2": "intricacies of gray",
-    		"statement3": "changing and individual"
+  	"iam": "MagdaTyżlik-carver",
+    "statement2": "interesting sometimes lonely",
+    "statement3": "what I want it to be"
  		},
  		{
-  		"iam": "ElyzabethHolford",
-    		"statement2": "whatever they need to be",
-    		"statement3": "null"
+  	"iam": "SarahSchorr",
+    "statement2": "intricacies of gray",
+    "statement3": "changing and individual"
  		},
  		{
-  		"iam": "GabrielPereira",
-    		"statement2": "going south",
-    		"statement3": "deconstruction performance reflexiveness"
-    		},
+  	"iam": "ElyzabethHolford",
+    "statement2": "whatever they need to be",
+    "statement3": "null"
+ 		},
  		{
-  		"iam": "AnnetteMarkham",
-    		"statement2": "a false dilemma, to me",
-    		"statement3": "not very queer these days"
+  	"iam": "GabrielPereira",
+    "statement2": "going south",
+    "statement3": "deconstruction, performance and reflexiveness"
+    },
+ 		{
+  	"iam": "AnnetteMarkham",
+    "statement2": "a false dilemma, to me",
+    "statement3": "not very queer these days"
  		},
 		{
 		"iam": "AnnaBrynskov",
@@ -59,6 +60,26 @@
 		"iam": "LoneKoefoedHansen",
 		"statement2": "not being satisfied with categories",
 		"statement3": "often a brave move"
+		},
+		{
+		"iam": "SabrinaRecoules",
+		"statement2": "forgetting to be a node",
+		"statement3": "paranodal"
+		},
+		{
+		"iam": "TobiasStenbergChristensen",
+		"statement2": "embracing the uncomputable",
+		"statement3": "null"
+		},
+		{
+		"iam": "SallLamToro",
+		"statement2": "lyrical affront to the order",
+		"statement3": "constant ephemeral transformation, asymmetry, rupture"
+		},
+		{
+		"iam": "AndersVisti",
+		"statement2": "blowing in the wind",
+		"statement3": "seeping through the cracks"
 		}
  	]
 }
