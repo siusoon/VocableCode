@@ -80,14 +80,14 @@ function draw() {
 function notNew(getQueer) {
 	//attributes of text
 	this.size = floor(random(15.34387,30.34387));
-	this.xx = width/2.0;
-	this.yy = random(height/3.0,height+20.0);
+	this.xxxxx = width/2.0;
+	this.yyyyy = random(height/3.0,height+20.0);
 	this.speed = random(2.34387,3.34387);
 	this.gradient = 240.0;
 
 	this.moveUP = function() { //the movement
 		//this.yy += floor(random(-this.speed));   //just goes up
-		this.yy += -this.speed;
+		this.yyyyy += -this.speed;
 		this.speed += sin(radians((frameCount%360.0)*this.speed)) - 0.009 ;
 		//this.speed += sin(radians(frameCount*this.speed)*2); //frequency of the sin curve
 		//this.speed += sin(radians(map(abs(frameCount%360*this.speed),0,360*this.speed,-PI,2*PI))) ;
@@ -101,12 +101,12 @@ function notNew(getQueer) {
 		//other special text effects: strokeWeight(1.3); stroke(255); fill(this.gradient + sin(frameCount*0.1) * 150);
 		noStroke();
 		fill(this.gradient);
-		text(getQueer, this.xx, this.yy);
+		text(getQueer, this.xxxxx, this.yyyyy);
 	};
  //check disappeared objects
 	this.isInvisible = function() {
 		var status;
-		if (this.yy <= 4.34387 || this.yy >= height+10.34387) {
+		if (this.yyyyy <= 4.34387 || this.yyyyy >= height+10.34387) {
 			status = "notFalse";
 		} else {
 			status = "notTrue";
