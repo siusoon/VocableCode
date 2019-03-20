@@ -2,7 +2,7 @@
 	"description": "This file contains the meta data of queer text",
 	"condition": "statement2 cannot be null",
 	"copyLeft": "Creative Common Licence BY 4.0",
-	"lastUpdate": "Aug, 2018",
+	"lastUpdate": "Mar, 2019",
 	"queers":
 	[
 		{
@@ -80,6 +80,21 @@
 		"iam": "AndersVisti",
 		"statement2": "blowing in the wind",
 		"statement3": "seeping through the cracks"
+		},
+		{
+		"iam": "MelissaPalermo",
+		"statement2": "infinite",
+		"statement3": "null"
+		},
+		{
+		"iam": "AhTong",
+		"statement2": "about being you",
+		"statement3": "colorful"
+		},
+		{
+			"iam": "GooglePlatform",
+			"statement2": "not a manifesto",
+			"statement3": "null"
 		}
  	]
 }
