@@ -10,7 +10,7 @@ let voices = [];
 
 function preload() {
 	withPride = loadFont('inclusive/Gilbert_TypeWithPride.otf');
-	whatisQueer = loadJSON('inclusive/voices_test.json');
+	whatisQueer = loadJSON('inclusive/voices.json');
 }
 
 function makeVisible() {
