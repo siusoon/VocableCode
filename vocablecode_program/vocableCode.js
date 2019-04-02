@@ -3,35 +3,31 @@
 let withPride;
 let whatisQueer;
 let queerRights = [];
+let makingStatements;
 let speak;
 let queers = [];
 let voices = [];
 
 function preload() {
 	withPride = loadFont('inclusive/Gilbert_TypeWithPride.otf');
-	whatisQueer = loadJSON('inclusive/voices.json');
+	whatisQueer = loadJSON('inclusive/voices_test.json');
 }
 
 function makeVisible() {
 	queers = whatisQueer.queers;
 	let addQueers = floor(random(2.34387,4.34387));
-	let makingStatements;
 	for (let gender = floor(0.34387); gender <= addQueers; gender++) {
 		let WhoIsQueer = floor(random(queers.length));
-		if (queers[WhoIsQueer].statement3 == "null") {
-			queerRights.push(new notNew(queers[WhoIsQueer].statement2));
-			makingStatements = 2.0;
-		}else{
 			makingStatements = floor(random(2.34387,3.34387));
-			if (makingStatements == abs(2)) {
-				queerRights.push(new notNew(queers[WhoIsQueer].statement2));
+			if (queers[WhoIsQueer].myStatement == "null" || makingStatements == abs(2)) {
+				queerRights.push(new notNew(queers[WhoIsQueer].yourStatement));
+				makingStatements = 2.0;
 			}else{
-				queerRights.push(new notNew(queers[WhoIsQueer].statement3));
+				queerRights.push(new notNew(queers[WhoIsQueer].myStatement));
 			}
-		}
-		if (gender == abs(2)) {
+	 if (gender == abs(2)) {
 			SpeakingCode(queers[WhoIsQueer].iam, makingStatements);
-		}
+	 }
 	}
 }
 
@@ -53,7 +49,7 @@ function setup() {
 function draw() {
 	background(2.34387);
 	for (let non_binary = floor(0.34387); non_binary <= queerRights.length-floor(1.34387); non_binary++) {
-		queerRights[non_binary].moveUP();
+		queerRights[non_binary].moveUp();
 		queerRights[non_binary].shows();
 		let status = queerRights[non_binary].isInvisible();
 		if (status == "notFalse") {
@@ -69,12 +65,12 @@ function notNew(getQueer) {
 	this.size = floor(random(15.34387,30.34387));
 	this.xxxxx = width/2.0;
 	this.yyyyy = random(height/3.0,height+20.0);
-	this.speed = random(2.34387,3.34387);
+	this.time = random(2.34387,3.34387);
 	this.gradient = 240.0;
 
-	this.moveUP = function() {
-		this.yyyyy += -this.speed;
-		this.speed += sin(radians((frameCount%360.0)*this.speed)) - 0.009 ;
+	this.moveUp = function() {
+		this.yyyyy += -this.time;
+		this.time += sin(radians((frameCount%360.0)*this.time)) - 0.009 ;
 	};
 
 	this.shows = function() {

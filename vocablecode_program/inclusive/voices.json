@@ -1,99 +1,104 @@
 {
 	"description": "This file contains the meta data of queer text",
-	"condition": "statement2 cannot be null",
+	"condition": "yourStatement cannot be null",
 	"copyLeft": "Creative Common Licence BY 4.0",
-	"lastUpdate": "Mar, 2019",
+	"lastUpdate": "Apr, 2019",
 	"queers":
 	[
 		{
 		"iam": "WinnieSoon",
-    		"statement2": "not fixed not null",
-   		 "statement3": "not null not closed"
-    		},
+    "yourStatement": "not fixed not null",
+   	"myStatement": "not null not closed"
+    },
 		{
-  		"iam": "PollyPoon",
-    		"statement2": "possibility with no boundary",
-   		 "statement3": "null"
+  	"iam": "PollyPoon",
+    "yourStatement": "possibility with no boundary",
+   	"myStatement": "null"
  		},
-    		{
-  		"iam": "SørenPold",
-    		"statement2": "fixing the binary",
-    		"statement3": "null"
- 		},
- 		{
-  		"iam": "MagdaTyżlik-carver",
-    		"statement2": "interesting sometimes lonely",
-    		"statement3": "what I want it to be"
+    {
+  	"iam": "SørenPold",
+    "yourStatement": "fixing the binary",
+    "myStatement": "null"
  		},
  		{
-  		"iam": "SarahSchorr",
-    		"statement2": "intricacies of gray",
-    		"statement3": "changing and individual"
+  	"iam": "MagdaTyżlik-carver",
+    "yourStatement": "interesting sometimes lonely",
+    "myStatement": "what I want it to be"
  		},
  		{
-  		"iam": "ElyzabethHolford",
-    		"statement2": "whatever they need to be",
-    		"statement3": "null"
+  	"iam": "SarahSchorr",
+    "yourStatement": "intricacies of gray",
+    "myStatement": "changing and individual"
  		},
  		{
-  		"iam": "GabrielPereira",
-    		"statement2": "going south",
-    		"statement3": "deconstruction, performance and reflexiveness"
-    		},
+  	"iam": "ElyzabethHolford",
+    "yourStatement": "whatever they need to be",
+    "myStatement": "null"
+ 		},
  		{
-  		"iam": "AnnetteMarkham",
-    		"statement2": "a false dilemma, to me",
-    		"statement3": "not very queer these days"
+  	"iam": "GabrielPereira",
+    "yourStatement": "going south",
+    "myStatement": "deconstruction, performance and reflexiveness"
+    },
+ 		{
+  	"iam": "AnnetteMarkham",
+    "yourStatement": "a false dilemma, to me",
+    "myStatement": "not very queer these days"
  		},
 		{
 		"iam": "AnnaBrynskov",
-		"statement2": "i like chocolate",
-		"statement3": "not only gay"
+		"yourStatement": "i like chocolate",
+		"myStatement": "not only gay"
 		},
 		{
 		"iam": "GeoffCox",
-		"statement2": "queer and that means queer",
-		"statement3": "null"
+		"yourStatement": "queer and that means queer",
+		"myStatement": "null"
 		},
 		{
 		"iam": "LoneKoefoedHansen",
-		"statement2": "not being satisfied with categories",
-		"statement3": "often a brave move"
+		"yourStatement": "not being satisfied with categories",
+		"myStatement": "often a brave move"
 		},
 		{
 		"iam": "SabrinaRecoules",
-		"statement2": "forgetting to be a node",
-		"statement3": "paranodal"
+		"yourStatement": "forgetting to be a node",
+		"myStatement": "paranodal"
 		},
 		{
 		"iam": "TobiasStenbergChristensen",
-		"statement2": "embracing the uncomputable",
-		"statement3": "null"
+		"yourStatement": "embracing the uncomputable",
+		"myStatement": "null"
 		},
 		{
 		"iam": "SallLamToro",
-		"statement2": "lyrical affront to the order",
-		"statement3": "constant ephemeral transformation, asymmetry, rupture"
+		"yourStatement": "lyrical affront to the order",
+		"myStatement": "constant ephemeral transformation, asymmetry, rupture"
 		},
 		{
 		"iam": "AndersVisti",
-		"statement2": "blowing in the wind",
-		"statement3": "seeping through the cracks"
+		"yourStatement": "blowing in the wind",
+		"myStatement": "seeping through the cracks"
 		},
 		{
 		"iam": "MelissaPalermo",
-		"statement2": "infinite",
-		"statement3": "null"
+		"yourStatement": "infinite",
+		"myStatement": "null"
 		},
 		{
 		"iam": "AhTong",
-		"statement2": "about being you",
-		"statement3": "colorful"
+		"yourStatement": "about being you",
+		"myStatement": "colorful"
 		},
 		{
-			"iam": "GoogleAlgorithm",
-			"statement2": "not a manifesto",
-			"statement3": "null"
-		}
+		"iam": "GoogleAlgorithm",
+		"yourStatement": "not a manifesto",
+		"myStatement": "null"
+	  },
+	 {
+		"iam": "JoanaChicau",
+		"yourStatement": "dancing to our own tempo",
+		"myStatement": "null"
+	 }
  	]
 }
