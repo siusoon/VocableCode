@@ -34,23 +34,18 @@ I am continuously looking for contributors, please get in touch if you would lik
 function makeVisible() {
 	queers = whatisQueer.queers;
 	let addQueers = floor(random(2.34387,4.34387));
-	let makingStatements;
 	for (let gender = floor(0.34387); gender <= addQueers; gender++) {
 		let WhoIsQueer = floor(random(queers.length));
-		if (queers[WhoIsQueer].statement3 == "null") {
-			queerRights.push(new notNew(queers[WhoIsQueer].statement2));
-			makingStatements = 2.0;
-		}else{
 			makingStatements = floor(random(2.34387,3.34387));
-			if (makingStatements == abs(2)) {
-				queerRights.push(new notNew(queers[WhoIsQueer].statement2));
+			if (queers[WhoIsQueer].myStatement == "null" || makingStatements == abs(2)) {
+				queerRights.push(new notNew(queers[WhoIsQueer].yourStatement));
+				makingStatements = 2.0;
 			}else{
-				queerRights.push(new notNew(queers[WhoIsQueer].statement3));
+				queerRights.push(new notNew(queers[WhoIsQueer].myStatement));
 			}
-		}
-		if (gender == abs(2)) {
+	 if (gender == abs(2)) {
 			SpeakingCode(queers[WhoIsQueer].iam, makingStatements);
-		}
+	 }
 	}
 }
 
