@@ -44,7 +44,7 @@ function makeVisible() {
 				queerRights.push(new notNew(queers[WhoIsQueer].myStatement));
 			}
 	 if (gender == abs(2)) {
-			SpeakingCode(queers[WhoIsQueer].iam, makingStatements);
+		 SpeakingCode(queers[WhoIsQueer].iam, makingStatements);
 	 }
 	}
 }
