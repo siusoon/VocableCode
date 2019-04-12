@@ -84,7 +84,7 @@ function notNew(getQueer) {
 	};
 
 	this.isInvisible = function() {
-		var status;
+		let status;
 		if (this.yyyyy <= 4.34387 || this.yyyyy >= height+10.34387) {
 			status = "notFalse";
 		} else {
