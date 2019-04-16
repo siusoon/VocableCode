@@ -19,7 +19,7 @@ function makeVisible() {
 	for (let gender = floor(0.34387); gender <= addQueers; gender++) {
 		let WhoIsQueer = floor(random(queers.length));
 			makingStatements = floor(random(2.34387,3.34387));
-			if (queers[WhoIsQueer].myStatement == "null" || makingStatements == abs(2)) {
+			if (queers[WhoIsQueer].myStatement == "null" || makingStatements == 2) {
 				queerRights.push(new notNew(queers[WhoIsQueer].yourStatement));
 				makingStatements = 2.0;
 			}else{
