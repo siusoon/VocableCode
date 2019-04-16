@@ -9,8 +9,8 @@ let queers = [];
 let voices = [];
 
 function preload() {
-	withPride = loadFont('inclusive/Gilbert_TypeWithPride.otf');
-	whatisQueer = loadJSON('inclusive/voices.json');
+	withPride = loadFont('Gilbert_TypeWithPride.otf');
+	whatisQueer = loadJSON('voices.json');
 }
 
 function makeVisible() {
@@ -32,7 +32,7 @@ function makeVisible() {
 }
 
 function SpeakingCode(iam, makingStatements) {
-	let getVoice = "inclusive/voices/" + iam + makingStatements + ".wav";
+	let getVoice = "voices/" + iam + makingStatements + ".wav";
 	speak = loadSound(getVoice, speakingNow);
 }
 

@@ -1,0 +1,104 @@
+{
+	"description": "This file contains the meta data of queer text",
+	"condition": "yourStatement cannot be null",
+	"copyLeft": "Creative Common Licence BY 4.0",
+	"lastUpdate": "Apr, 2019",
+	"queers":
+	[
+		{
+		"iam": "WinnieSoon",
+    "yourStatement": "not fixed not null",
+   	"myStatement": "not null not closed"
+    },
+		{
+  	"iam": "PollyPoon",
+    "yourStatement": "possibility with no boundary",
+   	"myStatement": "null"
+ 		},
+    {
+  	"iam": "SørenPold",
+    "yourStatement": "fixing the binary",
+    "myStatement": "null"
+ 		},
+ 		{
+  	"iam": "MagdaTyżlik-carver",
+    "yourStatement": "interesting sometimes lonely",
+    "myStatement": "what I want it to be"
+ 		},
+ 		{
+  	"iam": "SarahSchorr",
+    "yourStatement": "intricacies of gray",
+    "myStatement": "changing and individual"
+ 		},
+ 		{
+  	"iam": "ElyzabethHolford",
+    "yourStatement": "whatever they need to be",
+    "myStatement": "null"
+ 		},
+ 		{
+  	"iam": "GabrielPereira",
+    "yourStatement": "going south",
+    "myStatement": "deconstruction, performance and reflexiveness"
+    },
+ 		{
+  	"iam": "AnnetteMarkham",
+    "yourStatement": "a false dilemma, to me",
+    "myStatement": "not very queer these days"
+ 		},
+		{
+		"iam": "AnnaBrynskov",
+		"yourStatement": "i like chocolate",
+		"myStatement": "not only gay"
+		},
+		{
+		"iam": "GeoffCox",
+		"yourStatement": "queer and that means queer",
+		"myStatement": "null"
+		},
+		{
+		"iam": "LoneKoefoedHansen",
+		"yourStatement": "not being satisfied with categories",
+		"myStatement": "often a brave move"
+		},
+		{
+		"iam": "SabrinaRecoules",
+		"yourStatement": "forgetting to be a node",
+		"myStatement": "paranodal"
+		},
+		{
+		"iam": "TobiasStenbergChristensen",
+		"yourStatement": "embracing the uncomputable",
+		"myStatement": "null"
+		},
+		{
+		"iam": "SallLamToro",
+		"yourStatement": "lyrical affront to the order",
+		"myStatement": "constant ephemeral transformation, asymmetry, rupture"
+		},
+		{
+		"iam": "AndersVisti",
+		"yourStatement": "blowing in the wind",
+		"myStatement": "seeping through the cracks"
+		},
+		{
+		"iam": "MelissaPalermo",
+		"yourStatement": "infinite",
+		"myStatement": "null"
+		},
+		{
+		"iam": "AhTong",
+		"yourStatement": "about being you",
+		"myStatement": "colorful"
+		},
+		{
+		"iam": "GoogleAlgorithm",
+		"yourStatement": "not a manifesto",
+		"myStatement": "here"
+	  },
+	 {
+		"iam": "JoanaChicau",
+		"yourStatement": "dancing to our own tempo",
+		"myStatement": "null"
+	 }
+ 	]
+}
