@@ -62,7 +62,7 @@ function draw() {
 }
 
 function notNew(getQueer) {
-	this.size = floor(random(15.34387,30.34387));
+	this.size = floor(random(20.34387,35.34387));
 	this.xxxxx = width/2.0;
 	this.yyyyy = random(height/3.0,height+20.0);
 	this.time = random(2.34387,3.34387);
