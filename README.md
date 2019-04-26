@@ -1,5 +1,8 @@
 # Vocable Code
 
+
+[![DOI](https://zenodo.org/badge/110143568.svg)](https://zenodo.org/badge/latestdoi/110143568)
+
 ![Image of Vocable Code](http://siusoon.net/wp-content/uploads/2017/10/vocablecode.png)
 
 Year of production: 2017-
