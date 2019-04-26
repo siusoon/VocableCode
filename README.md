@@ -37,20 +37,20 @@ function makeVisible() {
 	for (let gender = floor(0.34387); gender <= addQueers; gender++) {
 		let WhoIsQueer = floor(random(queers.length));
 			makingStatements = floor(random(2.34387,3.34387));
-			if (queers[WhoIsQueer].myStatement == "null" || makingStatements == abs(2)) {
+			if (queers[WhoIsQueer].myStatement == "null" || makingStatements == floor(2.34387)) {
 				queerRights.push(new notNew(queers[WhoIsQueer].yourStatement));
 				makingStatements = 2.0;
 			}else{
 				queerRights.push(new notNew(queers[WhoIsQueer].myStatement));
 			}
 	 if (gender == abs(2)) {
-		 SpeakingCode(queers[WhoIsQueer].iam, makingStatements);
+			SpeakingCode(queers[WhoIsQueer].iam, makingStatements);
 	 }
 	}
 }
 
 function SpeakingCode(iam, makingStatements) {
-	let getVoice = "inclusive/voices/" + iam + makingStatements + ".wav";
+	let getVoice = "voices/" + iam + makingStatements + ".wav";
 	speak = loadSound(getVoice, speakingNow);
 }
 
@@ -63,13 +63,6 @@ function speakingNow() {
 # Technical
 
 [p5js](https://p5js.org/) is an open source Javascript library developed by the Processing Foundation and is founded by [Lauran McCarthy](http://lauren-mccarthy.com/) to make coding more accessible to artists, designers, educators and beginners. I share the vision and goal of p5.js, which is to put community outreach and diversity as priority.
-
-Required materials and working environments:
-- A voice recorder
-- An audio editing software (I use [Audicity](http://www.audacityteam.org/))
-- A code editor (I use atom)
-- [p5js](https://p5js.org/) and its related libaries
-- A browser (Firefox/Chrome) on desktop
 
 # Background
 
@@ -84,28 +77,10 @@ References:
 
 # Process
 
-The organization of the piece is structured around the style of constrained writing, both in terms of the collection of writing and voices from participants, as well as how to write the source code.
+1. See the source code writing process 
+2. See the instruction for voice donation
 
-First you identify a participant that is willing to take part on your project. Then you send them instructions in advance as below.
-
-1.	Complete the sentence with the starting words: “Queer is…”
-2.	Each sentence contains no more than 5 words (the starting words-“queer is” is not included)
-3.	More than 1 sentence is allowed but not more than 3.
-4.	It is ok to have just one word.
-
-Then you have to meet the participant face to face with some post-it notes for them to write their sentences and to prepare for the speaking and recording part. Rules are as follow:
-
-1.	It is up to the participant to decide the temporality and rhythm of speaking the text
-2.	It is up to the participant to either speak the full word or full sentence with different pitch/tempo/rhythm.
-3.	They can also speak only a certain part (phonetics) of the word or sentence. In other words, the word or sentence doesn’t need to be fully pronounced.
-4.	The first two provided words "queer is" can be omitted.
-
-Vocable Code is highly inspired by [The Feminist Software Foundations](https://github.com/TheFeministSoftwareFoundation/C-plus-Equality), especially the implementation logics of C+=, which is a feminist programming language written by and for femninists. Below it shows the constrains that have been implemented in coding Vocable Code.
-
-1.	Do not use binary 0 or 1
-2.	Do not use either a single X or Y
-3.	Do not use a single operator of ‘>’ or ‘<’
-4.	Mindful of all the variable, array and function’s naming. (e.g not to use the name class for constructing a class)
+[here](https://github.com/siusoon/VocableCode/blob/master/screenshot/VocableCode_print.pdf)
 
 # Create your own vocable code
 
