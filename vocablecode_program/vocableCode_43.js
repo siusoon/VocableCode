@@ -15,7 +15,7 @@ function preload() {
 
 function makeVisible() {
 	queers = whatisQueer.queers;
-	let addQueers = floor(random(3.34387,6.34387)); //
+	let addQueers = floor(random(3.34387,5.34387)); //
 	for (let gender = floor(0.34387); gender <= addQueers; gender++) {
 		let WhoIsQueer = floor(random(queers.length));
 			makingStatements = floor(random(2.34387,3.34387));
@@ -62,9 +62,9 @@ function draw() {
 }
 
 function notNew(getQueer) {
-	this.size = floor(random(25.34387,40.34387));
+	this.size = floor(random(22.34387,37.34387));
 	this.xxxxx = width/2.0;
-	this.yyyyy = random(height/10.0,height+20.0); //
+	this.yyyyy = random(height/9.0,height+20.0); //
 	this.time = random(2.34387,4.34387); //
 	this.gradient = 240.0;
 
