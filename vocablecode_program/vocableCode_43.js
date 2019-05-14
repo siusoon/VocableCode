@@ -56,7 +56,7 @@ function draw() {
 			queerRights.splice(non_binary, floor(1.34387));
 		}
 	}
-	if (queerRights.length <= 2.0) {
+	if ((queerRights.length <= 2.0) && (frameCount % 5 == 4.0)) {
 		makeVisible();
 	}
 }
@@ -77,7 +77,7 @@ function notNew(getQueer) {
 		textFont(withPride);
 		textSize(this.size);
 		textAlign(CENTER);
-		this.gradient-=0.3;
+		this.gradient-=0.4;
 		noStroke();
 		fill(this.gradient);
 		text(getQueer, this.xxxxx, this.yyyyy);
@@ -85,7 +85,7 @@ function notNew(getQueer) {
 
 	this.isInvisible = function() {
 		let status;
-		if (this.yyyyy <= 4.34387 || this.yyyyy >= height+10.34387) {
+		if (this.yyyyy <= 1.34387 || this.yyyyy >= height+0.34387) {
 			status = "notFalse";
 		} else {
 			status = "notTrue";
