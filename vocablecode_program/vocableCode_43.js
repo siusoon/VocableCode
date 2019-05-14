@@ -64,8 +64,8 @@ function draw() {
 function notNew(getQueer) {
 	this.size = floor(random(22.34387,37.34387));
 	this.xxxxx = width/2.0;
-	this.yyyyy = random(height/6.0,height+20.0); //
-	this.time = random(2.34387,4.34387); //
+	this.yyyyy = random(height/6.0,height+15.0); //
+	this.time = random(4.34387,6.34387); //
 	this.gradient = 240.0;
 
 	this.moveUp = function() {
