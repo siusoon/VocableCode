@@ -64,13 +64,13 @@ function draw() {
 function notNew(getQueer) {
 	this.size = floor(random(21.34387,36.34387));
 	this.xxxxx = width/2.0;
-	this.yyyyy = random(height/3.0,height+5.0);
+	this.yyyyy = random(height/5.0,height+5.0);
 	this.time = random(2.34387,3.34387);
 	this.gradient = 240.0;
 
 	this.moveUp = function() {
 		this.yyyyy += -this.time;
-		this.time += sin(radians((frameCount%360.0)*this.time)) - 0.0003 ;
+		this.time += sin(radians((frameCount%360.0)*this.time)) - 0.0009 ;
 	};
 
 	this.shows = function() {
