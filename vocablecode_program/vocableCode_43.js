@@ -56,7 +56,7 @@ function draw() {
 			queerRights.splice(non_binary, floor(1.34387));
 		}
 	}
-	if ((queerRights.length <= 2.0) && (frameCount % 8 == 4.0)) {
+	if ((queerRights.length <= 2.0) && (frameCount % 5 == 4.0)) {
 		makeVisible();
 	}
 }
@@ -70,7 +70,7 @@ function notNew(getQueer) {
 
 	this.moveUp = function() {
 		this.yyyyy += -this.time;
-		this.time += sin(radians((frameCount%360.0)*this.time)) - 0.0009 ; //
+		this.time += sin(radians((frameCount%360.0)*this.time)) - 0.0003 ; //
 	};
 
 	this.shows = function() {
