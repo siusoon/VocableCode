@@ -56,7 +56,7 @@ function draw() {
 			queerRights.splice(non_binary, floor(1.34387));
 		}
 	}
-	if ((queerRights.length <= 2.0) && (frameCount % 16 == 4.0)) {
+	if ((queerRights.length <= 2.0) && (frameCount % 12 == 4.0)) {
 		makeVisible();
 	}
 }
