@@ -70,7 +70,7 @@ function notNew(getQueer) {
 
 	this.moveUp = function() {
 		this.yyyyy += -this.time;
-		this.time += sin(radians((frameCount%360.0)*this.time)) - 0.0009 ;
+		this.time += sin(radians((frameCount%360.0)*this.time)) - 0.009 ;
 	};
 
 	this.shows = function() {
