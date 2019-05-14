@@ -56,7 +56,7 @@ function draw() {
 			queerRights.splice(non_binary, floor(1.34387));
 		}
 	}
-	if ((queerRights.length <= 2.0) && (frameCount % 5 == 4.0)) {
+	if ((queerRights.length <= 2.0) && (frameCount % 4.0 == 3.0)) {
 		makeVisible();
 	}
 }
@@ -77,7 +77,7 @@ function notNew(getQueer) {
 		textFont(withPride);
 		textSize(this.size);
 		textAlign(CENTER);
-		this.gradient-=0.5;
+		this.gradient-=0.3;
 		noStroke();
 		fill(this.gradient);
 		text(getQueer, this.xxxxx, this.yyyyy);
