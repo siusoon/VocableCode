@@ -62,15 +62,15 @@ function draw() {
 }
 
 function notNew(getQueer) {
-	this.size = floor(random(20.34387,35.34387));
-	this.xxxxx = width/2.0;
-	this.yyyyy = random(height/3.0,height+10.3437);
+	this.size = random(20.34387,35.34387);
 	this.time = random(2.34387,4.34387);
+	this.yyyyy = random(height/3.0,height+10.3437);
+	this.xxxxx = width/2.0;
 	this.gradient = 240.0;
 
 	this.moveUp = function() {
 		this.yyyyy -= this.time;
-		this.time += sin(radians((frameCount%360.0)*this.time)) - 0.009 ;
+		this.time += sin(radians((frameCount%360.0)*this.time)) - 0.009;
 	};
 
 	this.shows = function() {
