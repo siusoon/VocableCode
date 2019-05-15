@@ -8,7 +8,6 @@ especially for 43" screens, hiding the scrollbar and mouse cursor
 need to mousepress (some user gesture to play the audio) on Chrome
 *note:
 //hide cursor in CSS
-  * { cursor: url(cursor.png), none !important }
 ******-->
 <!DOCTYPE html>
 <html>
@@ -25,6 +24,7 @@ need to mousepress (some user gesture to play the audio) on Chrome
   <!-- this line removes any default padding and style. you might only need one of these values set. -->
   <style>
   body { padding: 0; margin: 0; overflow-y:hidden;}
+  * { cursor: url(cursor.png), none !important }
   </style>
 
 </head>
