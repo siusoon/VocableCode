@@ -2,7 +2,7 @@
 	"description": "This file contains the meta data of queer text",
 	"condition": "yourStatement cannot be null",
 	"copyLeft": "Creative Common Licence BY 4.0",
-	"lastUpdate": "Apr, 2019",
+	"lastUpdate": "Aug, 2019",
 	"queers":
 	[
 		{
@@ -99,11 +99,16 @@
 		"iam": "JoanaChicau",
 		"yourStatement": "dancing to our own tempo",
 		"myStatement": "null"
-	},
-	{
+	 },
+	 {
 	 "iam": "ErinGee",
 	 "yourStatement": "the next generation",
 	 "myStatement": "null"
-	}
+  },
+  {
+	"iam": "VasudevanRoopa",
+	"yourStatement": "subversion",
+	"myStatement": "the space between boundaries"
+  }
  	]
 }
