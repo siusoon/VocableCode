@@ -7,43 +7,43 @@
 	[
 		{
 		"iam": "WinnieSoon",
-    "yourStatement": "not fixed not null",
-   	"myStatement": "not null not closed"
-    },
+    	"yourStatement": "not fixed not null",
+   		"myStatement": "not null not closed"
+    	},
 		{
-  	"iam": "PollyPoon",
-    "yourStatement": "possibility with no boundary",
-   	"myStatement": "null"
+  		"iam": "PollyPoon",
+    	"yourStatement": "possibility with no boundary",
+   		"myStatement": "null"
  		},
-    {
-  	"iam": "SørenPold",
-    "yourStatement": "fixing the binary",
-    "myStatement": "null"
- 		},
- 		{
-  	"iam": "MagdaTyżlik-carver",
-    "yourStatement": "interesting sometimes lonely",
-    "myStatement": "what I want it to be"
+    	{
+  		"iam": "SørenPold",
+    	"yourStatement": "fixing the binary",
+    	"myStatement": "null"
  		},
  		{
-  	"iam": "SarahSchorr",
-    "yourStatement": "intricacies of gray",
-    "myStatement": "changing and individual"
+  		"iam": "MagdaTyżlik-carver",
+    	"yourStatement": "interesting sometimes lonely",
+    	"myStatement": "what I want it to be"
  		},
  		{
-  	"iam": "ElyzabethHolford",
-    "yourStatement": "whatever they need to be",
-    "myStatement": "null"
+  		"iam": "SarahSchorr",
+    	"yourStatement": "intricacies of gray",
+    	"myStatement": "changing and individual"
  		},
  		{
-  	"iam": "GabrielPereira",
-    "yourStatement": "going south",
-    "myStatement": "deconstruction, performance and reflexiveness"
-    },
+  		"iam": "ElyzabethHolford",
+    	"yourStatement": "whatever they need to be",
+    	"myStatement": "null"
+ 		},
  		{
-  	"iam": "AnnetteMarkham",
-    "yourStatement": "a false dilemma, to me",
-    "myStatement": "not very queer these days"
+  		"iam": "GabrielPereira",
+    	"yourStatement": "going south",
+    	"myStatement": "deconstruction, performance and reflexiveness"
+    	},
+ 		{
+  		"iam": "AnnetteMarkham",
+    	"yourStatement": "a false dilemma, to me",
+    	"myStatement": "not very queer these days"
  		},
 		{
 		"iam": "AnnaBrynskov",
@@ -94,21 +94,21 @@
 		"iam": "GoogleAlgorithm",
 		"yourStatement": "not a manifesto",
 		"myStatement": "here"
-	  },
-	 {
+	  	},
+		{
 		"iam": "JoanaChicau",
 		"yourStatement": "dancing to our own tempo",
 		"myStatement": "null"
-	 },
-	 {
-	 "iam": "ErinGee",
-	 "yourStatement": "the next generation",
-	 "myStatement": "null"
-  },
-  {
-	"iam": "VasudevanRoopa",
-	"yourStatement": "subversion",
-	"myStatement": "the space between boundaries"
-  }
+	 	},
+	 	{
+	 	"iam": "ErinGee",
+	 	"yourStatement": "the next generation",
+	 	"myStatement": "null"
+  		},
+  		{
+		"iam": "VasudevanRoopa",
+		"yourStatement": "subversion",
+		"myStatement": "the space between boundaries"
+  		}
  	]
 }
