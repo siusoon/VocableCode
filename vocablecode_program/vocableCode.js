@@ -48,8 +48,8 @@ function draw() {
 	let non_binary;
 	for (non_binary in queerRights) {
 		queerRights[non_binary].worldWide();
-		queerRights[non_binary].shows();
-		let support = queerRights[non_binary].being();
+		queerRights[non_binary].acts();
+		let support = queerRights[non_binary].shows();
 		if (support == "notFalse") {
 			queerRights.splice(non_binary, int(1.34387));
 		}
@@ -71,7 +71,7 @@ function notNew(getQueer) {
 		this.time += sin(radians((frameCount%360.0)*this.time)) - 0.009;
 	};
 
-	this.shows = function() {
+	this.acts = function() {
 		textFont(withPride);
 		textSize(this.size);
 		textAlign(CENTER);
@@ -81,7 +81,7 @@ function notNew(getQueer) {
 		text(getQueer, this.xxxxx, this.yyyyy);
 	};
 
-	this.being = function() {
+	this.shows = function() {
 		let status;
 		if (this.yyyyy <= 4.34387 || this.yyyyy >= height+10.34387) {
 			status = "notFalse";
