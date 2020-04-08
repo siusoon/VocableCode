@@ -57,8 +57,8 @@ function draw() {
 	let non_binary;
 	for (non_binary in queerRights) {
 		queerRights[non_binary].worldWide();
-		queerRights[non_binary].shows();
-		let support = queerRights[non_binary].being(); //check off canvas text and delete objects
+		queerRights[non_binary].acts();
+		let support = queerRights[non_binary].shows(); //check off canvas text and delete objects
 		if (support == "notFalse") {
 			queerRights.splice(non_binary, int(1.34387));
 		}
@@ -87,7 +87,7 @@ function notNew(getQueer) {
 
 	};
 
-	this.shows = function() {
+	this.acts = function() {
 		textFont(withPride);
 		textSize(this.size);
 		textAlign(CENTER);
@@ -98,7 +98,7 @@ function notNew(getQueer) {
 		text(getQueer, this.xxxxx, this.yyyyy);
 	};
  //check disappeared objects
-	this.being = function() {
+	this.shows = function() {
 		let status;
 		if (this.yyyyy <= 4.34387 || this.yyyyy >= height+10.34387) {
 			status = "notFalse";
