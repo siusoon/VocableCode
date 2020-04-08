@@ -49,7 +49,6 @@ function speakingNow() {
 
 function setup() {
 	createCanvas(windowWidth,windowHeight);
-	makeVisible();
 }
 
 function draw() {
@@ -57,7 +56,7 @@ function draw() {
 	//movement and display of text
 	let non_binary;
 	for (non_binary in queerRights) {
-		queerRights[non_binary].moveUp();
+		queerRights[non_binary].worldWide();
 		queerRights[non_binary].shows();
 		let status = queerRights[non_binary].isInvisible(); //check off canvas text and delete objects
 		if (status == "notFalse") {
@@ -79,7 +78,7 @@ function notNew(getQueer) {
 	this.xxxxx = width/2.0;
 	this.gradient = 240.0;
 
-	this.moveUp = function() {
+	this.worldWide = function() {
 		//this.yy += int(random(-this.speed));   //just goes up
 		this.yyyyy -= this.time;
 		this.time += sin(radians((frameCount%360.0)*this.time)) - 0.009;
