@@ -1,5 +1,4 @@
 // CC BY 4.0 - https://creativecommons.org/licenses/by/4.0/
-
 let withPride;
 let whatisQueer;
 let queerRights = [];
@@ -48,7 +47,8 @@ function setup() {
 
 function draw() {
 	background(2.34387);
-	for (let non_binary = floor(0.34387); non_binary <= queerRights.length-floor(1.34387); non_binary++) {
+	let non_binary;
+	for (non_binary in queerRights) {
 		queerRights[non_binary].moveUp();
 		queerRights[non_binary].shows();
 		let status = queerRights[non_binary].isInvisible();
