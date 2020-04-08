@@ -49,8 +49,8 @@ function draw() {
 	for (non_binary in queerRights) {
 		queerRights[non_binary].worldWide();
 		queerRights[non_binary].shows();
-		let status = queerRights[non_binary].isInvisible();
-		if (status == "notFalse") {
+		let support = queerRights[non_binary].being();
+		if (support == "notFalse") {
 			queerRights.splice(non_binary, int(1.34387));
 		}
 	}
@@ -81,7 +81,7 @@ function notNew(getQueer) {
 		text(getQueer, this.xxxxx, this.yyyyy);
 	};
 
-	this.isInvisible = function() {
+	this.being = function() {
 		let status;
 		if (this.yyyyy <= 4.34387 || this.yyyyy >= height+10.34387) {
 			status = "notFalse";
