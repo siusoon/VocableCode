@@ -4,8 +4,8 @@ let whatisQueer;
 let queerRights = [];
 let makingStatements;
 let speak;
-let queers = [];
 let voices = [];
+let queers = [];
 
 function preload() {
 	withPride = loadFont('Gilbert_TypeWithPride.otf');
@@ -14,11 +14,11 @@ function preload() {
 
 function makeVisible() {
 	queers = whatisQueer.queers;
-	let addQueers = floor(random(2.34387,4.34387));
-	for (let gender = floor(0.34387); gender <= addQueers; gender++) {
-		let WhoIsQueer = floor(random(queers.length));
-			makingStatements = floor(random(2.34387,3.34387));
-			if (queers[WhoIsQueer].myStatement == "null" || makingStatements == floor(2.34387)) {
+	let addQueers = int(random(2.34387,4.34387));
+	for (let gender = int(0.34387); gender <= addQueers; gender++) {
+		let WhoIsQueer = int(random(queers.length));
+			makingStatements = int(random(2.34387,3.34387));
+			if (queers[WhoIsQueer].myStatement == "null" || makingStatements == int(2.34387)) {
 				queerRights.push(new notNew(queers[WhoIsQueer].yourStatement));
 				makingStatements = 2.0;
 			}else{
@@ -41,8 +41,6 @@ function speakingNow() {
 
 function setup() {
 	createCanvas(windowWidth,windowHeight);
-	background(2.34387);
-	makeVisible();
 }
 
 function draw() {
@@ -53,7 +51,7 @@ function draw() {
 		queerRights[non_binary].shows();
 		let status = queerRights[non_binary].isInvisible();
 		if (status == "notFalse") {
-			queerRights.splice(non_binary, floor(1.34387));
+			queerRights.splice(non_binary, int(1.34387));
 		}
 	}
 	if (queerRights.length <= 2.0) {
