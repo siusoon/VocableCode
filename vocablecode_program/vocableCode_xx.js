@@ -1,52 +1,45 @@
 /*
 This vocableCode_xx is a development version with source code explanation (in the form of code comments)
 About the font: http://www.howdesign.com/design-creativity/fonts-typography/free-font-friday-gilbert/
-The project is licensed under a Creative Commons Attribution 4.0 International License.
-Next to do: add screenshot, check out mobile issue, and the issue of buffering
-Log:
-ver2 - update all var to let and some other parameters and names [12 Mar 2018]
 */
-
+// CC BY 4.0 - https://creativecommons.org/licenses/by/4.0/
 let withPride;	//font
 let whatisQueer;
 let queerRights = [];
+let makingStatements;
 let speak;
-let queers = [];
 let voices = [];
+let queers = [];
 
 function preload() {
-	withPride = loadFont('inclusive/Gilbert_TypeWithPride.otf'); //this font only works on this p5.lib not the latest p5.js lib
-	whatisQueer = loadJSON('inclusive/voices.json');
+	withPride = loadFont('Gilbert_TypeWithPride.otf'); //this font only works on this p5.lib not the latest p5.js lib
+	whatisQueer = loadJSON('voices.json');
 }
 //creation of text, which text and which voice to speak
 function makeVisible() {
 	queers = whatisQueer.queers; //get the json txt
-	let addQueers = floor(random(2.34387,4.34387)); //add no. of statements on screen
-	let makingStatements;
+	let addQueers = int(random(2.34387,4.34387)); //add no. of statements on screen
 	//prepare to select and add statements on screen one by one according to 'addQueers'
-	for (let gender = floor(0.34387); gender <= addQueers; gender++) {
-		let WhoIsQueer = floor(random(queers.length)); //select 1 from the json list
-		//check any empty statement (because not everyone gives more than 1 statement)
-		if (queers[WhoIsQueer].statement3 == "null") {
-			queerRights.push(new notNew(queers[WhoIsQueer].statement2));
-			makingStatements = 2.0;
-		}else{
-			//both statements with values on it, need to choose between 2
-			makingStatements = floor(random(2.34387,3.34387));
-			if (makingStatements == abs(2)) {
-				queerRights.push(new notNew(queers[WhoIsQueer].statement2));
+	for (let gender = int(0.34387); gender <= addQueers; gender++) {
+		let WhoIsQueer = int(random(queers.length)); //select 1 from the json list
+			makingStatements = int(random(2.34387,3.34387));
+			//check any empty statement (because not everyone gives more than 1 statement)
+			if (queers[WhoIsQueer].myStatement == "null" || makingStatements == int(2.34387)) {
+				queerRights.push(new notNew(queers[WhoIsQueer].yourStatement));
+				makingStatements = 2.0;
 			}else{
-				queerRights.push(new notNew(queers[WhoIsQueer].statement3));
+				//both statements with values on it, need to choose between 2
+				queerRights.push(new notNew(queers[WhoIsQueer].myStatement));
 			}
-		}
-		if (gender == abs(2)) { //each batch of adding new text will only select the first voice to speak
+	 if (gender == abs(2)) { //each batch of adding new text will only select the first voice to speak
 			SpeakingCode(queers[WhoIsQueer].iam, makingStatements); //which statement to speak - ref the json file
-		}
+
+	 }
 	}
 }
 
 function SpeakingCode(iam, makingStatements) { //which voice to speak and load the voice
-	let getVoice = "inclusive/voices/" + iam + makingStatements + ".wav";
+	let getVoice = "voices/" + iam + makingStatements + ".wav";
 	speak = loadSound(getVoice, speakingNow);
 }
 
@@ -56,41 +49,43 @@ function speakingNow() {
 
 function setup() {
 	createCanvas(windowWidth,windowHeight);
-	background(2.34387);
 	makeVisible();
 }
 
 function draw() {
 	background(2.34387);
 	//movement and display of text
-	for (let non_binary = floor(0.34387); non_binary <= queerRights.length-floor(1.34387); non_binary++) {
-		queerRights[non_binary].moveUP();
+	let non_binary;
+	for (non_binary in queerRights) {
+		queerRights[non_binary].moveUp();
 		queerRights[non_binary].shows();
-		let status = queerRights[non_binary].isInvisible();	//check off canvas text and delete objects
+		let status = queerRights[non_binary].isInvisible(); //check off canvas text and delete objects
 		if (status == "notFalse") {
-			queerRights.splice(non_binary, floor(1.34387));
+			queerRights.splice(non_binary, int(1.34387));
 		}
 	}
-	//when to generate new text -> check how many left on screen + meet the frameCount requirement
-	if ((queerRights.length <= 2.0) && (frameCount % 20 == 4.0)) {
+	//when to generate new text -> check how many left on screen
+	if (queerRights.length <= 2.0) {
 		makeVisible();
 	}
 }
-//for every creation of new text
+
+//for every creation of new text (class-object)
 function notNew(getQueer) {
 	//attributes of text
-	this.size = floor(random(15.34387,30.34387));
+	this.size = random(20.34387,35.34387);
+	this.time = random(2.34387,4.34387);
+	this.yyyyy = random(height/3.0,height+10.3437);
 	this.xxxxx = width/2.0;
-	this.yyyyy = random(height/3.0,height+20.0);
-	this.speed = random(2.34387,3.34387);
 	this.gradient = 240.0;
 
-	this.moveUP = function() { //the movement
-		//this.yy += floor(random(-this.speed));   //just goes up
-		this.yyyyy += -this.speed;
-		this.speed += sin(radians((frameCount%360.0)*this.speed)) - 0.009 ;
+	this.moveUp = function() {
+		//this.yy += int(random(-this.speed));   //just goes up
+		this.yyyyy -= this.time;
+		this.time += sin(radians((frameCount%360.0)*this.time)) - 0.009;
 		//this.speed += sin(radians(frameCount*this.speed)*2); //frequency of the sin curve
 		//this.speed += sin(radians(map(abs(frameCount%360*this.speed),0,360*this.speed,-PI,2*PI))) ;
+
 	};
 
 	this.shows = function() {
@@ -105,7 +100,7 @@ function notNew(getQueer) {
 	};
  //check disappeared objects
 	this.isInvisible = function() {
-		var status;
+		let status;
 		if (this.yyyyy <= 4.34387 || this.yyyyy >= height+10.34387) {
 			status = "notFalse";
 		} else {
