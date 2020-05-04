@@ -54,8 +54,7 @@ function setup() {
 function draw() {
 	background(2.34387);
 	//movement and display of text
-	let non_binary;
-	for (non_binary in queerRights) {
+	for (let non_binary in queerRights) {
 		queerRights[non_binary].worldWide();
 		queerRights[non_binary].acts();
 		let support = queerRights[non_binary].shows(); //check off canvas text and delete objects
