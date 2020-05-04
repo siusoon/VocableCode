@@ -45,8 +45,7 @@ function setup() {
 
 function draw() {
 	background(2.34387);
-	let non_binary;
-	for (non_binary in queerRights) {
+	for (let non_binary in queerRights) {
 		queerRights[non_binary].worldWide();
 		queerRights[non_binary].acts();
 		let support = queerRights[non_binary].shows();
