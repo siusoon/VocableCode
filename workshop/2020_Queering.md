@@ -12,6 +12,7 @@ Link: https://www.uroboros.design/queering-vocable-code
 ---
 ### RUNDOWN
 
+
 0. **Hello World**
 
 1. **Queer Code** (background + concept)
@@ -45,7 +46,7 @@ Link: https://www.uroboros.design/queering-vocable-code
       - temporality
       - how to move the post-it and in relation to your voice
 
-
+---
 **Post-Note:**
 1. Be a voice contributor? https://github.com/siusoon/VocableCode/blob/master/screenshot/instruction_vocableCode.png
 2. The work: http://siusoon.net/vocable-code/
