@@ -50,3 +50,4 @@ Link: https://www.uroboros.design/queering-vocable-code
 **Post-Note:**
 1. Be a voice contributor? https://github.com/siusoon/VocableCode/blob/master/screenshot/instruction_vocableCode.png
 2. The work: http://siusoon.net/vocable-code/
+3. More about Vocable Code, the chapter that Geoff and I have been written for as part of the book Aesthetic Programming - https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/tree/master/source/7-VocableCode
