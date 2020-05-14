@@ -57,9 +57,9 @@ Link: https://www.uroboros.design/queering-vocable-code
 
 #### **5. Online performance:** intervening your own queer code:
     - think of possible strategies (voice and visual)
-    - repetitions
-    - temporality
-    - how to move the post-it and in relation to your voice
+      - repetitions & temporality
+      - Pause | Speak | Pitch | Sing | listen
+      - how to move the post-it and in relation to your voice
 
 ---
 **Post-Note:**
