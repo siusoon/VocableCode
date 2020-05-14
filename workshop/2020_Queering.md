@@ -29,14 +29,14 @@ Link: https://www.uroboros.design/queering-vocable-code
     - physical book/performance lecture with Geoff Cox: https://dobbeltdagger.net/publication/vocable-code-13082018
 
   - Voices and Languages:
-    - audo-visual literature (with text and audio)
+    - audio-visual literature (with text and audio)
     - contribution of voices and statements: "Queer is..."
           - https://github.com/siusoon/VocableCode/blob/master/vocablecode_program/voices.json
     - code as language
       - coding as writing?
       - what's the language structure? and how is that influenced the way of thinking? (e.g gendered objects, the English pronoun he/she etc)
       - what is the underlying structure of computer programming, and what's the implication of some common programming practices
-    - source code as codework, Speaking Code: coding as Aesthetic and Political expression (by Geoff Cox): 
+    - source code as codework, Speaking Code: coding as Aesthetic and Political expression (by Geoff Cox):
 
     > computer programs have bodies in the sense that other materialities and meanings are deeply interwoven, and these necessarily exist as part of wider social relations
 
@@ -46,13 +46,12 @@ Link: https://www.uroboros.design/queering-vocable-code
 
 ![](https://live.staticflickr.com/1793/43171936935_185023f718.jpg)
 
-  - https://dobbeltdagger.net/VocableCode_Educational/ (Demo, tinker, read, speak)
-  - Live coding software: Vocable Code
-  - Read code
-  - round the table read aloud (around 5 sentences each)
+  - Live coding software: Vocable Code: https://dobbeltdagger.net/VocableCode_Educational/ (Demo, tinker, read, speak)
+  - Namings and Structures
+  - Read aloud: (around 4-5 lines each)
 
 #### **3. Doing - Write your own sentence with the following rules:**
-  - write here collaboratively (Chrome / Firefox): https://demo.webstrates.net/sweet-dolphin-63/
+  - write here collaboratively (Chrome / Firefox - disable your ad blockers): https://demo.webstrates.net/sweet-dolphin-63/
 
 #### **4. Read aloud + share**: round the table sharing the individual sentence:
 
