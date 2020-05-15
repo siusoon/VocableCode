@@ -18,7 +18,6 @@ Link: https://www.uroboros.design/queering-vocable-code
 - [workshop in 2017: Feminist Coding in p5.js | Can software be feminist?](https://notnull.andersvisti.dk/workshop/feminist-coding-p5js-can-software-be-feminist) <img src="http://aestheticprogramming.siusoon.net/wp-content/uploads/2017/11/coding-768x576.jpg" width="500">
 
 - [talk/workshop in 2019: Unfinished Code](http://stwst48x5.stwst.at/en/unfinished_code) 
-<br>
 <img src="https://live.staticflickr.com/65535/48784844202_80c8d5118d.jpg" width="500">
 
 #### **1. Queer Code** (background + concept)
