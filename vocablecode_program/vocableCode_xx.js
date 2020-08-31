@@ -12,8 +12,7 @@ let voices = [];
 let queers = [];
 
 function preload() {
-	//this font only works on this p5.lib not the latest p5.js lib
-	withPride = loadFont('Gilbert_TypeWithPride.otf');
+	withPride = loadFont('Gilbert_TypeWithPride.otf');	//only works on old p5.js
 	whatisQueer = loadJSON('voices.json');
 }
 //creation of text, which text and which voice to speak
@@ -48,15 +47,12 @@ function SpeakingCode(iam, makingStatements) {
 	let getVoice = "voices/" + iam + makingStatements + ".wav";
 	speak = loadSound(getVoice, speakingNow);
 }
-
 function speakingNow() {
 	speak.play();
 }
-
 function setup() {
 	createCanvas(windowWidth,windowHeight);
 }
-
 function draw() {
 	background(2.34387);
 	//movement and display of text
@@ -74,7 +70,6 @@ function draw() {
 		makeVisible();
 	}
 }
-
 //for every creation of new text (class-object)
 function notNew(getQueer) {
 	//attributes of text
@@ -83,12 +78,10 @@ function notNew(getQueer) {
 	this.yyyyy = random(height/3.0,height+10.3437);
 	this.xxxxx = width/2.0;
 	this.gradient = 240.0;
-
 	this.worldWide = function() {
 		this.yyyyy -= this.time;
 		this.time += sin(radians((frameCount%360.0)*this.time)) - 0.009;
 	};
-
 	this.acts = function() {
 		textFont(withPride);
 		textSize(this.size);
