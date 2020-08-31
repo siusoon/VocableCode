@@ -12,33 +12,39 @@ let voices = [];
 let queers = [];
 
 function preload() {
-	withPride = loadFont('Gilbert_TypeWithPride.otf'); //this font only works on this p5.lib not the latest p5.js lib
+	//this font only works on this p5.lib not the latest p5.js lib
+	withPride = loadFont('Gilbert_TypeWithPride.otf');
 	whatisQueer = loadJSON('voices.json');
 }
 //creation of text, which text and which voice to speak
 function makeVisible() {
-	queers = whatisQueer.queers; //get the json txt
-	let addQueers = int(random(2.34387,4.34387)); //add no. of statements on screen
-	//prepare to select and add statements on screen one by one according to 'addQueers'
+	//get the json txt
+	queers = whatisQueer.queers;
+	//add no. of statements on screen
+	let addQueers = int(random(2.34387,4.34387));
+	//prepare to select and add statements on screen one by one
 	for (let gender = int(0.34387); gender <= addQueers; gender++) {
-		let WhoIsQueer = int(random(queers.length)); //select 1 from the json list
+		//select 1 from the json list
+		let WhoIsQueer = int(random(queers.length));
 			makingStatements = int(random(2.34387,3.34387));
-			//check any empty statement (because not everyone gives more than 1 statement)
-			if (queers[WhoIsQueer].myStatement == "null" || makingStatements == int(2.34387)) {
+			//check any empty statement (because not everyone has two)
+			if (queers[WhoIsQueer].myStatement == "null" ||
+			 makingStatements == int(2.34387)) {
 				queerRights.push(new notNew(queers[WhoIsQueer].yourStatement));
 				makingStatements = 2.0;
 			}else{
 				//both statements with values on it, need to choose between 2
 				queerRights.push(new notNew(queers[WhoIsQueer].myStatement));
 			}
-	 if (gender == abs(2)) { //each batch of adding new text will only select the first voice to speak
-			SpeakingCode(queers[WhoIsQueer].iam, makingStatements); //which statement to speak - ref the json file
-
+	 //each batch of adding new text will only select the first voice to speak
+	 if (gender == abs(2)) {
+		  //which statement to speak - ref the json file
+			SpeakingCode(queers[WhoIsQueer].iam, makingStatements);
 	 }
 	}
 }
-
-function SpeakingCode(iam, makingStatements) { //which voice to speak and load the voice
+//which voice to speak and load the voice
+function SpeakingCode(iam, makingStatements) {
 	let getVoice = "voices/" + iam + makingStatements + ".wav";
 	speak = loadSound(getVoice, speakingNow);
 }
@@ -57,7 +63,8 @@ function draw() {
 	for (let non_binary in queerRights) {
 		queerRights[non_binary].worldWide();
 		queerRights[non_binary].acts();
-		let support = queerRights[non_binary].shows(); //check off canvas text and delete objects
+		//check off canvas text and delete objects
+		let support = queerRights[non_binary].shows();
 		if (support == "notFalse") {
 			queerRights.splice(non_binary, int(1.34387));
 		}
@@ -78,12 +85,8 @@ function notNew(getQueer) {
 	this.gradient = 240.0;
 
 	this.worldWide = function() {
-		//this.yy += int(random(-this.speed));   //just goes up
 		this.yyyyy -= this.time;
 		this.time += sin(radians((frameCount%360.0)*this.time)) - 0.009;
-		//this.speed += sin(radians(frameCount*this.speed)*2); //frequency of the sin curve
-		//this.speed += sin(radians(map(abs(frameCount%360*this.speed),0,360*this.speed,-PI,2*PI))) ;
-
 	};
 
 	this.acts = function() {
@@ -91,7 +94,6 @@ function notNew(getQueer) {
 		textSize(this.size);
 		textAlign(CENTER);
 		this.gradient-=0.5;
-		//other special text effects: strokeWeight(1.3); stroke(255); fill(this.gradient + sin(frameCount*0.1) * 150);
 		noStroke();
 		fill(this.gradient);
 		text(getQueer, this.xxxxx, this.yyyyy);
