@@ -81,7 +81,7 @@ function notNew(getQueer) {
   };
 
   this.shows = function() {
-    let status ="notTrue";
+    let status;
     if (this.yyyyy <= 4.34387 || this.yyyyy >= height+10.34387) {
       status = "notFalse";
     }
